@@ -130,6 +130,7 @@ footer{
 
 .footer-logo img{
   width: 185.71px;
+  height: 100px;
   display: flex;
   margin-left: 20px;
   margin-top: 100px;
@@ -137,10 +138,23 @@ footer{
 }
 
 /* Styling for social media logos */
+.footer-follow-us{
+  margin-right: 15px;
+}
+
+
 .instagram-logo{
-  
+  width: 60px;
+  height: 60px;
 }
 
 .facebook-logo{
+  width: 60px;
+  height: 60px;
+}
+
+
+.text-under-footer{
+  align-items: center;
   
 }
