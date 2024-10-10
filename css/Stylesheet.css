@@ -97,12 +97,21 @@ I followed this tutorial https://github.com/creativetimofficial/material-kit/iss
   padding: 10px;
   width: 222.86px;
   height: auto;
+  display: block;
  
+  position:absolute;
+  bottom: 0;
+  padding: 20px;
+  
 }
 
 /* Styling the text in the banner */
 .banner-text{
   font-family: 'Roboto';
+  text-align: center;
+  color: white;
+  position:absolute;
+  bottom: 0;
   
 }
 
