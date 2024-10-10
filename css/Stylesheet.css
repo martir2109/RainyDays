@@ -71,3 +71,11 @@ I followed this tutorial https://github.com/creativetimofficial/material-kit/iss
 .navigation-bar-icons a:hover{
   color: 0a3641;
 }
+
+.menu{
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: regular;
+  font-size: 20px ;
+}
