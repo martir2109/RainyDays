@@ -105,3 +105,32 @@ I followed this tutorial https://github.com/creativetimofficial/material-kit/iss
   font-family: 'Roboto';
   
 }
+
+
+
+
+
+
+
+
+
+/* Styling the footer */
+footer{
+  background-color: #0A3641;
+  color:white;
+  padding: 30px 20px;
+  height: 318px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-logo img{
+  width: 185.71px;
+  display: flex;
+  margin-left: 20px;
+  align-content: center;
+}
