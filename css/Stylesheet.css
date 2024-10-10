@@ -72,10 +72,16 @@ I followed this tutorial https://github.com/creativetimofficial/material-kit/iss
   color: 0a3641;
 }
 
+/* styling for the 3 menu buttons in navigation bar */
 .menu{
   margin: 0 15px;
   text-decoration: none;
   color: black;
   font-weight: regular;
   font-size: 20px ;
+}
+
+/* Styling for banner */
+.banner{ 
+  width: 100%;
 }
