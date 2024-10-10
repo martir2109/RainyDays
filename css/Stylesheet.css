@@ -6,6 +6,8 @@
   width: 100%;
   background-color: FFFFFF;
   overflow: auto;
+  justify-content: space-between;
+  border-bottom: 2px solid #ccc;
 }
 
 /* Styling for the links that are inside the navigation bar */
@@ -31,8 +33,7 @@
 /* This styles the rainydays logo in the navigation bar.
 I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
 .rainydays_logo {
-  width: 120.71px;
-  height: 65px;
+  width: 150px;
   overflow: hidden;
   margin-top: 16px;
   margin-left: 16px;

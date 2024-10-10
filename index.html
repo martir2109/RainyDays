@@ -10,10 +10,8 @@
 
     <script src="Javascript/Javascript.js"></script>
 
-    <script
-      src="https://kit.fontawesome.com/b734227c9a.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://kit.fontawesome.com/b734227c9a.js"
+      crossorigin="anonymous" rel="stylesheet"/>
 
     <title>RainyDays website</title>
   </head>
@@ -24,27 +22,30 @@
         <!-- Followed this tutorial to create my navigation bar https://www.w3schools.com/howto/howto_js_topnav.asp **\ -->
 
         <div class="top_naviation_bar">
-          <!-- <div class="rainydays_logo">
+          <div class="rainydays_logo">
             <img
               src="Images/rainydays_logo.png"
               class="rainydays_logo"
               alt="RainyDays Logo"
             />
           </div>
-           -->
-          <a href="#"><i class="fa-regular fa-user"></i>My profile</a>
-          <a href="#"><i class="fa-regular fa-heart"></i>Favorites</a>
-          <a href="#"
-            ><i class="fa-regular fa-cart-shopping"></i>Shopping cart</a
-          >
-          <a class="active" href="#"><i class="fa-solid fa-house"></i>Home</a>
-
-          <!-- 
+          <div class="navigation_bar_search">
+            <input type="text" placeholder="search through products" class="search_input"/>
+            <i class="fas fa-search search-icon"></i>
+          </div>
+          
+           <a href="active"><i class="fas fa-home"></i></a>
+           <a href="#"><i class="fas fa-shopping-cart"></i></a>
+           <a href="#"><i class="fas fa-heart"></i></a>
+           <a href="#"><i class="fas fa-user"></i></a>
+          
+           <!-- 
           <a href="#my_profile" alt="my profile button">My profile</a>
           <a href="#favorites" alt="favorites button">Favorites</a>
           <a href="#shoppingcart" alt="shopping cart button">Shopping cart</a>
           <a class="active" href="#" alt="home button" img="/Navigation bar icons/home_active.png"></a>
-           -->
+        
+         **\ -->
         </div>
       </nav>
     </header>
