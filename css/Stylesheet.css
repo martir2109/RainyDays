@@ -3,11 +3,13 @@
 
 /* This is the background color for the navigation bar */
 .top-naviation-bar {
+  display: flex;
   width: 100%;
-  background-color: FFFFFF;
+  background-color: red;
   overflow: auto;
   justify-content: space-between;
   border-bottom: 2px solid #ccc;
+
 }
 
 /* Styling for the links that are inside the navigation bar */
@@ -18,6 +20,7 @@
   padding: 12px;
   text-decoration: none;
   font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* This changes the color while hovering over the links */
@@ -33,7 +36,7 @@
 /* This styles the rainydays logo in the navigation bar.
 I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
 .rainydays-logo {
-  width: 150px;
+  width: 200px;
   overflow: hidden;
   margin-top: 16px;
   margin-left: 16px;
@@ -45,4 +48,12 @@ I followed this tutorial https://github.com/creativetimofficial/material-kit/iss
   flex-grow: 1;
   max-width: 400px;
   margin: 0 20px;
+}
+
+.serach-input{
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: 000000;
 }
