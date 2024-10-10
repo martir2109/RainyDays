@@ -132,5 +132,6 @@ footer{
   width: 185.71px;
   display: flex;
   margin-left: 20px;
+  margin-top: 100px;
   align-content: center;
 }
