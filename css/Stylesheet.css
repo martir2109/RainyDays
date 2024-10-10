@@ -82,6 +82,26 @@ I followed this tutorial https://github.com/creativetimofficial/material-kit/iss
 }
 
 /* Styling for banner */
+.banner-container{
+  position: relative;
+}
+
 .banner{ 
   width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Styling of white logo overlaying the banner */
+.overlay-image-on-banner{
+  padding: 10px;
+  width: 222.86px;
+  height: auto;
+  position: absolute;
+}
+
+/* Styling the text in the banner */
+.banner-text{
+  font-family: 'Roboto';
+  
 }
