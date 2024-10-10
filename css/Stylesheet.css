@@ -50,7 +50,15 @@ I followed this tutorial https://github.com/creativetimofficial/material-kit/iss
   margin: 0 20px;
 }
 
-.serach-input{
+.seach-input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  padding-left: 40px;
+}
+
+.serach-icon{
   position: absolute;
   top: 50%;
   left: 15px;
