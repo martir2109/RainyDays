@@ -97,7 +97,7 @@ I followed this tutorial https://github.com/creativetimofficial/material-kit/iss
   padding: 10px;
   width: 222.86px;
   height: auto;
-  position: absolute;
+ 
 }
 
 /* Styling the text in the banner */
@@ -153,8 +153,20 @@ footer{
   height: 60px;
 }
 
-
+/* Text under the footer */
 .text-under-footer{
-  align-items: center;
-  
+  text-align: center;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.at-2024{
+  padding-top: 10px;
+  text-align: left;
+
+}
+
+.cookies-and-terms{
+  padding-top: 10px;
+  text-align: right;
 }
