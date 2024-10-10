@@ -1,9 +1,11 @@
-/* Followed this tutorial to create my navigation bar https://www.w3schools.com/howto/howto_js_topnav.asp */
+/* Followed this tutorial to create my navigation bar https://www.w3schools.com/howto/howto_js_topnav.asp
+ and https://www.w3schools.com/howto/howto_css_navbar_icon.asp*/
 
 /* This is the background color for the navigation bar */
 .top_naviation_bar {
+  width: 100%;
   background-color: FFFFFF;
-  overflow: hidden;
+  overflow: auto;
 }
 
 /* Styling for the links that are inside the navigation bar */
@@ -11,21 +13,19 @@
   float: right;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 /* This changes the color while hovering over the links */
 .top_naviation_bar a:hover {
-  background-color: ddd;
-  color: black;
+  background-color: 000000;
 }
 
 /* This adds color to the active link, aka the page that is selected */
 .top_naviation_bar a.active {
   background-color: 0A3641;
-  color: white;
 }
 
 /* This styles the rainydays logo in the navigation bar.
