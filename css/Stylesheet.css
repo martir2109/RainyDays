@@ -2,7 +2,7 @@
  and https://www.w3schools.com/howto/howto_css_navbar_icon.asp*/
 
 /* This is the background color for the navigation bar */
-.top_naviation_bar {
+.top-naviation-bar {
   width: 100%;
   background-color: FFFFFF;
   overflow: auto;
@@ -11,7 +11,7 @@
 }
 
 /* Styling for the links that are inside the navigation bar */
-.top_naviation_bar a {
+.top-naviation-bar a {
   float: right;
   color: black;
   text-align: center;
@@ -21,20 +21,28 @@
 }
 
 /* This changes the color while hovering over the links */
-.top_naviation_bar a:hover {
+.top-naviation-bar a:hover {
   background-color: 000000;
 }
 
 /* This adds color to the active link, aka the page that is selected */
-.top_naviation_bar a.active {
+.top-naviation-bar a.active {
   background-color: 0A3641;
 }
 
 /* This styles the rainydays logo in the navigation bar.
 I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
-.rainydays_logo {
+.rainydays-logo {
   width: 150px;
   overflow: hidden;
   margin-top: 16px;
   margin-left: 16px;
+}
+
+/* styling for the search field in the navigation bar */
+.navigation-bar-search{ 
+  position: relative;
+  flex-grow: 1;
+  max-width: 400px;
+  margin: 0 20px;
 }
