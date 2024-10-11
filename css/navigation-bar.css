@@ -94,12 +94,14 @@
     background-color: none;
     height: 40px;
     width: 208px;
+    display: flex;
   }
   
   .navigation-bar-icons a:hover{
     color: #0A3641;;
   }
 
+  /* Navigation bar icons styling */
   .bi-person{
     font-size: 40px;
     padding: 4px;
@@ -129,5 +131,6 @@
     margin: 0 20px;
     color: #000;
     margin-top: 110px;
-    
+    background-color: red;
   }
+
