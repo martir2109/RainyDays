@@ -1,6 +1,10 @@
 /* Import of Robot font-family */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Import of Bootstrap icons libary */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
 /* Styling for all elements */
 *{
   font-family: 'Roboto';
@@ -50,16 +54,6 @@ I followed this tutorial https://github.com/creativetimofficial/material-kit/iss
     width: auto;
 }
 
-/* styling for the search field in the navigation bar
-.navigation-bar-search{ 
-  display: flex;
-  align-items: center;
-  background-color: #d9d9d9;
-  padding: 5px 10px;
-  border-radius: 20px;
-  width: 300px; 
-} */
-
 /* Styling for search bar in the navigation bar */
 input[type="text"]{
   height: 46px;
@@ -68,7 +62,7 @@ input[type="text"]{
   background-color: #d9d9d9;
   color: #414141;
   border: 1px solid #d9d9d9;
-  padding-left: 3px;
+  padding-left: 10px;
 }
 
 /* Syling for when the search bar is active/ clicked */
@@ -77,14 +71,14 @@ input[type="text"]:focus{
  border: 1px solid navy;
 }
 
-
-/* .serach-icon{
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  transform: translateY(-50%);
-  color: 000000;
-} */
+.search-button{
+  background-color: #fff;
+  height: 44px;
+  width: 44px;
+  border: 3px solid #d9d9d9;
+  transform: translateX(-30px);
+  border-radius: 10px;
+}
 
 /* navigation bar icons */
 .navigation-bar-icons{
