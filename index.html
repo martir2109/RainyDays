@@ -6,20 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="HTML, CSS, Javascript" />
     <meta name="author" content="Martine Reppesgård Karlsen" />
-   
+
     <!-- Link to JavaScript -->
     <script src="Javascript/Javascript.js"></script>
 
     <!-- Link to Font Awesome free icon kit -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
 
     <!-- Link to CSS styleheets -->
-    <link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="css/navigation-bar.css">
-    <link rel="stylesheet" type="text/css" href="/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/Stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="css/navigation-bar.css" />
+    <link rel="stylesheet" type="text/css" href="/css/footer.css" />
 
     <!-- Bootstrap icons libary -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
 
     <title>RainyDays website</title>
   </head>
@@ -30,9 +36,8 @@
         <!-- Followed this tutorial to create my navigation bar https://www.w3schools.com/howto/howto_js_topnav.asp **\ -->
 
         <div class="top-navigation-bar">
-
           <!-- RainyDays logo in navigation bar -->
-        <div class="rainydays-logo">
+          <div class="rainydays-logo">
             <img
               src="Images/rainydays-logo.png"
               class="rainydays-logo"
@@ -43,98 +48,119 @@
             <li><a href="/html pages/men.html" class="men">Men</a></li>
             <li><a href="/html pages/women.html" class="women">Women</a></li>
             <li><a href="/html pages/brands.html" class="brands">Brands</a></li>
-        </ul>
-         
-        <!-- Search bar in navigation -->
-              <input type="text" placeholder="Search through products...">
-              <span>
-                <button class="search-button">
-                  <i class="bi bi-search"></i>
-                </button>
-              </span>
-        
-      <!-- Navigation bar icons -->
-            <div class="navigation-bar-icons">
-              <a href="active"><i class="bi bi-house-fill"></i></a>
-              <a href="/html pages/shoppingcart.html"><i class="bi bi-cart"></i></a>
-              <a href="/html pages/favorites.html"><i class="bi bi-heart"></i></a>
-              <a href="/html pages/myprofile.html"><i class="bi bi-person"></i></a>
+          </ul>
+
+          <!-- Search bar in navigation -->
+          <div>
+            <input type="text" placeholder="Search through products..." />
+            <span>
+              <button type="submit" title="search" class="search-button">
+                <i class="bi bi-search fa-2x"></i>
+              </button>
+            </span>
           </div>
+
+          <!-- Navigation bar icons -->
+          <div class="navigation-bar-icons">
+            <a href="active"><i class="bi bi-house-fill"></i></a>
+            <a href="/html pages/shoppingcart.html"
+              ><i class="bi bi-cart"></i
+            ></a>
+            <a href="/html pages/favorites.html"><i class="bi bi-heart"></i></a>
+            <a href="/html pages/myprofile.html"
+              ><i class="bi bi-person"></i
+            ></a>
           </div>
-          
+        </div>
       </nav>
     </header>
     <main>
       <div class="banner-container">
-       <!-- Banner -->
-      <img src="/Images/banner.png" alt="Banner background" class="banner">
+        <!-- Banner -->
+        <img src="/Images/banner.png" alt="Banner background" class="banner" />
 
-      <!-- Logo on top of the banner -->
-      <img src="/Images/rainydays-logo-white.png" alt="RainyDays logo in white" class="overlay-image-on-banner">
-        <h2 class="banner-text">Stay comfortable in any weather with our durable mid-range jackets - perfect for any adventure</h2>
-    </div>
-      
-      <br>
+        <!-- Logo on top of the banner -->
+        <img
+          src="/Images/rainydays-logo-white.png"
+          alt="RainyDays logo in white"
+          class="overlay-image-on-banner"
+        />
+        <h2 class="banner-text">
+          Stay comfortable in any weather with our durable mid-range jackets -
+          perfect for any adventure
+        </h2>
+      </div>
+
+      <br />
     </main>
-
 
     <footer>
       <div class="footer-container">
-        <img src="/Images/rainydays-logo-white.png" alt="RainyDays logo in white" class="footer-logo">
+        <img
+          src="/Images/rainydays-logo-white.png"
+          alt="RainyDays logo in white"
+          class="footer-logo"
+        />
 
         <div>
-
           <!-- Customer service -->
-        <div class="customer-service-container">
-          <h2 class="customer-service-title">Customer service</h2>
-          <p><a href="/html pages/contactus.html" class="contact-us">Contact us</a></p>
-        </div>
+          <div class="customer-service-container">
+            <h2 class="customer-service-title">Customer service</h2>
+            <p>
+              <a href="/html pages/contactus.html" class="contact-us"
+                >Contact us</a
+              >
+            </p>
+          </div>
 
-         <!-- Follow us -->
-        <div class="follow-us-container">
-          <h2 class="follow-us-title">Follow us</h2>
-          <div class="social-media-icons-container">
-          <a href="#"><i class="bi bi-instagram fa-4x"></i></a>
-          <a href="#"><i class="bi bi-facebook fa-4x"></i></a>
+          <!-- Follow us -->
+          <div class="follow-us-container">
+            <h2 class="follow-us-title">Follow us</h2>
+            <div class="social-media-icons-container">
+              <a><i class="bi bi-instagram fa-4x"></i></a>
+              <a><i class="bi bi-facebook fa-4x"></i></a>
+            </div>
+          </div>
         </div>
-        </div>
-
-  </div>
-      <!-- About us -->
+        <!-- About us -->
         <div class="about-us-container">
           <h2 class="about-us-title">About us</h2>
-          <p><a href="/html pages/about.html" class="about-rainydays">About RainyDays</a></p>
+          <p>
+            <a href="/html pages/about.html" class="about-rainydays"
+              >About RainyDays</a
+            >
+          </p>
         </div>
-
-        
 
         <!-- Newsletter form -->
         <div class="newsletter-container">
           <h2 class="newsletter-title">Newsletter</h2>
-          <p class="text-newsletter">Sign up for weekly updates and be the first to know about new arrivals.</p>
-         <form class="newsletter-form">
-          <input class="input-newsletter" type="email" placeholder="Enter email address" required>
-              <span>
-                <button class="send-button" type="submitt">SEND</button>
-                </span>
-                </form>
-
+          <p class="text-newsletter">
+            Sign up for weekly updates and be the first to know about new
+            arrivals.
+          </p>
+          <form class="newsletter-form">
+            <input
+              class="input-newsletter"
+              type="email"
+              placeholder="Enter email address"
+              required
+            />
+            <span>
+              <button type="submit" class="send-button">SEND</button>
+            </span>
+          </form>
         </div>
-
-      
       </div>
-      
-      
-
     </footer>
     <div class="text-under-footer">
       <div>
-       <p class="at-2024">© 2024 RAINYDAYS</p>
+        <p class="at-2024">© 2024 RAINYDAYS</p>
       </div>
 
       <div>
-       <p class="cookies-and-terms">Cookies | Terms of purchase</p>
-       </div>
-     </div>
+        <p class="cookies-and-terms">Cookies | Terms of purchase</p>
+      </div>
+    </div>
   </body>
 </html>
