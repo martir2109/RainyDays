@@ -91,13 +91,33 @@
     color: black;
     margin-left: 20px;
     text-decoration: none;
-    background-color: red;
+    background-color: none;
     height: 40px;
     width: 208px;
   }
   
   .navigation-bar-icons a:hover{
     color: #0A3641;;
+  }
+
+  .bi-person{
+    font-size: 40px;
+    padding: 4px;
+  }
+  
+  .bi-heart{
+    font-size: 40px;
+    padding: 4px;
+  }
+
+  .bi-cart{
+    font-size: 40px; 
+    padding: 4px;
+  }
+
+  .bi-house-fill{
+    font-size: 40px;
+    padding: 4px;
   }
 
   
