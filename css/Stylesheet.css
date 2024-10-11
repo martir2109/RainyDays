@@ -18,7 +18,7 @@
   width: 100%;
   display: flex;
   height: 152px;
-  background-color: rgb(189, 131, 89);
+  background-color: #fff;
   overflow: auto;
   justify-content: space-between;
   border-bottom: 2px solid #d9d9d9;
@@ -40,11 +40,14 @@
 /* This styles the rainydays logo in the navigation bar.
 I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
 .rainydays-logo {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 120.71px;
-  margin-left: 16px;;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.rainydays-logo img{
+    height: 65px;
+    width: auto;
 }
 
 /* styling for the search field in the navigation bar
@@ -97,15 +100,14 @@ input[type="text"]:focus{
 
 /* styling for the 3 menu buttons in navigation bar */
 .menu{
-  margin: 0 15px;
-  text-decoration: none;
-  color: black;
-  font-weight: regular;
-  font-size: 20px;
-  align-items: left;
-  margin-top: 10px;
-  margin-right: 1000px;
+  display: flex;
+  list-style-type: none;
+  margin: 0 20px;
+  color: #000;
+  margin-top: 110px;
+  
 }
+  
 
 /* Styling for banner */
 .banner-container{
