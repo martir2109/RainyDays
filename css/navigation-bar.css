@@ -65,7 +65,7 @@
     height: 40px;
     width: 40px;
     border: none;
-    transform: translateX(-43px);
+    transform: translateX(-45px);
     border-radius: 10px;
   }
   
@@ -75,7 +75,7 @@
     height: 40px;
     width: 40px;
     border: 1px solid #000;
-    transform: translateX(-43px);
+    transform: translateX(-45px);
     border-radius: 10px;
   }
   
@@ -91,13 +91,17 @@
     color: black;
     margin-left: 20px;
     text-decoration: none;
-    
+    background-color: red;
+    height: 40px;
+    width: 208px;
   }
   
   .navigation-bar-icons a:hover{
     color: #0A3641;;
   }
+
   
+
   /* styling for the 3 menu buttons in navigation bar */
   .menu{
     display: flex;
