@@ -5,15 +5,15 @@ footer{
     color:white;
     padding: 30px 20px;
     height: 318px;
-    display: flex;;
-    align-items: center;;
+    display: block;
   }
   
   .footer-container{
-    display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    display: flex;
   }
+  
   
   .footer-logo{
     width: auto;
@@ -22,8 +22,39 @@ footer{
     margin-left: 20px;
     margin-top: 100px;
   }
-  
 
+  .newsletter-container{
+    width: 371px;
+    height: 100%;
+    color:#fff;
+  }
+
+  .text-newsletter{
+    margin-top: 33px;
+  }
+  
+  input[type="email"]{
+    margin-top: 33px;
+    height: 46px;
+    width: 282px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #414141;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+
+ .send-button{
+    width: 86px;
+    height: 46px;
+    background-color: #0A3641;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color:#fff;
+    font-size: bold;
+    font-size: 20px;
+  }
+  
 /* Styling for social media logos */
 .footer-follow-us{
     margin-right: 15px;
