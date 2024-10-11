@@ -1,0 +1,77 @@
+
+/* Followed this tutorial to create my navigation bar https://www.w3schools.com/howto/howto_js_topnav.asp
+ and https://www.w3schools.com/howto/howto_css_navbar_icon.asp*/
+
+/* This is the background color for the navigation bar */
+.top-naviation-bar {
+    display: flex;
+    height: 152px;
+    background-color: palevioletred;
+    overflow: auto;
+    justify-content: space-between;
+    border-bottom: 2px solid #d9d9d9;
+  
+  }
+  
+  /* Styling for the links that are inside the navigation bar */
+  .top-naviation-bar a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 17px;
+   }
+  
+  /* This styles the rainydays logo in the navigation bar.
+  I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
+  .rainydays-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 120.71px;
+    margin-top: 16px;
+    margin-left: 16px;;
+  }
+  
+  /* styling for the search field in the navigation bar */
+  .navigation-bar-search{ 
+    display: flex;
+    align-items: center;
+    background-color: #d9d9d9;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 300px; 
+  }
+  
+  .serach-icon{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: 000000;
+  }
+  
+  /* navigation bar icons */
+  .navigation-bar-icons{
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  .navigation-bar-icons a:hover{
+    color: 0a3641;
+  }
+  
+  /* styling for the 3 menu buttons in navigation bar */
+  .menu{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: regular;
+    font-size: 20px;
+    align-items: left;
+    margin-top: 10px;
+    margin-right: 1000px;
+  }

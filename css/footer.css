@@ -1,0 +1,33 @@
+/* Styling for social media logos */
+.footer-follow-us{
+    margin-right: 15px;
+  }
+  
+  
+  .instagram-logo{
+    width: 60px;
+    height: 60px;
+  }
+  
+  .facebook-logo{
+    width: 60px;
+    height: 60px;
+  }
+  
+  /* Text under the footer */
+  .text-under-footer{
+    text-align: center;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .at-2024{
+    padding-top: 10px;
+    text-align: left;
+  
+  }
+  
+  .cookies-and-terms{
+    padding-top: 10px;
+    text-align: right;
+  }
