@@ -63,22 +63,43 @@ input[type="text"]{
   color: #414141;
   border: 1px solid #d9d9d9;
   padding-left: 10px;
+  font-size: 18px;
 }
 
 /* Syling for when the search bar is active/ clicked */
 input[type="text"]:focus{
  outline: navy;
  border: 1px solid navy;
+ font-size: 18px;
+ background-color: #fff;
 }
 
+/* search bar button */
 .search-button{
   background-color: #fff;
-  height: 44px;
-  width: 44px;
-  border: 3px solid #d9d9d9;
-  transform: translateX(-30px);
+  height: 40px;
+  width: 40px;
+  border: none;
+  transform: translateX(-43px);
   border-radius: 10px;
 }
+
+/* search bar button when hovering over it */
+.search-button:hover{
+  background-color: #d9d9d9;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #000;
+  transform: translateX(-43px);
+  border-radius: 10px;
+}
+
+.bi-search{
+  height: 40px;
+  width: 40px;
+  color: #000;
+}
+
 
 /* navigation bar icons */
 .navigation-bar-icons{
