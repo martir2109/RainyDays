@@ -23,6 +23,19 @@ footer{
     margin-top: 100px;
   }
 
+
+  .contact-us{ 
+    margin-top: 33px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .about-rainydays{ 
+    margin-top: 33px;
+    color: #fff;
+    text-decoration: none;
+  }
+
   .newsletter-container{
     width: 371px;
     height: 100%;
