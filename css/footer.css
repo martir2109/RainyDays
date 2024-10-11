@@ -5,6 +5,8 @@ footer{
     color:white;
     padding: 30px 20px;
     height: 318px;
+    display: flex;;
+    align-items: center;;
   }
   
   .footer-container{
@@ -28,21 +30,27 @@ footer{
   }
   
   
-  .instagram-logo{
+  .bi-instagram{
     width: 60px;
     height: 60px;
+    color: #fff;
   }
   
-  .facebook-logo{
+  .bi-facebook{
     width: 60px;
     height: 60px;
+    color: #fff;
   }
   
   /* Text under the footer */
   .text-under-footer{
+    width: 100%;
     text-align: center;
     text-decoration: none;
-    margin: 0 10px;
+    display: flex;;
+    margin-top: 350px;
+    color: #000;
+    background-color: red;
   }
   
   .at-2024{
@@ -53,5 +61,6 @@ footer{
   
   .cookies-and-terms{
     padding-top: 10px;
+    margin-left: 200px;
     text-align: right;
   }

@@ -128,9 +128,21 @@
   .menu{
     display: flex;
     list-style-type: none;
-    margin: 0 20px;
     color: #000;
     margin-top: 110px;
     background-color: red;
+
   }
 
+.men{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.women{
+    margin-right: 10px;
+}
+
+.brands{
+    margin-right: 10px;
+}
