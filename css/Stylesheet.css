@@ -78,7 +78,10 @@ I followed this tutorial https://github.com/creativetimofficial/material-kit/iss
   text-decoration: none;
   color: black;
   font-weight: regular;
-  font-size: 20px ;
+  font-size: 20px;
+  align-items: left;
+  margin-top: 10px;
+  margin-right: 1000px;
 }
 
 /* Styling for banner */
