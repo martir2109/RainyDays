@@ -24,18 +24,28 @@ footer{
   }
 
 
-  .contact-us{ 
-    margin-top: 33px;
-    color: #fff;
-    text-decoration: none;
+  .about-us-container{
+    height: 79px;
+    width: 153px;
   }
-  
+
   .about-rainydays{ 
     margin-top: 33px;
     color: #fff;
     text-decoration: none;
   }
 
+  .customer-service-container{
+    height: 79px;
+    width: 228px;
+  }
+
+  .contact-us{ 
+    margin-top: 33px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
   .newsletter-container{
     width: 371px;
     height: 100%;
@@ -69,7 +79,7 @@ footer{
   }
   
 /* Styling for social media logos */
-.footer-follow-us{
+.follow-us-container{
     margin-right: 15px;
   }
   
@@ -88,11 +98,9 @@ footer{
   
   /* Text under the footer */
   .text-under-footer{
-    width: 100%;
-    text-align: center;
     text-decoration: none;
     display: flex;;
-    margin-top: 350px;
+    margin-top: 70px;
     color: #000;
     background-color: red;
   }
@@ -100,11 +108,9 @@ footer{
   .at-2024{
     padding-top: 10px;
     text-align: left;
-  
   }
   
   .cookies-and-terms{
     padding-top: 10px;
-    margin-left: 200px;
     text-align: right;
   }
