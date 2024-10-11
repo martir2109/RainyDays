@@ -44,6 +44,7 @@ footer{
     margin-top: 33px;
     color: #fff;
     text-decoration: none;
+    
   }
   
   .newsletter-container{
@@ -55,7 +56,10 @@ footer{
   .text-newsletter{
     margin-top: 33px;
   }
-  
+  .newsletter-form{
+    display: flex;
+  }
+
   input[type="email"]{
     margin-top: 33px;
     height: 46px;
@@ -78,39 +82,39 @@ footer{
     font-size: 20px;
   }
   
-/* Styling for social media logos */
-.follow-us-container{
-    margin-right: 15px;
+  
+  .social-media-icons-container{
+    margin-top: 33px;
   }
   
   
   .bi-instagram{
-    width: 60px;
-    height: 60px;
     color: #fff;
+    padding-right: 4px;
   }
   
   .bi-facebook{
-    width: 60px;
-    height: 60px;
     color: #fff;
+    padding-right: 4px;
   }
   
   /* Text under the footer */
   .text-under-footer{
     text-decoration: none;
     display: flex;;
-    margin-top: 70px;
     color: #000;
-    background-color: red;
+    padding-bottom: 10px;
+    background-color: #fff;
   }
   
   .at-2024{
     padding-top: 10px;
+    margin-left: 10px;
     text-align: left;
   }
   
   .cookies-and-terms{
     padding-top: 10px;
+    margin-left: 920px;
     text-align: right;
   }
