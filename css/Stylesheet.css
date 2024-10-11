@@ -44,11 +44,10 @@ I followed this tutorial https://github.com/creativetimofficial/material-kit/iss
   flex-direction: column;
   align-items: flex-start;
   width: 120.71px;
-  margin-top: 16px;
   margin-left: 16px;;
 }
 
-/* styling for the search field in the navigation bar */
+/* styling for the search field in the navigation bar
 .navigation-bar-search{ 
   display: flex;
   align-items: center;
@@ -56,7 +55,7 @@ I followed this tutorial https://github.com/creativetimofficial/material-kit/iss
   padding: 5px 10px;
   border-radius: 20px;
   width: 300px; 
-}
+} */
 
 /* Styling for search bar in the navigation bar */
 input[type="text"]{
@@ -76,13 +75,13 @@ input[type="text"]:focus{
 }
 
 
-.serach-icon{
+/* .serach-icon{
   position: absolute;
   top: 50%;
   left: 15px;
   transform: translateY(-50%);
   color: 000000;
-}
+} */
 
 /* navigation bar icons */
 .navigation-bar-icons{
@@ -111,12 +110,13 @@ input[type="text"]:focus{
 /* Styling for banner */
 .banner-container{
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .banner{ 
   width: 100%;
   height: auto;
-  display: block;
 }
 
 /* Styling of white logo overlaying the banner */
@@ -126,19 +126,21 @@ input[type="text"]:focus{
   width: auto;
   height: 120px;
   position: absolute;
-  bottom: 0;
-  
+  align-items: center;
 }
 
 /* Styling the text in the banner */
 .banner-text{
-  font-family: 'Roboto';
   text-align: center;
   color: white;
-  position:absolute;
+  position: absolute;
   bottom: 0;
   margin-left: 10%;
   margin-bottom: 100px;
+  font-size: 25px;
+  width: 619px;
+  font-style: bold;
+  margin-left: 25%;
 
 }
 
