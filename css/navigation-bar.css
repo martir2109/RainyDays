@@ -36,6 +36,10 @@
   width: auto;
 }
 
+.search-bar-container {
+  align-items: center;
+}
+
 /* Styling for search bar in the navigation bar */
 input[type="text"] {
   height: 46px;
