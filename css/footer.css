@@ -24,7 +24,6 @@ footer {
 .about-us-container {
   height: 79px;
   width: 153px;
-  background-color: red;
 }
 
 .about-rainydays {
@@ -117,6 +116,6 @@ input[type="email"] {
 
 .cookies-and-terms {
   padding-top: 10px;
-  margin-left: 920px;
+  transform: translateX(1075px);
   text-align: right;
 }
