@@ -1,128 +1,122 @@
-
 /* Styling for the footer */
-footer{
-    background-color: #0A3641;
-    color:white;
-    padding: 30px 20px;
-    height: 318px;
-    display: block;
-  }
-  
-  .footer-container{
-    justify-content: space-between;
-    margin-bottom: 20px;
-    display: flex;
-  }
-  
-  
-  .footer-logo{
-    width: auto;
-    height: 100px;
-    display: flex;
-    margin-left: 20px;
-    margin-top: 65px;
-
-  }
-
-
-  .about-us-container{
-    height: 79px;
-    width: 153px;
-    background-color: red;
-  }
-
-  .about-rainydays{ 
-    margin-top: 33px;
-    color: #fff;
-    text-decoration: none;
-  }
-
-
-  .customer-service-container{
-    height: 79px;
-    width: 228px;
-  }
-
-  .contact-us{ 
-    margin-top: 33px;
-    color: #fff;
-    text-decoration: none;
-    
-  }
-  
-  .newsletter-container{
-    width: 371px;
-    height: 100%;
-    color:#fff;
-  }
-
-  .text-newsletter{
-    margin-top: 33px;
-  }
-  .newsletter-form{
-    display: flex;
-  }
-
-  input[type="email"]{
-    margin-top: 33px;
-    height: 46px;
-    width: 282px;
-    border-radius: 10px;
-    background-color: #fff;
-    color: #414141;
-    padding-left: 10px;
-    font-size: 18px;
-  }
-
- .send-button{
-    width: 86px;
-    height: 46px;
-    background-color: #0A3641;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    color:#fff;
-    font-size: bold;
-    font-size: 20px;
-  }
-
-  .send-button:hover {
-    background-color: #fff;
-    color:#0A3641;
+footer {
+  background-color: #0a3641;
+  color: white;
+  padding: 30px 20px;
+  height: 318px;
+  display: block;
 }
-  
-  
-  .social-media-icons-container{
-    margin-top: 33px;
-  }
-  
-  
-  .bi-instagram{
-    color: #fff;
-    padding-right: 4px;
-  }
-  
-  .bi-facebook{
-    color: #fff;
-    padding-right: 4px;
-  }
-  
-  /* Text under the footer */
-  .text-under-footer{
-    text-decoration: none;
-    display: flex;;
-    color: #000;
-    padding-bottom: 10px;
-    background-color: #fff;
-  }
-  
-  .at-2024{
-    padding-top: 10px;
-    margin-left: 10px;
-    text-align: left;
-  }
-  
-  .cookies-and-terms{
-    padding-top: 10px;
-    margin-left: 920px;
-    text-align: right;
-  }
+
+.footer-container {
+  justify-content: space-between;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.footer-logo {
+  width: auto;
+  height: 100px;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 65px;
+}
+
+.about-us-container {
+  height: 79px;
+  width: 153px;
+  background-color: red;
+}
+
+.about-rainydays {
+  margin-top: 33px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.customer-service-container {
+  height: 79px;
+  width: 228px;
+}
+
+.contact-us {
+  margin-top: 33px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.newsletter-container {
+  width: 371px;
+  height: 100%;
+  color: #fff;
+}
+
+.text-newsletter {
+  margin-top: 33px;
+}
+.newsletter-form {
+  display: flex;
+}
+
+input[type="email"] {
+  margin-top: 33px;
+  height: 46px;
+  width: 282px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #414141;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.send-button {
+  width: 86px;
+  height: 45px;
+  background-color: #0a3641;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  font-size: bold;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-top: 33px;
+}
+
+.send-button:hover {
+  background-color: #fff;
+  color: #0a3641;
+}
+
+.social-media-icons-container {
+  margin-top: 33px;
+}
+
+.bi-instagram {
+  color: #fff;
+  padding-right: 4px;
+}
+
+.bi-facebook {
+  color: #fff;
+  padding-right: 4px;
+}
+
+/* Text under the footer */
+.text-under-footer {
+  text-decoration: none;
+  display: flex;
+  color: #000;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+.at-2024 {
+  padding-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.cookies-and-terms {
+  padding-top: 10px;
+  margin-left: 920px;
+  text-align: right;
+}
