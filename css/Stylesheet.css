@@ -24,6 +24,11 @@
   height: 397px;
 }
 
+.overlay-banner-content-container {
+  align-items: center;
+  display: flex;
+}
+
 /* Styling of white logo overlaying the banner */
 .overlay-image-on-banner {
   margin-bottom: 160px;
