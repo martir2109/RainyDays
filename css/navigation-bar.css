@@ -10,8 +10,6 @@
   overflow: auto;
   justify-content: space-between;
   border-bottom: 2px solid #d9d9d9;
-  align-items: center;
-  position: relative;
 }
 
 /* Styling for the links that are inside the navigation bar */
@@ -25,14 +23,15 @@
 }
 
 .top-line-nav-bar-container {
-  margin-bottom: 50px;
+  margin-top: 21px;
+  margin-bottom: 66px;
   display: flex;
 }
 
 /* This styles the rainydays logo in the navigation bar.
   I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
 .rainydays-logo {
-  margin-left: 16px;
+  margin-left: 20px;
 }
 
 .rainydays-logo img {
@@ -44,6 +43,7 @@
   align-items: center;
   display: flex;
   flex-direction: row;
+  transform: translateX(40%);
 }
 
 /* Styling for search bar in the navigation bar */
@@ -89,12 +89,13 @@ input[type="text"]:focus {
 /* navigation bar icons */
 .navigation-bar-icons {
   color: black;
-  margin-left: 20px;
+  /* margin-left: 100px; */
   text-decoration: none;
   background-color: none;
   height: 40px;
   width: 208px;
   display: flex;
+  transform: translateX(370px);
 }
 
 .navigation-bar-icons a:hover {
@@ -128,7 +129,7 @@ input[type="text"]:focus {
   list-style-type: none;
   color: #000;
   margin-top: 110px;
-  transform: translateX(-150px);
+  transform: translateX(-1120px);
 }
 
 .men {
