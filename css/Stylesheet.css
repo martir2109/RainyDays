@@ -17,6 +17,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .banner {
@@ -26,12 +27,14 @@
 
 /* Styling of white logo overlaying the banner */
 .overlay-image-on-banner {
-  margin-bottom: 160px;
-  margin-left: 40%;
+  /* margin-bottom: 160px;
+  margin-left: 40%; */
   width: auto;
   height: 120px;
   position: absolute;
   align-items: center;
+  margin-top: 62px;
+  margin-bottom: 215px;
 }
 
 /* Styling the text in the banner */
@@ -40,8 +43,8 @@
   color: white;
   position: absolute;
   bottom: 0;
-  margin-left: 25%;
-  margin-bottom: 100px;
+  margin-bottom: 73px;
+  margin-top: 256px;
   font-size: 25px;
   width: 619px;
   font-style: bold;
