@@ -11,6 +11,7 @@
   justify-content: space-between;
   border-bottom: 2px solid #d9d9d9;
   align-items: center;
+  position: relative;
 }
 
 /* Styling for the links that are inside the navigation bar */
@@ -23,11 +24,14 @@
   font-size: 17px;
 }
 
+.top-line-nav-bar-container {
+  margin-bottom: 50px;
+  display: flex;
+}
+
 /* This styles the rainydays logo in the navigation bar.
   I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
 .rainydays-logo {
-  display: flex;
-  align-items: center;
   margin-left: 16px;
 }
 
@@ -39,6 +43,7 @@
 .search-bar-container {
   align-items: center;
   display: flex;
+  flex-direction: row;
 }
 
 /* Styling for search bar in the navigation bar */
@@ -123,16 +128,16 @@ input[type="text"]:focus {
   list-style-type: none;
   color: #000;
   margin-top: 110px;
-  background-color: red;
+  transform: translateX(-150px);
 }
 
 .men {
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 64px;
 }
 
 .women {
-  margin-right: 10px;
+  margin-right: 64px;
 }
 
 .brands {
