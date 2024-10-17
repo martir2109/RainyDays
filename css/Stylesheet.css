@@ -14,6 +14,7 @@
 
 /* Styling for banner */
 .banner-container {
+  margin-top: 152px;
   position: relative;
   display: flex;
   align-items: center;
