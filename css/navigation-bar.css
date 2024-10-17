@@ -135,14 +135,25 @@ input[type="text"]:focus {
   text-decoration: none;
 }
 
+.men:hover {
+  font-weight: bold;
+}
+
 .women {
   margin-right: 64px;
   text-decoration: none;
+}
+.women:hover {
+  font-weight: bold;
 }
 
 .brands {
   margin-right: 10px;
   text-decoration: none;
+}
+
+.brands:hover {
+  font-weight: bold;
 }
 
 /* Styling for responsive design */
