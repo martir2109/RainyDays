@@ -12,6 +12,7 @@
   flex-direction: row;
   align-items: center;
   z-index: 10;
+  border-bottom: 4px #000 25%;
 }
 
 /* Styling for the links that are inside the navigation bar */
@@ -20,7 +21,6 @@
   position: relative;
   text-align: center;
   padding: 14px 16px;
-
   margin-bottom: 10px;
   padding: 12px;
 }
