@@ -49,7 +49,7 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  transform: translateX(30%);
+  transform: translateX(35%);
   flex-grow: 1;
   justify-content: center;
   margin: 0 20px;
@@ -104,7 +104,7 @@ input[type="text"]:focus {
   display: flex;
   gap: 5px;
   align-items: right;
-  transform: translateX(110%);
+  transform: translateX(120%);
 }
 
 .navigation-bar-icons a:hover {
@@ -125,9 +125,9 @@ input[type="text"]:focus {
   list-style-type: none;
   text-decoration: none;
   color: #000;
-  margin-top: 110px;
+  margin-top: 100px;
   align-items: left;
-  transform: translateX(-305%);
+  transform: translateX(-300%);
 }
 
 .men {
