@@ -58,10 +58,11 @@
   position: relative;
   overflow: hidden;
   padding: 20px;
+  /* height: 518.76px; */
 }
 
 .product-category {
-  padding: 0 10vw;
+  padding: 0 1vw;
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 40px;
@@ -69,9 +70,9 @@
 }
 
 .product-container {
-  padding: 0 10vw;
+  padding: 0 8vw;
   display: flex;
-  overflow: auto;
+  overflow: hidden;
   scroll-behavior: smooth;
 }
 
