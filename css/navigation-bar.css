@@ -117,7 +117,10 @@ input[type="text"]:focus {
 .bi-heart,
 .bi-cart,
 .bi-house-fill,
-.bi-house {
+.bi-house,
+.bi-heart-fill,
+.bi-person-fill,
+.bi-cart-fill {
   font-size: 40px;
 }
 

@@ -7,7 +7,7 @@ footer {
   display: block;
   width: 100%;
   margin-top: auto;
-  bottom: 0;
+
   /*
   position: fixed;
   bottom: 0;
@@ -112,6 +112,8 @@ input[type="email"] {
 
 /* Text under the footer */
 .text-under-footer {
+  width: 100%;
+  margin-top: 40px;
   text-decoration: none;
   display: flex;
   color: #000;
@@ -127,6 +129,6 @@ input[type="email"] {
 
 .cookies-and-terms {
   padding-top: 10px;
-  transform: translateX(1075px);
+  transform: translateX(515%);
   text-align: right;
 }

@@ -218,3 +218,26 @@
 .space-between-main-and-footer {
   margin-top: 10px;
 }
+
+/* Styling for contact us page */
+
+.container-contact-us {
+  color: red;
+  width: 100%;
+  height: 712px;
+}
+
+.centre-header {
+  font-size: 40px;
+}
+
+.contact-us-form {
+  margin-left: 198px;
+  margin-right: 198px;
+  border: 1px #000;
+  border-radius: 10;
+}
+
+.header-in-form {
+  font-size: 30px;
+}
