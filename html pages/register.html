@@ -14,6 +14,9 @@
     />
 
     <!-- Link to CSS styleheets -->
+    <link rel="stylesheet" type="text/css" href="/css/Stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="/css/navigation-bar.css" />
+    <link rel="stylesheet" type="text/css" href="/css/footer.css" />
     <link rel="stylesheet" type="text/css" href="/css/login-register.css" />
 
     <!-- Bootstrap icons libary -->
@@ -25,5 +28,54 @@
     <title>RainyDays website</title>
   </head>
 
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <!-- Followed this tutorial to create my navigation bar https://www.w3schools.com/howto/howto_js_topnav.asp **\ -->
+
+        <div class="top-navigation-bar">
+          <!-- RainyDays logo in navigation bar -->
+          <div class="top-line-nav-bar-container">
+            <div class="rainydays-logo">
+              <img
+                src="/Images/rainydays-logo.png"
+                class="rainydays-logo"
+                alt="RainyDays Logo"
+              />
+            </div>
+            <!-- Search bar in navigation -->
+            <div class="search-bar-container">
+              <input type="text" placeholder="Search through products..." />
+              <span>
+                <button type="submit" title="search" class="search-button">
+                  <i class="bi bi-search fa-2x"></i>
+                </button>
+              </span>
+            </div>
+
+            <!-- Navigation bar icons -->
+            <div class="navigation-bar-icons">
+              <a><i class="bi bi-house-fill"></i></a>
+              <a href="/html pages/shoppingcart.html"
+                ><i class="bi bi-cart"></i
+              ></a>
+              <a href="/html pages/favorites.html"
+                ><i class="bi bi-heart"></i
+              ></a>
+              <a href="/html pages/myprofile.html"
+                ><i class="bi bi-person"></i
+              ></a>
+            </div>
+          </div>
+
+          <ul class="menu">
+            <li><a href="/html pages/men.html" class="men">Men</a></li>
+            <li><a href="/html pages/women.html" class="women">Women</a></li>
+            <li><a href="/html pages/brands.html" class="brands">Brands</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <form></form>
+  </body>
 </html>
