@@ -222,9 +222,14 @@
 /* Styling for contact us page */
 
 .contact-us-section-container {
-  margin-top: 152px;
-  width: 100%;
-  height: 949px;
+  margin-top: 178px;
+  margin-left: 198px;
+  margin-bottom: 79px;
+  width: 878px;
+  height: 536px;
+  border: 1px #000 solid;
+  border-radius: 10px;
+  transform: translateX(10%);
 }
 
 .container-contact-us {
@@ -237,11 +242,12 @@
   font-size: 40px;
   align-items: center;
   text-align: center;
+  padding: 10px;
 }
 
 .contact-us-form {
-  margin-left: 198px;
-  margin-right: 198px;
+  margin-left: 23px;
+  margin-right: 23px;
   border: 1px #000;
   border-radius: 10;
 }
