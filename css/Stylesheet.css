@@ -221,6 +221,12 @@
 
 /* Styling for contact us page */
 
+.contact-us-section-container {
+  margin-top: 152px;
+  width: 100%;
+  height: 949px;
+}
+
 .container-contact-us {
   color: red;
   width: 100%;
@@ -229,6 +235,8 @@
 
 .centre-header {
   font-size: 40px;
+  align-items: center;
+  text-align: center;
 }
 
 .contact-us-form {
