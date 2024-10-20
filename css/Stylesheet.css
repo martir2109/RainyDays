@@ -249,3 +249,26 @@
 .header-in-form {
   font-size: 30px;
 }
+
+.contactus-description {
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+.drop-down-container {
+  display: flex;
+}
+
+.topic-drop-down-topic,
+.topic-drop-down-subtopic {
+  border: 1px solid;
+  border-radius: 10px;
+  height: 62px;
+  width: 389px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.topic-drop-down-subtopic {
+  margin-left: 53px;
+}

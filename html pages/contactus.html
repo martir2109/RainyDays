@@ -85,10 +85,37 @@
           <h2 class="centre-header">Contact us</h2>
           <form class="contact-us-form">
             <h3 class="header-in-form">How can we help you?</h3>
-            <p>Easily reach out to us by filling in the contact form below</p>
-            <div class="text-field-container">
-              <input type="text" placeholder="Text field" />
+            <p class="contactus-description">
+              Easily reach out to us by filling in the contact form below
+            </p>
+            <div class="drop-down-container">
+              <select title="topic" class="topic-drop-down-topic">
+                <option value="" disabled selected>
+                  Please select a topic
+                </option>
+                <option value="Return">Return</option>
+                <option value="Order">Order</option>
+                <option value="Delivery">Deliver</option>
+                <option value="Other">Other</option>
+              </select>
+
+              <select title="subtopic" class="topic-drop-down-subtopic">
+                <option value="" disabled selected>
+                  Please select a topic
+                </option>
+                <option value="Return">Return</option>
+                <option value="Order">Order</option>
+                <option value="Delivery">Deliver</option>
+                <option value="Other">Other</option>
+              </select>
             </div>
+            <div class="text-field-container">
+              <textarea type="text" placeholder="Text field">
+Type here..</textarea
+              >
+            </div>
+
+            <button class="contact-us-submit">Submit</button>
           </form>
         </div>
       </section>
