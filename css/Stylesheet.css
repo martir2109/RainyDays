@@ -221,7 +221,7 @@
 
 /* Styling for contact us page */
 
-.contact-us-section-container {
+.contact-us-form-container {
   margin-top: 178px;
   margin-left: 198px;
   margin-bottom: 79px;
@@ -277,4 +277,55 @@
 
 .topic-drop-down-subtopic {
   margin-left: 53px;
+}
+
+.textfield {
+  width: 831px;
+  height: 191px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-top: 23px;
+  padding: 10px;
+}
+
+.contact-us-submit {
+  height: 62px;
+  width: 223px;
+  background-color: #0a3641;
+  border: 1px solid #0a3641;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: center;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+
+.contact-us-submit:hover {
+  background-color: #fff;
+  color: #0a3641;
+}
+
+.contact-info-container {
+  width: 100%;
+  height: 237px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.phone-info,
+.epost-info {
+  color: #000;
+  margin: 10px;
+  padding: 50px;
+  line-height: 40px;
+  height: 100%;
+  width: 640px;
+}
+
+.phonenumber {
+  text-decoration: underline;
 }
