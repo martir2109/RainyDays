@@ -393,3 +393,31 @@
   width: 185px;
   height: auto;
 }
+
+/* Styling of mens, womens and brands pages */
+
+.mens-header {
+  margin-top: 200px;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+.products-mens {
+  margin-top: 74px;
+  display: flex;
+  width: 80%;
+  margin: 20px;
+}
+.mens-container-1,
+.mens-container-2,
+.mens-container-3 {
+  margin-bottom: 79px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 74px;
+  gap: 10%;
+}
