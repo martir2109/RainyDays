@@ -441,3 +441,82 @@
 .brand-name {
   font-size: 30px;
 }
+
+/* Styling for login form */
+
+.back-button {
+  background-color: #0a3641;
+  color: #fff;
+  height: 62px;
+  width: 114px;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.back-button:hover {
+  background-color: #fff;
+  color: #0a3641;
+  border: 1px solid #000;
+}
+
+.topline-login {
+  display: flex;
+  padding: 20px;
+  height: 158px;
+}
+
+.rainydays-logo-login {
+  width: auto;
+  height: 80px;
+  margin-left: 36.5%;
+  margin-top: 30px;
+}
+
+.log-in-container {
+  justify-content: center;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.email,
+.password {
+  font-size: 20px;
+}
+
+.email-input,
+.password-input {
+  padding: 10px;
+  border-radius: 10px;
+  width: 542px;
+  height: 62px;
+}
+
+.email-container {
+  display: block;
+  text-align: left;
+}
+
+.password-container {
+  display: block;
+  text-align: left;
+}
+
+.email-and-login-container {
+  margin-top: 49px;
+}
+
+.input-and-eye-icon-container {
+  position: relative;
+}
+
+.bi-eye {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  cursor: pointer;
+}

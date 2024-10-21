@@ -15,3 +15,15 @@ productContainers.forEach((item, i) => {
     item.scrollLeft -= containerWidth;
   });
 });
+
+//for the password eye icon\\
+const togglerpassword = document.querySelector("#toggler");
+const password = document.querySelector("#password");
+
+togglerpassword.addEventListener("click", function (e) {
+  const type =
+    password.getAttribute("type") === "password" ? "text" : "password";
+  password.setAttribute("type", type);
+
+  this.classList.toggle("bi-eye-slash");
+});
