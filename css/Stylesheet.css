@@ -441,3 +441,27 @@
 .brand-name {
   font-size: 30px;
 }
+
+/* Styling for favorites page */
+
+.fav-main-container {
+  width: 100%;
+  height: 684px;
+}
+
+.favorites-title-container {
+  margin-top: 200px;
+  font-size: 20px;
+  margin-bottom: 34px;
+  margin-left: 60px;
+}
+
+.jacket3000-container {
+  border: 1px solid #000;
+  /* width: 234px;
+  height: 437px; */
+  width: 300px;
+  height: auto;
+  margin-left: 60px;
+  padding: 25px;
+}
