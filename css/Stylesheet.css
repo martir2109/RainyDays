@@ -465,3 +465,44 @@
   margin-left: 60px;
   padding: 25px;
 }
+
+/* Styling for shopping cart page */
+
+.cart-main-container {
+  width: 100%;
+  height: 684px;
+}
+
+.cart-title-container {
+  margin-top: 200px;
+  font-size: 20px;
+  margin-bottom: 34px;
+  margin-left: 60px;
+}
+
+.product-and-description-container {
+  display: flex;
+}
+
+.item-in-cart {
+  width: 644px;
+  height: 230px;
+  background-color: red;
+  margin-left: 60px;
+  margin-top: 32px;
+  display: flex;
+}
+
+.jacket-in-cart {
+  width: auto;
+  height: 230px;
+  padding: 10px;
+}
+
+.cart-text-product-container {
+  margin-left: 23px;
+}
+
+.cart-add-to-wishlist-button-container {
+  display: flex;
+}
