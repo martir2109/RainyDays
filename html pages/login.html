@@ -36,41 +36,37 @@
         class="rainydays-logo-login"
         alt="RainyDays Logo"
       />
-    </div class="inputfields-container">
+    </div>
     <section class="log-in-container">
       <h2>Log in</h2>
 
       <div class="email-and-login-container">
-      <div class="email-container">
-      <label for="email" class="email">Email*</label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder="Email"
-        class="email-input"
-      />
+        <div class="email-container">
+          <label for="email" class="email-label">Email*</label>
+          <div class="input-email-container">
+            <input type="email" id="email" name="email" placeholder="Email" />
+          </div>
+        </div>
+
+        <div class="password-container">
+          <label for="password" class="password-label">Password*</label>
+          <div class="input-and-eye-icon-container">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+            />
+            <span><i id="toggler" class="bi bi-eye"></i></span>
+          </div>
+        </div>
       </div>
 
-      <div class="password-container">
-      <label for="email" class="password">Password*</label>
-      <div class="input-and-eye-icon-container">
-      <input
-        type="password"
-        id="password"
-        name="password"
-        class="password-input"
-        placeholder="Password"
-        
-      />
-      <span><i id="toggler" class="bi bi-eye"></i></span>
-    </div>
-    </div>
-    </div>
-
-    <div>
-      <a href="/html pages/myprofile.html"><button title="log in" class="log-in-button">Log in</button></a>
-    </div>
+      <div>
+        <a href="/html pages/myprofile.html"
+          ><button title="log in" class="log-in-button">Log in</button></a
+        >
+      </div>
     </section>
     <!-- Link to JavaScript -->
     <script src="Javascript/Javascript.js"></script>
