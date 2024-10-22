@@ -487,7 +487,6 @@
 .item-in-cart {
   width: 644px;
   height: 230px;
-  background-color: red;
   margin-left: 60px;
   margin-top: 32px;
   display: flex;
@@ -522,4 +521,21 @@
 
 .not-reserved-text {
   margin-left: 8px;
+}
+
+.total-container {
+  width: 505px;
+  height: 200px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-right: 23px;
+  margin-left: 200px;
+  margin-top: 32px;
+  padding: 15px;
+}
+
+.line {
+  height: 1px;
+  background-color: #000;
+  width: 470px;
 }
