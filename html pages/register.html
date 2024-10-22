@@ -51,6 +51,8 @@
               type="text"
               id="firstname"
               placeholder="First name"
+              class="firstname"
+              required
             />
           </div>
         </div>
@@ -64,31 +66,68 @@
               type="text"
               id="lastname"
               placeholder="Last name"
+              class="lastname"
+              required
             />
           </div>
         </div>
 
         <!-- Phonenumber -->
         <div class="phonenumber-container">
-          <label class="label-phonenumber">Phonenumber*</label>
+          <label class="label-phonenumber">Phone number*</label>
           <div class="phonenumber-input-container">
             <input
               title="Phonenumber"
               type="text"
               id="Phonenumber"
-              placeholder="Phonenumber"
+              placeholder="Phone number"
+              class="phonenumber"
+              required
             />
           </div>
         </div>
 
         <!-- Email -->
-        <div class="email-container">
-          <label class="label-email">Email*</label>
+        <div class="email-container-register">
+          <label class="label-email-register">Email*</label>
           <div class="email-input-container">
-            <input title="email" type="text" id="email" placeholder="Email" />
+            <input
+              title="email-register"
+              type="text"
+              id="email-register"
+              placeholder="Email"
+              class="email-register"
+              required
+            />
+          </div>
+        </div>
+
+        <!-- Password  -->
+        <div class="password-container-register">
+          <label for="password-register" class="password-label-register"
+            >Password*</label
+          >
+          <div class="input-and-eye-icon-container">
+            <input
+              type="password"
+              id="password-register"
+              name="password-register"
+              placeholder="Password"
+              required
+              class="password-register"
+            />
+            <span><i id="toggler" class="bi bi-eye"></i></span>
           </div>
         </div>
       </form>
+      <!-- Register button -->
+      <div>
+        <a href="/html pages/myprofile.html"
+          ><button title="register" class="login-register-button">
+            Register
+          </button></a
+        >
+      </div>
     </section>
   </body>
 </html>

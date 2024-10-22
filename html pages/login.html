@@ -50,15 +50,16 @@
 
       <form class="email-and-password-container">
         <!-- Email container -->
-        <div class="email-container">
-          <label for="email" class="email-label">Email*</label>
-
-          <div class="input-email-container">
+        <!-- Email -->
+        <div class="email-container-register">
+          <label class="label-email-register">Email*</label>
+          <div class="email-input-container">
             <input
-              type="email"
-              id="email"
-              name="email"
+              title="email-login"
+              type="text"
+              id="email-login"
               placeholder="Email"
+              class="email-login"
               required
             />
           </div>
@@ -86,7 +87,9 @@
       <!-- Log in button -->
       <div>
         <a href="/html pages/myprofile.html"
-          ><button title="log in" class="log-in-button">Log in</button></a
+          ><button title="log in" class="login-register-button">
+            Log in
+          </button></a
         >
       </div>
     </section>

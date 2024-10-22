@@ -10,6 +10,7 @@
   border-radius: 10px;
   padding: 10px;
   cursor: pointer;
+  position: fixed;
 }
 
 .back-button:hover {
@@ -45,7 +46,7 @@
 }
 
 .email-and-password-container {
-  margin-top: 49px;
+  margin-top: 20px;
 }
 
 .email-label,
@@ -63,7 +64,7 @@
 }
 
 .password-container {
-  margin-top: 63px;
+  margin-top: 43px;
 }
 
 .input-and-eye-icon-container {
@@ -71,7 +72,7 @@
 }
 
 /* Styling for the email and password input field */
-input#email,
+input#email-login,
 input#password {
   padding: 10px;
   border-radius: 10px;
@@ -118,7 +119,7 @@ input#checkbox {
 }
 
 /* Styling for log in button */
-.log-in-button {
+.login-register-button {
   background-color: #0a3641;
   color: #fff;
   height: 62px;
@@ -131,7 +132,7 @@ input#checkbox {
   cursor: pointer;
 }
 
-.log-in-button:hover {
+.login-register-button:hover {
   background-color: #fff;
   color: #0a3641;
   border: 1px solid #000;
@@ -145,6 +146,8 @@ input#checkbox {
   font-weight: normal;
   display: grid;
   place-items: center;
+  height: auto;
+  margin-bottom: 100px;
 }
 
 .already-have-account-container {
@@ -160,15 +163,27 @@ input#checkbox {
 .firstname-input-container,
 .lastname-input-container,
 .phonenumber-container,
-.email-container {
+.email-container-register,
+.password-container-register {
   text-align: left;
   height: 91px;
+}
+
+.email-container-register {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.password-container-register {
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 input#firstname,
 input#lastname,
 input#Phonenumber,
-input#email {
+input#email-register,
+input#password-register {
   padding: 10px;
   border-radius: 10px;
   width: 542px;
@@ -177,12 +192,14 @@ input#email {
   color: #414141;
   border: 1px solid #000;
   font-size: 20px;
+  text-decoration: none;
 }
 
 input#firstname:focus,
 input#lastname:focus,
-input#phonenumber,
-input#email {
+input#phonenumber:focus,
+input#email-register:focus,
+input#password-register:focus {
   outline: navy;
   border: 1px solid navy;
   background-color: #fff;
@@ -191,7 +208,8 @@ input#email {
 .label-firstname,
 .label-lastname,
 .label-phonenumber,
-.label-email {
+.label-email-register,
+.password-label-register {
   font-size: 20px;
   display: block;
   position: relative;
