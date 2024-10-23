@@ -710,11 +710,14 @@
     width: 88px;
     margin-left: 60px;
     font-size: 20px;
-    text-decoration: none;
-    color: #000;
   }
   .side-menu-active {
     text-decoration: underline;
+    color: #000;
+  }
+  .text-side-bar-myprofile {
+    text-decoration: none;
+    color: #000;
   }
 }
 
