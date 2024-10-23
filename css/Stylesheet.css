@@ -612,13 +612,6 @@ input#discount:focus {
   margin-left: 50px;
 }
 
-.product-and-text-container {
-  width: 1060px;
-  height: 450px;
-  margin-left: 142px;
-  display: flex;
-}
-
 .product-image {
   padding: 10px;
   width: 518px;
@@ -629,10 +622,30 @@ input#discount:focus {
   height: 430px;
 }
 
+.product-and-text-container {
+  width: 1060px;
+  height: 450px;
+  margin-left: 142px;
+  display: flex;
+}
+
 .jacket3000-price-color {
   width: 542px;
   margin-right: 100px;
   margin-top: 100px;
+}
+
+.select-size-container {
+  background-color: #fff;
+  margin-top: 40px;
+}
+
+.select-size {
+  width: 526px;
+  height: 62px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
 }
 
 .addtocart-container {
