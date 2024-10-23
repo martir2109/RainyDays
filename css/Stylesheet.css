@@ -514,9 +514,9 @@
 
 .not-reserved {
   margin-left: 60px;
-  margin-top: 100px;
   width: 407px;
   display: flex;
+  margin-bottom: 20px;
 }
 
 .not-reserved-text {
@@ -554,6 +554,50 @@
 }
 
 .checkout-button:hover {
+  background-color: #fff;
+  color: #0a3641;
+  border: 1px solid #000;
+}
+
+input#discount {
+  padding: 10px;
+  border-radius: 10px;
+  width: 389px;
+  height: 62px;
+  background-color: #fff;
+  color: #414141;
+  border: 1px solid #000;
+  font-size: 20px;
+}
+
+input#discount:focus {
+  outline: navy;
+  border: 1px solid navy;
+  background-color: #fff;
+}
+
+.dicount-code-container {
+  margin-top: 26px;
+  margin-right: 30px;
+  display: flex;
+  width: 505;
+  justify-content: right;
+}
+
+.add-button {
+  background-color: #0a3641;
+  color: #fff;
+  height: 62px;
+  width: 107px;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 9px;
+}
+
+.add-button:hover {
   background-color: #fff;
   color: #0a3641;
   border: 1px solid #000;
