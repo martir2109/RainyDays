@@ -679,6 +679,7 @@ input#discount:focus {
   border-radius: 10px;
   padding: 10px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .product-description-details-container {
