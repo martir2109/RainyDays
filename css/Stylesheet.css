@@ -704,6 +704,18 @@
     margin-bottom: 34px;
     margin-left: 60px;
   }
+
+  .side-menu-bar {
+    height: 211px;
+    width: 88px;
+    margin-left: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  .side-menu-active {
+    text-decoration: underline;
+  }
 }
 
 /* Styling for mobile phone 768px width */
