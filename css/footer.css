@@ -1,134 +1,137 @@
-/* Styling for the footer */
-footer {
-  background-color: #0a3641;
-  color: white;
-  padding: 30px 20px;
-  height: 318px;
-  display: block;
-  width: 100%;
-  margin-top: auto;
+/* Styling for desktop 13-inch/ 2560px width */
+@media (max-width: 2560px) {
+  /* Styling for the footer */
+  footer {
+    background-color: #0a3641;
+    color: white;
+    padding: 30px 20px;
+    height: 318px;
+    display: block;
+    width: 100%;
+    margin-top: auto;
 
-  /*
+    /*
   position: fixed;
   bottom: 0;
   */
-}
+  }
 
-.footer-container {
-  justify-content: space-between;
-  margin-bottom: 20px;
-  display: flex;
-}
+  .footer-container {
+    justify-content: space-between;
+    margin-bottom: 20px;
+    display: flex;
+  }
 
-.footer-logo {
-  width: auto;
-  height: 100px;
-  display: flex;
-  margin-left: 20px;
-  margin-top: 65px;
-}
+  .footer-logo {
+    width: auto;
+    height: 100px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 65px;
+  }
 
-.about-us-container {
-  height: 79px;
-  width: 153px;
-  display: grid;
-}
+  .about-us-container {
+    height: 79px;
+    width: 153px;
+    display: grid;
+  }
 
-.about-rainydays {
-  margin-top: 33px;
-  color: #fff;
-  text-decoration: none;
-}
+  .about-rainydays {
+    margin-top: 33px;
+    color: #fff;
+    text-decoration: none;
+  }
 
-.customer-service-container {
-  height: 79px;
-  width: 228px;
-  display: grid;
-}
+  .customer-service-container {
+    height: 79px;
+    width: 228px;
+    display: grid;
+  }
 
-.contact-us {
-  color: #fff;
-  text-decoration: none;
-  margin-top: 33px;
-}
+  .contact-us {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 33px;
+  }
 
-.newsletter-container {
-  width: 371px;
-  height: 100%;
-  color: #fff;
-}
+  .newsletter-container {
+    width: 371px;
+    height: 100%;
+    color: #fff;
+  }
 
-.text-newsletter {
-  margin-top: 33px;
-}
-.newsletter-form {
-  display: flex;
-}
+  .text-newsletter {
+    margin-top: 33px;
+  }
+  .newsletter-form {
+    display: flex;
+  }
 
-input[type="email"] {
-  margin-top: 33px;
-  height: 46px;
-  width: 282px;
-  border-radius: 10px;
-  background-color: #fff;
-  color: #414141;
-  padding-left: 10px;
-  font-size: 18px;
-}
+  input[type="email"] {
+    margin-top: 33px;
+    height: 46px;
+    width: 282px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #414141;
+    padding-left: 10px;
+    font-size: 18px;
+  }
 
-.send-button {
-  width: 86px;
-  height: 45px;
-  background-color: #0a3641;
-  border: 1px solid #fff;
-  border-radius: 10px;
-  color: #fff;
-  font-size: bold;
-  font-size: 20px;
-  margin-left: 5px;
-  margin-top: 33px;
-}
+  .send-button {
+    width: 86px;
+    height: 45px;
+    background-color: #0a3641;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: bold;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 33px;
+  }
 
-.send-button:hover {
-  background-color: #fff;
-  color: #0a3641;
-}
+  .send-button:hover {
+    background-color: #fff;
+    color: #0a3641;
+  }
 
-.follow-us-container {
-  margin-top: 40px;
-}
+  .follow-us-container {
+    margin-top: 40px;
+  }
 
-.social-media-icons-container {
-  margin-top: 33px;
-  display: flex;
-}
+  .social-media-icons-container {
+    margin-top: 33px;
+    display: flex;
+  }
 
-.bi-instagram,
-.bi-facebook {
-  color: #fff;
-  padding-right: 4px;
-  margin-top: 33px;
-}
+  .bi-instagram,
+  .bi-facebook {
+    color: #fff;
+    padding-right: 4px;
+    margin-top: 33px;
+  }
 
-/* Text under the footer */
-.text-under-footer {
-  width: 100%;
-  margin-top: 40px;
-  text-decoration: none;
-  display: flex;
-  color: #000;
-  padding-bottom: 10px;
-  background-color: #fff;
-}
+  /* Text under the footer */
+  .text-under-footer {
+    width: 100%;
+    margin-top: 40px;
+    text-decoration: none;
+    display: flex;
+    color: #000;
+    padding-bottom: 10px;
+    background-color: #fff;
+  }
 
-.at-2024 {
-  padding-top: 10px;
-  margin-left: 10px;
-  text-align: left;
-}
+  .at-2024 {
+    padding-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+  }
 
-.cookies-and-terms {
-  padding-top: 10px;
-  transform: translateX(515%);
-  text-align: right;
+  .cookies-and-terms {
+    padding-top: 10px;
+    transform: translateX(515%);
+    text-align: right;
+  }
 }
