@@ -705,6 +705,10 @@
     margin-left: 60px;
   }
 
+  .myprofile-all-container {
+    display: flex;
+  }
+
   .side-menu-bar {
     height: 211px;
     width: 88px;
@@ -719,6 +723,53 @@
   .text-side-bar-myprofile {
     text-decoration: none;
     color: #000;
+  }
+
+  .profile-information-container {
+    width: 995px;
+    height: 368px;
+    background-color: red;
+    margin-left: 200px;
+  }
+
+  .updates-header-topline {
+    display: flex;
+  }
+
+  .last-updates-header {
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .see-all-orders {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: #0a3641;
+    margin-left: 515px;
+  }
+
+  .line-seperator {
+    justify-content: center;
+    width: 971px;
+    height: 2px;
+    background-color: #000;
+    margin-left: 10px;
+    margin-top: 41px;
+  }
+  .updates-second-line-container {
+    display: flex;
+  }
+  .secound-header-myprofile {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .see-order {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 600px;
   }
 }
 
