@@ -754,7 +754,7 @@
     height: 2px;
     background-color: #000;
     margin-left: 10px;
-    margin-top: 41px;
+    margin-top: 21px;
   }
   .updates-second-line-container {
     display: flex;
@@ -791,6 +791,60 @@
     width: 162px;
     height: auto;
     margin-left: 615px;
+  }
+
+  .order-container {
+    width: 971px;
+    height: 46px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .ordernumber-container,
+  .totalamount-container,
+  .orderdate-container,
+  .paymentstatus-container {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .totalamount-container,
+  .orderdate-container,
+  .paymentstatus-container {
+    margin-left: 59px;
+  }
+
+  .ordernumber-orders,
+  .total-orders,
+  .orderdate-orders,
+  .paymentstatus-orders {
+    font-weight: normal;
+  }
+
+  .orders-image-box-container {
+    width: 349px;
+    height: 174px;
+    border: 1px solid #000;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+    font-size: 18px;
+  }
+
+  .myprofile-orders-image-jacket3000 {
+    width: 122px;
+    height: auto;
+  }
+
+  .myprofile-orders-product-info {
+    display: block;
+  }
+
+  .orders-product-info-title {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 }
 

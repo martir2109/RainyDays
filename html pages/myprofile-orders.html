@@ -27,7 +27,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
 
-    <title>Orders</title>
+    <title>Overview</title>
   </head>
 
   <body>
@@ -84,43 +84,91 @@
     <main>
       <section class="my-account-section">
         <div class="account-title-container">
-          <h2>Returns</h2>
+          <h2>My account</h2>
         </div>
-        <div class="side-menu-bar">
-          <a
-            href="/html pages/myprofile-overview.html"
-            title="overview"
-            class="text-side-bar-myprofile"
-            ><p>Overview</p></a
-          >
-          <br />
-          <a href="active" title="orders" class="side-menu-active">
-            <p>Orders</p></a
-          >
-          <br />
-          <a
-            href="/html pages/myprofile-returns.html"
-            title="returns"
-            class="text-side-bar-myprofile"
-            ><p>Returns</p></a
-          >
-          <br />
-          <a
-            href="/html pages/myprofile-address.html"
-            title="address"
-            class="text-side-bar-myprofile"
-            ><p>Address</p></a
-          >
-          <br />
-          <a
-            href="/html pages/myprofile-myprofile.html"
-            title="My profile"
-            class="text-side-bar-myprofile"
-            ><p>My profile</p></a
-          >
-        </div>
+        <div class="myprofile-all-container">
+          <div class="side-menu-bar">
+            <a
+              href="/html pages/myprofile-overview.html"
+              title="overview"
+              class="text-side-bar-myprofile"
+              ><p>Overview</p></a
+            >
+            <br />
+            <a href="active" title="orders" class="side-menu-active">
+              <p>Orders</p></a
+            >
+            <br />
+            <a
+              href="/html pages/myprofile-returns.html"
+              title="returns"
+              class="text-side-bar-myprofile"
+              ><p>Returns</p></a
+            >
+            <br />
+            <a
+              href="/html pages/myprofile-address.html"
+              title="address"
+              class="text-side-bar-myprofile"
+              ><p>Address</p></a
+            >
+            <br />
+            <a
+              href="/html pages/myprofile-myprofile.html"
+              title="My profile"
+              class="text-side-bar-myprofile"
+              ><p>My profile</p></a
+            >
+          </div>
+          <div class="profile-information-container">
+            <div class="updates-header-topline">
+              <p class="last-updates-header">Orders</p>
+            </div>
+            <div class="line-seperator"></div>
+            <div class="updates-second-line-container">
+              <p class="secound-header-myprofile">
+                Your order is being processed
+              </p>
+              <p class="see-order">See order</p>
+            </div>
+            <div class="order-container">
+              <div class="ordernumber-container">
+                <p class="ordernumber-orders-text">Order number:</p>
+                <p class="ordernumber-orders">1234</p>
+              </div>
 
-        <div class="overview-information-container"></div>
+              <div class="totalamount-container">
+                <p class="total-text">Total:</p>
+                <p class="total-orders">2279,-</p>
+              </div>
+
+              <div class="orderdate-container">
+                <p class="orderdate-text">Orderd date:</p>
+                <p class="orderdate-orders">13.09.2024</p>
+              </div>
+
+              <div class="paymentstatus-container">
+                <p class="paymentstatus-text">Payment status:</p>
+                <p class="paymentstatus-orders">Payed</p>
+              </div>
+            </div>
+
+            <div class="orders-image-box-container">
+              <img
+                src="/Images/Jackets images/rainydays-jacket1.jpg"
+                alt="Jacket 3000"
+                class="myprofile-orders-image-jacket3000"
+              />
+              <div class="myprofile-orders-product-info">
+                <p class="orders-product-info-title">Jacket 3000</p>
+                <p>Color: Orange and grey</p>
+                <p>Size: L</p>
+              </div>
+            </div>
+            <br />
+            <div class="line-seperator"></div>
+          </div>
+        </div>
       </section>
     </main>
 
