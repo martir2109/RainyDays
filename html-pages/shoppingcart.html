@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="My profile when logged in" />
+    <meta name="description" content="Homepage for RainyDays" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="HTML, CSS, Javascript" />
     <meta name="author" content="Martine Reppesgård Karlsen" />
@@ -16,11 +16,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
 
-    <!-- Link to CSS styleheets -->
-    <link rel="stylesheet" type="text/css" href="/css/Stylesheet.css" />
-    <link rel="stylesheet" type="text/css" href="/css/navigation-bar.css" />
-    <link rel="stylesheet" type="text/css" href="/css/footer.css" />
-    <link rel="stylesheet" type="text/css" href="/css/myprofile.css" />
+     <!-- Link to CSS styleheets -->
+     <link rel="stylesheet" type="text/css" href="/css/Stylesheet.css" />
+     <link rel="stylesheet" type="text/css" href="/css/navigation-bar.css" />
+     <link rel="stylesheet" type="text/css" href="/css/footer.css" />
 
     <!-- Bootstrap icons libary -->
     <link
@@ -28,7 +27,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
 
-    <title>My profile - Overview</title>
+    <title>Shopping cart</title>
   </head>
 
   <body>
@@ -40,14 +39,14 @@
           <!-- RainyDays logo in navigation bar -->
           <div class="top-line-nav-bar-container">
             <a href="/index.html">
-              <div class="rainydays-logo">
-                <img
+            <div class="rainydays-logo">
+              <img
                   src="/Images/rainydays-logo.png"
                   class="rainydays-logo"
                   alt="RainyDays Logo"
-                />
-              </div>
-            </a>
+              />
+            </div>
+          </a>
             <!-- Search bar in navigation -->
             <div class="search-bar-container">
               <input type="text" placeholder="Search through products..." />
@@ -60,97 +59,94 @@
 
             <!-- Navigation bar icons -->
             <div class="navigation-bar-icons">
-              <a href="/index.html" title="house"
-                ><i class="bi bi-house"></i
+              <a href="/index.html"
+                ><i class="bi bi-house" title="house"></i
               ></a>
-              <a href="/html pages/shoppingcart.html" title="cart"
-                ><i class="bi bi-cart"></i
+              <a href="/html-pages/shoppingcart.html" title="cart"
+                ><i class="bi bi-cart-fill"></i
               ></a>
-              <a href="/html pages/favorites.html" title="favorites"
+              <a href="/html-pages/favorites.html" title="favorites"
                 ><i class="bi bi-heart"></i
               ></a>
-              <a href="/html pages/login.html" title="person"
-                ><i class="bi bi-person-fill"></i
+              <a href="/html-pages/login.html" title="person"
+                ><i class="bi bi-person"></i
               ></a>
             </div>
           </div>
 
           <ul class="menu">
-            <li><a href="/html pages/men.html" class="men">Men</a></li>
-            <li><a href="/html pages/women.html" class="women">Women</a></li>
-            <li><a href="/html pages/brands.html" class="brands">Brands</a></li>
+            <li><a href="/html-pages/men.html" class="men">Men</a></li>
+            <li><a href="/html-pages/women.html" class="women">Women</a></li>
+            <li><a href="/html-pages/brands.html" class="brands">Brands</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <section class="my-account-section">
-        <div class="account-title-container">
-          <h2>My account</h2>
-        </div>
-        <div class="myprofile-all-container">
-          <div class="side-menu-bar">
-            <a href="active" title="overview" class="side-menu-active"
-              ><p>Overview</p></a
-            >
-            <br />
-            <a
-              href="/html pages/myprofile-orders.html"
-              title="orders"
-              class="text-side-bar-myprofile"
-            >
-              <p>Orders</p></a
-            >
-            <br />
-            <a
-              href="/html pages/myprofile-returns.html"
-              title="returns"
-              class="text-side-bar-myprofile"
-              ><p>Returns</p></a
-            >
-            <br />
-            <a
-              href="/html pages/myprofile-address.html"
-              title="address"
-              class="text-side-bar-myprofile"
-              ><p>Address</p></a
-            >
-            <br />
-            <a
-              href="/html pages/myprofile-myprofile.html"
-              title="My profile"
-              class="text-side-bar-myprofile"
-              ><p>My profile</p></a
-            >
+      <main>
+        <section class="cart-main-container">
+          <div class="cart-title-container">
+            <h2>Shopping cart (1 item)</h2>
           </div>
-          <div class="profile-information-container">
-            <div class="updates-header-topline">
-              <p class="last-updates-header">Last updates on your orders</p>
-              <p class="see-all-orders">See all orders</p>
-            </div>
-            <div class="line-seperator"></div>
-            <div class="updates-second-line-container">
-              <p class="secound-header-myprofile">
-                Your order is being processed
-              </p>
-              <p class="see-order">See order</p>
-            </div>
-            <div class="ordernumber-image-container">
-              <p class="ordernumber-text">Order number:</p>
 
-              <p class="ordernumber">1234</p>
-              <div>
-                <img
-                  src="/Images/Jackets images/rainydays-jacket1.jpg"
-                  alt="jacket 3000"
-                  class="order-jacket-3000"
-                />
-              </div>
-            </div>
-            <div class="line-seperator"></div>
+          <div class="product-and-description-container">
+            
+          <div class="item-in-cart">
+            <img src="/Images/Jackets/rainydays-jacket1.jpg" alt="Jacket 3000" class="jacket-in-cart">
+            <div class="cart-text-product-container">
+            <h3>Jacket 3000</h3>
+            <br>
+            <p>Color: Orange and grey</p>
+            <br>
+            <p>Size: L</p>
+            <br>
+            <h4>Price: 2100,-</h4>
+            <a href="/html-pages/favorites.html"><h3 class="move-to-favorites">Move to favorites</h3></a>
+            
           </div>
         </div>
-      </section>
+        <div class="total-container">
+          <div class="sum-box">
+            <p>Sum</p>
+          <p class="sum-for-products">2200,-</p>
+        </div>
+          <br>
+          <br>
+          <div class="delivery-box">
+          <p>Delivery</p>
+          <p class="delivery-costs-box">79,-</p>
+        </div>
+          <br>
+          <div class="line"></div>
+          <br>
+          <div class="total-costs-box">
+          <p>Total</p>
+          <p class="total-costs">2279,-</p>
+        </div>
+          <button type="button" class="checkout-button">Check out</button>
+        </div>
+      
+       </div>
+       <div class="dicount-code-container">
+        <input
+            title="discount"
+            type="text"
+            id="discount"
+            placeholder="Add discount code"
+            class="discount"
+      
+          />
+          <button type="button" class="add-button">Add</button>
+
+      </div>
+       
+       <div class="not-reserved">
+        <i class="bi bi-exclamation-circle"></i>
+        <p class="not-reserved-text">Products in the shopping cart are not reserved.</p>
+       </div>
+
+      
+          </section>
     </main>
 
     <footer>
@@ -166,7 +162,7 @@
           <div class="customer-service-container">
             <h2 class="customer-service-title">Customer service</h2>
             <p>
-              <a href="/html pages/contactus.html" class="contact-us"
+              <a href="/html-pages/contactus.html" class="contact-us"
                 >Contact us</a
               >
             </p>
@@ -185,7 +181,7 @@
         <div class="about-us-container">
           <h2 class="about-us-title">About us</h2>
           <p>
-            <a href="/html pages/about.html" class="about-rainydays"
+            <a href="/html-pages/about.html" class="about-rainydays"
               >About RainyDays</a
             >
           </p>

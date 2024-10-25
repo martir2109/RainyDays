@@ -28,7 +28,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
 
-    <title>My profile - basis information</title>
+    <title>My profile - Overview</title>
   </head>
 
   <body>
@@ -63,22 +63,22 @@
               <a href="/index.html" title="house"
                 ><i class="bi bi-house"></i
               ></a>
-              <a href="/html pages/shoppingcart.html" title="cart"
+              <a href="/html-pages/shoppingcart.html" title="cart"
                 ><i class="bi bi-cart"></i
               ></a>
-              <a href="/html pages/favorites.html" title="favorites"
+              <a href="/html-pages/favorites.html" title="favorites"
                 ><i class="bi bi-heart"></i
               ></a>
-              <a href="/html pages/login.html" title="person"
+              <a href="/html-pages/login.html" title="person"
                 ><i class="bi bi-person-fill"></i
               ></a>
             </div>
           </div>
 
           <ul class="menu">
-            <li><a href="/html pages/men.html" class="men">Men</a></li>
-            <li><a href="/html pages/women.html" class="women">Women</a></li>
-            <li><a href="/html pages/brands.html" class="brands">Brands</a></li>
+            <li><a href="/html-pages/men.html" class="men">Men</a></li>
+            <li><a href="/html-pages/women.html" class="women">Women</a></li>
+            <li><a href="/html-pages/brands.html" class="brands">Brands</a></li>
           </ul>
         </div>
       </nav>
@@ -90,15 +90,12 @@
         </div>
         <div class="myprofile-all-container">
           <div class="side-menu-bar">
-            <a
-              href="/html pages/myprofile-overview.html"
-              title="overview"
-              class="text-side-bar-myprofile"
+            <a href="active" title="overview" class="side-menu-active"
               ><p>Overview</p></a
             >
             <br />
             <a
-              href="/html pages/myprofile-orders.html"
+              href="/html-pages/myprofile-orders.html"
               title="orders"
               class="text-side-bar-myprofile"
             >
@@ -106,105 +103,54 @@
             >
             <br />
             <a
-              href="/html pages/myprofile-returns.html"
+              href="/html-pages/myprofile-returns.html"
               title="returns"
               class="text-side-bar-myprofile"
               ><p>Returns</p></a
             >
             <br />
             <a
-              href="/html pages/myprofile-address.html"
+              href="/html-pages/myprofile-address.html"
               title="address"
               class="text-side-bar-myprofile"
               ><p>Address</p></a
             >
             <br />
-            <a href="active" title="My profile" class="side-menu-active"
+            <a
+              href="/html-pages/myprofile-myprofile.html"
+              title="My profile"
+              class="text-side-bar-myprofile"
               ><p>My profile</p></a
             >
           </div>
-          <div class="myprofile-basisinfo-container">
+          <div class="profile-information-container">
             <div class="updates-header-topline">
-              <p class="last-updates-header">Basis information</p>
+              <p class="last-updates-header">Last updates on your orders</p>
+              <p class="see-all-orders">See all orders</p>
             </div>
-            <div class="basis-informartion-container">
-              <!-- First name -->
-              <div class="myprofile-inputfield-container">
-                <label class="myprofile-labels">First name</label>
-                <div class="myprofile-input-box">
-                  <input
-                    title="myprofile-firstname"
-                    type="text"
-                    id="firstname"
-                    placeholder="Ola"
-                    class="myprofile-inputfields"
-                  />
-                </div>
-              </div>
-              <!-- Last name -->
-              <div class="myprofile-inputfield-container">
-                <label class="myprofile-labels">Last name</label>
-                <div class="myprofile-input-box">
-                  <input
-                    title="myprofile-lastname"
-                    type="text"
-                    id="lastname"
-                    placeholder="Nordmann"
-                    class="myprofile-inputfields"
-                  />
-                </div>
-              </div>
-              <!-- Phone number -->
-              <div class="myprofile-inputfield-container">
-                <label class="myprofile-labels">Phone number</label>
-                <div class="myprofile-input-box">
-                  <input
-                    title="myprofile-phonenumber"
-                    type="text"
-                    id="myprofile-phonenumber"
-                    placeholder="12 34 56 78"
-                    class="myprofile-inputfields"
-                  />
-                </div>
-              </div>
-              <!-- Birthday -->
-              <div class="myprofile-inputfield-container">
-                <label class="myprofile-labels">Birthday</label>
-                <div class="myprofile-input-box">
-                  <input
-                    title="myprofile-birthday"
-                    type="date"
-                    id="myprofile-birthday"
-                    value="1989-09-12"
-                    class="birthday-date"
-                  />
-                </div>
-              </div>
-              <!-- Gender -->
-              <div class="myprofile-inputfield-container">
-                <label class="myprofile-labels">Gender</label>
-                <div class="myprofile-input-box">
-                  <select title="gender" class="gender-select" value="Male">
-                    <option>Male</option>
-                    <option>Female</option>
-                    <option>Other</option>
-                  </select>
-                </div>
-              </div>
-              <button type="button" class="save-button-myprofile">Save</button>
+            <div class="line-seperator"></div>
+            <div class="updates-second-line-container">
+              <p class="secound-header-myprofile">
+                Your order is being processed
+              </p>
+              <p class="see-order">See order</p>
             </div>
-            <div class="signout-and-delete-button-container">
-              <button type="button" class="signout-button-myprofile">
-                Sign out
-              </button>
-              <button type="button" class="delete-account-button">
-                Delete account
-              </button>
+            <div class="ordernumber-image-container">
+              <p class="ordernumber-text">Order number:</p>
+
+              <p class="ordernumber">1234</p>
+              <div>
+                <img
+                  src="/Images/Jackets images/rainydays-jacket1.jpg"
+                  alt="jacket 3000"
+                  class="order-jacket-3000"
+                />
+              </div>
             </div>
+            <div class="line-seperator"></div>
           </div>
         </div>
       </section>
-      <div class="myprofile-space"></div>
     </main>
 
     <footer>
@@ -220,7 +166,7 @@
           <div class="customer-service-container">
             <h2 class="customer-service-title">Customer service</h2>
             <p>
-              <a href="/html pages/contactus.html" class="contact-us"
+              <a href="/html-pages/contactus.html" class="contact-us"
                 >Contact us</a
               >
             </p>
@@ -239,7 +185,7 @@
         <div class="about-us-container">
           <h2 class="about-us-title">About us</h2>
           <p>
-            <a href="/html pages/about.html" class="about-rainydays"
+            <a href="/html-pages/about.html" class="about-rainydays"
               >About RainyDays</a
             >
           </p>

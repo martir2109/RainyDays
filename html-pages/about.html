@@ -7,6 +7,9 @@
     <meta name="keywords" content="HTML, CSS, Javascript" />
     <meta name="author" content="Martine Reppesgård Karlsen" />
 
+    <!-- Link to JavaScript -->
+    <script src="Javascript/Javascript.js"></script>
+
     <!-- Link to Font Awesome free icon kit -->
     <link
       rel="stylesheet"
@@ -24,7 +27,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
 
-    <title>Jacket 3000</title>
+    <title>About us</title>
   </head>
 
   <body>
@@ -36,14 +39,14 @@
           <!-- RainyDays logo in navigation bar -->
           <div class="top-line-nav-bar-container">
             <a href="/index.html">
-              <div class="rainydays-logo">
-                <img
+            <div class="rainydays-logo">
+              <img
                   src="/Images/rainydays-logo.png"
                   class="rainydays-logo"
                   alt="RainyDays Logo"
-                />
-              </div>
-            </a>
+              />
+            </div>
+          </a>
             <!-- Search bar in navigation -->
             <div class="search-bar-container">
               <input type="text" placeholder="Search through products..." />
@@ -57,74 +60,90 @@
             <!-- Navigation bar icons -->
             <div class="navigation-bar-icons">
               <a href="/index.html"
-                ><i class="bi bi-house" title="house"></i
-              ></a>
-              <a href="/html pages/shoppingcart.html" title="cart"
+              ><i class="bi bi-house" title="house"></i
+            ></a>
+              <a href="/html-pages/shoppingcart.html" title="cart"
                 ><i class="bi bi-cart"></i
               ></a>
-              <a href="/html pages/favorites.html" title="favorites"
+              <a href="/html-pages/favorites.html" title="favorites"
                 ><i class="bi bi-heart"></i
               ></a>
-              <a href="/html pages/login.html" title="person"
+              <a href="/html-pages/login.html" title="person"
                 ><i class="bi bi-person"></i
               ></a>
             </div>
           </div>
 
           <ul class="menu">
-            <li><a href="/html pages/men.html" class="men">Men</a></li>
-            <li><a href="/html pages/women.html" class="women">Women</a></li>
-            <li><a href="/html pages/brands.html" class="brands">Brands</a></li>
+            <li><a href="/html-pages/men.html" class="men">Men</a></li>
+            <li><a href="/html-pages/women.html" class="women">Women</a></li>
+            <li><a href="/html-pages/brands.html" class="brands">Brands</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <section class="product-section">
-        <div class="product-and-text-container">
-          <div class="product-image-page">
-            <img
-              src="/Images/Jackets images/rainydays-jacket1.jpg"
-              class="jacket-product"
-              alt="Jacket 3000"
-            />
-          </div>
-          <div class="jacket3000-price-color">
-            <h2>Jacket 3000</h2>
-            <br />
-            <p>2100,-</p>
-            <br />
-            <br />
-            <p>Color: Orange and grey</p>
-            <div class="select-size-container">
-              <select name="size" title="Select size" class="select-size">
-                <option value="size" disabled selected>Select size</option>
-                <option value="S">S</option>
-                <option value="M">M</option>
-                <option value="L">L</option>
-                <option value="XL">XL</option>
-              </select>
-            </div>
-            <div class="addtocart-container">
-              <button type="button" class="addtocart-button">
-                Add to cart
-              </button>
-              <div class="add-to-favs">
-                <i class="bi bi-heart"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="product-description-details-container">
-          <h3>Description</h3>
-          <p>This jacket is suited for all kinds of weather</p>
-          <br />
-          <br />
-          <p>Material: 100% Polyester</p>
-          <p>Article number: 123456789</p>
+      <section>
+        <div class="banner-container">
+          <!-- Banner -->
+          <img
+            src="/Images/part-of-the-banner.png"
+            alt="Banner background"
+            class="aboutus-banner"
+          />
+
+          <h2 class="about-rainydays-title">About RAINYDAYS</h2>
         </div>
       </section>
-      <div class="space-between-main-and-footer"></div>
+
+      <section class="aboutus-text-container">
+        <p>
+          Welcome to RAINYDAYS, where we’re all about Pushing the Comfort Zone.
+          We specialize in men’s and women’s rain jackets designed to keep you
+          comfortable and protected during your outdoor adventures.
+        </p>
+        <br />
+        <br />
+        <p>
+          Whether you’re hiking, skiing, camping, or exploring new trails, our
+          jackets are built to last. With a focus on durability and versatility,
+          our mid-range jackets are perfect for a variety of weather conditions,
+          ensuring you’re always prepared, no matter where your journey takes
+          you.
+        </p>
+        <br />
+        <br />
+        <p>
+          At RAINYDAYS, we believe that with the right gear, you can push your
+          comfort zone and fully enjoy the great outdoors, rain or shine.
+        </p>
+      </section>
+      <section class="aboutus-image-container">
+        <img
+          src="/Images/Pexels/pexels-pixabay-459451.jpg"
+          alt="rain-image"
+          class="rain-image"
+        />
+
+        <img
+          src="/Images/Pexels/pexels-vladbagacian-2819546.jpg"
+          alt="hike-image"
+          class="hike-image"
+        />
+
+        <img
+          src="/Images/Pexels/pexels-mati-3193846.jpg"
+          alt="ski-image"
+          class="ski-image"
+        />
+      </section>
+      <section class="aboutus-logo-container">
+        <img
+                  src="/Images/rainydays-logo.png"
+                  class="aboutus-logo"
+                  alt="RainyDays Logo"
+              /></a>
+      </section>
     </main>
 
     <footer>
@@ -140,7 +159,7 @@
           <div class="customer-service-container">
             <h2 class="customer-service-title">Customer service</h2>
             <p>
-              <a href="/html pages/contactus.html" class="contact-us"
+              <a href="/html-pages/contactus.html" class="contact-us"
                 >Contact us</a
               >
             </p>
@@ -159,7 +178,7 @@
         <div class="about-us-container">
           <h2 class="about-us-title">About us</h2>
           <p>
-            <a href="/html pages/about.html" class="about-rainydays"
+            <a href="/html-pages/about.html" class="about-rainydays"
               >About RainyDays</a
             >
           </p>
@@ -195,8 +214,5 @@
         </div>
       </div>
     </footer>
-
-    <!-- Link to JavaScript -->
-    <script src="Javascript/Javascript.js"></script>
   </body>
 </html>

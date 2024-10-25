@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Homepage for RainyDays" />
+    <meta name="description" content="My profile when logged in" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="HTML, CSS, Javascript" />
     <meta name="author" content="Martine Reppesgård Karlsen" />
@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="/css/Stylesheet.css" />
     <link rel="stylesheet" type="text/css" href="/css/navigation-bar.css" />
     <link rel="stylesheet" type="text/css" href="/css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="/css/myprofile.css" />
 
     <!-- Bootstrap icons libary -->
     <link
@@ -27,7 +28,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
 
-    <title>About us</title>
+    <title>My profile - Address</title>
   </head>
 
   <body>
@@ -39,14 +40,14 @@
           <!-- RainyDays logo in navigation bar -->
           <div class="top-line-nav-bar-container">
             <a href="/index.html">
-            <div class="rainydays-logo">
-              <img
+              <div class="rainydays-logo">
+                <img
                   src="/Images/rainydays-logo.png"
                   class="rainydays-logo"
                   alt="RainyDays Logo"
-              />
-            </div>
-          </a>
+                />
+              </div>
+            </a>
             <!-- Search bar in navigation -->
             <div class="search-bar-container">
               <input type="text" placeholder="Search through products..." />
@@ -59,90 +60,100 @@
 
             <!-- Navigation bar icons -->
             <div class="navigation-bar-icons">
-              <a href="/index.html"
-              ><i class="bi bi-house" title="house"></i
-            ></a>
-              <a href="/html pages/shoppingcart.html" title="cart"
+              <a href="/index.html" title="house"
+                ><i class="bi bi-house"></i
+              ></a>
+              <a href="/html-pages/shoppingcart.html" title="cart"
                 ><i class="bi bi-cart"></i
               ></a>
-              <a href="/html pages/favorites.html" title="favorites"
+              <a href="/html-pages/favorites.html" title="favorites"
                 ><i class="bi bi-heart"></i
               ></a>
-              <a href="/html pages/login.html" title="person"
-                ><i class="bi bi-person"></i
+              <a href="/html-pages/login.html" title="person"
+                ><i class="bi bi-person-fill"></i
               ></a>
             </div>
           </div>
 
           <ul class="menu">
-            <li><a href="/html pages/men.html" class="men">Men</a></li>
-            <li><a href="/html pages/women.html" class="women">Women</a></li>
-            <li><a href="/html pages/brands.html" class="brands">Brands</a></li>
+            <li><a href="/html-pages/men.html" class="men">Men</a></li>
+            <li><a href="/html-pages/women.html" class="women">Women</a></li>
+            <li><a href="/html-pages/brands.html" class="brands">Brands</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <section>
-        <div class="banner-container">
-          <!-- Banner -->
-          <img
-            src="/Images/part-of-the-banner.png"
-            alt="Banner background"
-            class="aboutus-banner"
-          />
-
-          <h2 class="about-rainydays-title">About RAINYDAYS</h2>
+      <section class="my-account-section">
+        <div class="account-title-container">
+          <h2>My account</h2>
         </div>
-      </section>
+        <div class="myprofile-all-container">
+          <div class="side-menu-bar">
+            <a
+              href="/html-pages/myprofile-overview.html"
+              title="overview"
+              class="text-side-bar-myprofile"
+              ><p>Overview</p></a
+            >
+            <br />
+            <a
+              href="/html-pages/myprofile-orders.html"
+              title="orders"
+              class="text-side-bar-myprofile"
+            >
+              <p>Orders</p></a
+            >
+            <br />
+            <a
+              href="/html-pages/myprofile-returns.html"
+              title="returns"
+              class="text-side-bar-myprofile"
+              ><p>Returns</p></a
+            >
+            <br />
+            <a href="active" title="address" class="side-menu-active">
+              <p>Address</p></a
+            >
+            <br />
+            <a
+              href="/html-pages/myprofile-myprofile.html"
+              title="My profile"
+              class="text-side-bar-myprofile"
+              ><p>My profile</p></a
+            >
+          </div>
+          <div class="profile-information-container">
+            <div class="updates-header-topline">
+              <p class="last-updates-header">Address</p>
+            </div>
 
-      <section class="aboutus-text-container">
-        <p>
-          Welcome to RAINYDAYS, where we’re all about Pushing the Comfort Zone.
-          We specialize in men’s and women’s rain jackets designed to keep you
-          comfortable and protected during your outdoor adventures.
-        </p>
-        <br />
-        <br />
-        <p>
-          Whether you’re hiking, skiing, camping, or exploring new trails, our
-          jackets are built to last. With a focus on durability and versatility,
-          our mid-range jackets are perfect for a variety of weather conditions,
-          ensuring you’re always prepared, no matter where your journey takes
-          you.
-        </p>
-        <br />
-        <br />
-        <p>
-          At RAINYDAYS, we believe that with the right gear, you can push your
-          comfort zone and fully enjoy the great outdoors, rain or shine.
-        </p>
-      </section>
-      <section class="aboutus-image-container">
-        <img
-          src="/Images/Pexels images/pexels-pixabay-459451.jpg"
-          alt="rain-image"
-          class="rain-image"
-        />
-
-        <img
-          src="/Images/Pexels images/pexels-vladbagacian-2819546.jpg"
-          alt="hike-image"
-          class="hike-image"
-        />
-
-        <img
-          src="/Images/Pexels images/pexels-mati-3193846.jpg"
-          alt="ski-image"
-          class="ski-image"
-        />
-      </section>
-      <section class="aboutus-logo-container">
-        <img
-                  src="/Images/rainydays-logo.png"
-                  class="aboutus-logo"
-                  alt="RainyDays Logo"
-              /></a>
+            <div class="address-boxes-container">
+              <div class="add-new-address-box">
+                <div class="new-address-content">
+                  <i class="bi bi-plus-square-fill"></i>
+                  <br />
+                  <br />
+                  <p>Add new address</p>
+                </div>
+              </div>
+              <div class="delivery-address-box">
+                <div class="delivery-address-box-content">
+                  <h3>Delivery address</h3>
+                  <br />
+                  <p>Ola Nordmann</p>
+                  <p>Osloveien 1</p>
+                  <p>Oslo, 1234</p>
+                  <p>Norway</p>
+                </div>
+                <div class="trashbin-edit-container">
+                  <i class="bi bi-trash-fill"></i>
+                  <p class="edit-text-button">Edit</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
@@ -159,7 +170,7 @@
           <div class="customer-service-container">
             <h2 class="customer-service-title">Customer service</h2>
             <p>
-              <a href="/html pages/contactus.html" class="contact-us"
+              <a href="/html-pages/contactus.html" class="contact-us"
                 >Contact us</a
               >
             </p>
@@ -178,7 +189,7 @@
         <div class="about-us-container">
           <h2 class="about-us-title">About us</h2>
           <p>
-            <a href="/html pages/about.html" class="about-rainydays"
+            <a href="/html-pages/about.html" class="about-rainydays"
               >About RainyDays</a
             >
           </p>

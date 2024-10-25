@@ -7,9 +7,6 @@
     <meta name="keywords" content="HTML, CSS, Javascript" />
     <meta name="author" content="Martine Reppesgård Karlsen" />
 
-    <!-- Link to JavaScript -->
-    <script src="Javascript/Javascript.js"></script>
-
     <!-- Link to Font Awesome free icon kit -->
     <link
       rel="stylesheet"
@@ -27,7 +24,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
 
-    <title>Favorites</title>
+    <title>Jacket 3000</title>
   </head>
 
   <body>
@@ -36,7 +33,6 @@
         <!-- Followed this tutorial to create my navigation bar https://www.w3schools.com/howto/howto_js_topnav.asp **\ -->
 
         <div class="top-navigation-bar">
-          <!-- RainyDays logo in navigation bar -->
           <!-- RainyDays logo in navigation bar -->
           <div class="top-line-nav-bar-container">
             <a href="/index.html">
@@ -63,51 +59,72 @@
               <a href="/index.html"
                 ><i class="bi bi-house" title="house"></i
               ></a>
-              <a href="/html pages/shoppingcart.html" title="cart"
+              <a href="/html-pages/shoppingcart.html" title="cart"
                 ><i class="bi bi-cart"></i
               ></a>
-              <a href="/html pages/favorites.html" title="favorites"
-                ><i class="bi bi-heart-fill"></i
+              <a href="/html-pages/favorites.html" title="favorites"
+                ><i class="bi bi-heart"></i
               ></a>
-              <a href="/html pages/login.html" title="person"
+              <a href="/html-pages/login.html" title="person"
                 ><i class="bi bi-person"></i
               ></a>
             </div>
           </div>
 
           <ul class="menu">
-            <li><a href="/html pages/men.html" class="men">Men</a></li>
-            <li><a href="/html pages/women.html" class="women">Women</a></li>
-            <li><a href="/html pages/brands.html" class="brands">Brands</a></li>
+            <li><a href="/html-pages/men.html" class="men">Men</a></li>
+            <li><a href="/html-pages/women.html" class="women">Women</a></li>
+            <li><a href="/html-pages/brands.html" class="brands">Brands</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main>
-      <section class="fav-main-container">
-        <div class="favorites-title-container">
-          <h2>Your favorites</h2>
-        </div>
-        <div class="jacket3000-container">
-          <div class="product-card">
-            <div class="product-image">
-              <img
-                src="/Images/Jackets images/rainydays-jacket1.jpg"
-                class="product-jackets"
-                alt="Jacket 3000"
-              />
-              <button class="add-to-wishlist-button">
-                Remove from favorites
-              </button>
+      <section class="product-section">
+        <div class="product-and-text-container">
+          <div class="product-image-page">
+            <img
+              src="/Images/Jackets/rainydays-jacket1.jpg"
+              class="jacket-product"
+              alt="Jacket 3000"
+            />
+          </div>
+          <div class="jacket3000-price-color">
+            <h2>Jacket 3000</h2>
+            <br />
+            <p>2100,-</p>
+            <br />
+            <br />
+            <p>Color: Orange and grey</p>
+            <div class="select-size-container">
+              <select name="size" title="Select size" class="select-size">
+                <option value="size" disabled selected>Select size</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+              </select>
             </div>
-            <div class="product-info">
-              <h2 class="product-brand">Jacket 3000</h2>
-              <p class="product-short-description">Orange and grey</p>
-              <span class="price">2100,-</span>
+            <div class="addtocart-container">
+              <button type="button" class="addtocart-button">
+                Add to cart
+              </button>
+              <div class="add-to-favs">
+                <i class="bi bi-heart"></i>
+              </div>
             </div>
           </div>
         </div>
+        <div class="product-description-details-container">
+          <h3>Description</h3>
+          <p>This jacket is suited for all kinds of weather</p>
+          <br />
+          <br />
+          <p>Material: 100% Polyester</p>
+          <p>Article number: 123456789</p>
+        </div>
       </section>
+      <div class="space-between-main-and-footer"></div>
     </main>
 
     <footer>
@@ -123,7 +140,7 @@
           <div class="customer-service-container">
             <h2 class="customer-service-title">Customer service</h2>
             <p>
-              <a href="/html pages/contactus.html" class="contact-us"
+              <a href="/html-pages/contactus.html" class="contact-us"
                 >Contact us</a
               >
             </p>
@@ -142,7 +159,7 @@
         <div class="about-us-container">
           <h2 class="about-us-title">About us</h2>
           <p>
-            <a href="/html pages/about.html" class="about-rainydays"
+            <a href="/html-pages/about.html" class="about-rainydays"
               >About RainyDays</a
             >
           </p>
@@ -178,5 +195,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- Link to JavaScript -->
+    <script src="Javascript/Javascript.js"></script>
   </body>
 </html>
