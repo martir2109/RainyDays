@@ -156,32 +156,30 @@
     margin-top: 680px;
     left: 25%;
   }
-  .follow-us-container {
-    margin-top: 164px;
-    position: absolute;
+
+  .about-us-container {
+    height: 79px;
+    width: 153px;
+    display: grid;
+    margin-top: 44px;
   }
 
-  .text-under-footer {
-    width: 100%;
-    display: flex;
-    color: #000;
-    font-size: 14px;
-    gap: 32px;
-    margin-top: 580px;
-    position: relative;
-    background-color: #fff;
-    margin-right: 20px;
+  .about-rainydays {
+    margin-top: 33px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .customer-service-container {
+    height: 79px;
+    width: 228px;
+    display: grid;
+    margin-top: 10px;
   }
 
-  .at-2024 {
-    padding-top: 10px;
-    text-align: left;
-  }
-
-  .cookies-and-terms {
-    padding-top: 10px;
-    transform: translateX(1%);
-    text-align: right;
+  .contact-us {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 33px;
   }
 
   .newsletter-container {
@@ -228,29 +226,45 @@
     color: #0a3641;
   }
 
-  .customer-service-container {
-    height: 79px;
-    width: 228px;
-    display: grid;
-    margin-top: 10px;
+  .follow-us-container {
+    margin-top: 164px;
+    position: absolute;
   }
 
-  .contact-us {
+  .social-media-icons-container {
+    margin-top: 33px;
+    display: flex;
+  }
+
+  .bi-instagram,
+  .bi-facebook {
     color: #fff;
-    text-decoration: none;
+    padding-right: 4px;
     margin-top: 33px;
   }
 
-  .about-us-container {
-    height: 79px;
-    width: 153px;
-    display: grid;
-    margin-top: 44px;
+  /* Text under the footer */
+
+  .text-under-footer {
+    width: 100%;
+    display: flex;
+    color: #000;
+    font-size: 14px;
+    gap: 32px;
+    margin-top: 580px;
+    position: relative;
+    background-color: #fff;
+    margin-right: 20px;
   }
 
-  .about-rainydays {
-    margin-top: 33px;
-    color: #fff;
-    text-decoration: none;
+  .at-2024 {
+    padding-top: 10px;
+    text-align: left;
+  }
+
+  .cookies-and-terms {
+    padding-top: 10px;
+    transform: translateX(1%);
+    text-align: right;
   }
 }
