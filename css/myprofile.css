@@ -225,7 +225,7 @@
   .myprofile-inputfield-container {
     width: 389px;
     height: 91px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .myprofile-labels {
     font-size: 20px;
@@ -238,22 +238,42 @@
     margin-top: 10px;
   }
 
-  input#myprofile-inputfields {
-    padding: 10px;
-    border-radius: 10px;
-    width: 389px;
+  input.myprofile-inputfields {
     height: 62px;
+    width: 389px;
     background-color: #fff;
-    color: #414141;
     border: 1px solid #000;
     font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #414141;
   }
 
-  input#myprofile-inputfields:focus {
+  input.myprofile-inputfields:focus {
     outline: navy;
     border: 1px solid navy;
     background-color: #fff;
   }
+
+  .gender-select {
+    height: 62px;
+    width: 389px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #414141;
+  }
+
+  input.birthday-date {
+    height: 62px;
+    width: 389px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #414141;
+    border: 1px solid #000;
+  }
+
   .save-button-myprofile {
     background-color: #0a3641;
     color: #fff;
@@ -306,8 +326,13 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    margin-top: 39px;
+    margin-top: 75px;
     margin-left: 10px;
+  }
+  .delete-account-button:hover {
+    background-color: #fff;
+    color: #dc3545;
+    border: 2px solid #dc3545;
   }
 
   .myprofile-space {

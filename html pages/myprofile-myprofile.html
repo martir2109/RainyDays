@@ -134,9 +134,9 @@
                   <input
                     title="myprofile-firstname"
                     type="text"
-                    id="myprofile-firstname"
+                    id="firstname"
                     placeholder="Ola"
-                    class="myprofile-input-fields"
+                    class="myprofile-inputfields"
                   />
                 </div>
               </div>
@@ -147,9 +147,9 @@
                   <input
                     title="myprofile-lastname"
                     type="text"
-                    id="myprofile-lastname"
+                    id="lastname"
                     placeholder="Nordmann"
-                    class="myprofile-input-fields"
+                    class="myprofile-inputfields"
                   />
                 </div>
               </div>
@@ -162,7 +162,7 @@
                     type="text"
                     id="myprofile-phonenumber"
                     placeholder="12 34 56 78"
-                    class="myprofile-input-fields"
+                    class="myprofile-inputfields"
                   />
                 </div>
               </div>
@@ -172,10 +172,10 @@
                 <div class="myprofile-input-box">
                   <input
                     title="myprofile-birthday"
-                    type="text"
+                    type="date"
                     id="myprofile-birthday"
-                    placeholder="12/09/1989"
-                    class="myprofile-input-fields"
+                    value="1989-09-12"
+                    class="birthday-date"
                   />
                 </div>
               </div>
@@ -183,13 +183,11 @@
               <div class="myprofile-inputfield-container">
                 <label class="myprofile-labels">Gender</label>
                 <div class="myprofile-input-box">
-                  <input
-                    title="myprofile-gender"
-                    type="text"
-                    id="myprofile-gender"
-                    placeholder="Male"
-                    class="myprofile-inputfields"
-                  />
+                  <select title="gender" class="gender-select" value="Male">
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                  </select>
                 </div>
               </div>
               <button type="button" class="save-button-myprofile">Save</button>

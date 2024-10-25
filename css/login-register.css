@@ -86,7 +86,7 @@
   }
 
   /* Syling for when the email and password input field is active/ clicked */
-  input#email:focus,
+  input#email-login:focus,
   input#password:focus {
     outline: navy;
     border: 1px solid navy;
