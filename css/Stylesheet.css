@@ -536,6 +536,21 @@
     padding: 15px;
   }
 
+  .sum-box,
+  .delivery-box,
+  .total-costs-box {
+    display: flex;
+  }
+
+  .sum-for-products,
+  .total-costs {
+    margin-left: 400px;
+  }
+
+  .delivery-costs-box {
+    margin-left: 390px;
+  }
+
   .line {
     height: 1px;
     background-color: #000;
