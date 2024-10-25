@@ -902,6 +902,44 @@
     margin-left: 120px;
     margin-top: 20px;
   }
+
+  .basis-informartion-container {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .myprofile-inputfield-container {
+    width: 389px;
+    height: 91px;
+    margin-top: 10px;
+  }
+  .myprofile-labels {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .myprofile-firstname-input-container {
+    width: 389px;
+  }
+  .myprofile-input-box {
+    margin-top: 10px;
+  }
+
+  input#myprofile-input-fields {
+    padding: 10px;
+    border-radius: 10px;
+    width: 389px;
+    height: 62px;
+    background-color: #fff;
+    color: #414141;
+    border: 1px solid #000;
+    font-size: 20px;
+  }
+
+  input#myprofile-input-fields:focus {
+    outline: navy;
+    border: 1px solid navy;
+    background-color: #fff;
+  }
 }
 
 /* Styling for mobile phone 768px width */
