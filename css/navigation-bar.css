@@ -161,12 +161,6 @@
   }
 }
 
-/* Styling for responsive design */
-@media (max-width: 768px) {
-  .top-navigation-bar {
-    flex-direction: column;
-  }
-  .rainydays-logo img {
-    width: 100%;
-  }
+/* Styling for responsive design 16 inch macbook pro 3072 x 1920 */
+@media (max-width: 3072px) {
 }
