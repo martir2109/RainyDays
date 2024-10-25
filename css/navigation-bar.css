@@ -108,6 +108,7 @@
     align-items: right;
     transform: translateX(120%);
     cursor: pointer;
+    margin-top: 20px;
   }
 
   /* Navigation bar icons styling */
