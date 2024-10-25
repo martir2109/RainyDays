@@ -33,7 +33,7 @@
 
   .profile-information-container {
     width: 995px;
-    height: 368px;
+    height: auto;
     margin-left: 200px;
   }
 
@@ -210,6 +210,13 @@
     margin-top: 20px;
   }
 
+  /* Myprofile - basis information */
+
+  .myprofile-basisinfo-container {
+    width: 995px;
+    height: auto;
+    margin-left: 200px;
+  }
   .basis-informartion-container {
     margin-left: 10px;
     margin-top: 20px;
@@ -231,7 +238,7 @@
     margin-top: 10px;
   }
 
-  input#myprofile-input-fields {
+  input#myprofile-inputfields {
     padding: 10px;
     border-radius: 10px;
     width: 389px;
@@ -242,9 +249,69 @@
     font-size: 20px;
   }
 
-  input#myprofile-input-fields:focus {
+  input#myprofile-inputfields:focus {
     outline: navy;
     border: 1px solid navy;
     background-color: #fff;
+  }
+  .save-button-myprofile {
+    background-color: #0a3641;
+    color: #fff;
+    height: 62px;
+    width: 387px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 39px;
+  }
+
+  .save-button-myprofile:hover {
+    background-color: #fff;
+    color: #0a3641;
+    border: 1px solid #000;
+  }
+
+  .signout-and-delete-button-container {
+    display: grid;
+  }
+
+  .signout-button-myprofile {
+    background-color: #fff;
+    color: #0a3641;
+    height: 62px;
+    width: 387px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 39px;
+    border: 1px solid #000;
+    margin-left: 10px;
+  }
+
+  .signout-button-myprofile:hover {
+    background-color: #0a3641;
+    color: #fff;
+  }
+
+  .delete-account-button {
+    background-color: #dc3545;
+    color: #fff;
+    height: 31px;
+    width: 200px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 39px;
+    margin-left: 10px;
+  }
+
+  .myprofile-space {
+    height: 400px;
+    width: 100%;
   }
 }
