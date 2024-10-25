@@ -893,10 +893,14 @@
   }
   .bi-trash-fill {
     font-size: 40px;
+    cursor: pointer;
   }
 
-  .edit-text-buttom {
+  .edit-text-button {
     font-size: 20px;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: 20px;
   }
 }
 
