@@ -183,7 +183,7 @@
     color: #000;
     position: relative;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 6px;
     margin-bottom: 10px;
     padding: 12px;
   }
@@ -200,88 +200,92 @@
   I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
   .rainydays-logo {
     margin-left: 20px;
+    width: 111px;
+    height: auto;
+    position: absolute;
+    transform: translateX(-38%);
   }
 
   .rainydays-logo img {
     width: 100%;
-    height: 65px;
+    height: 60px;
   }
 
   .search-bar-container {
-    width: 642px;
+    width: 200px;
     align-items: center;
     display: flex;
     flex-direction: row;
-    transform: translateX(35%);
     flex-grow: 1;
     justify-content: center;
-    margin: 0 20px;
+    position: absolute;
+    transform: translateX(2%);
+    margin-top: 95px;
   }
 
   /* Styling for search bar in the navigation bar */
   input[type="text"] {
     width: 100%;
-    max-width: 648px;
-    height: 46px;
-    border-radius: 10px;
+    height: 34px;
+    border-radius: 5px;
     background-color: #d9d9d9;
     color: #414141;
     border: 1px solid #d9d9d9;
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 12px;
   }
 
   /* Syling for when the search bar is active/ clicked */
   input[type="text"]:focus {
     outline: navy;
     border: 1px solid navy;
-    font-size: 18px;
     background-color: #fff;
   }
 
   /* search bar button */
   .search-button {
-    background-color: #fff;
-    height: 40px;
-    width: 40px;
+    background-color: #d9d9d9;
+    height: 30px;
+    width: 30px;
     border: none;
     display: flex;
     align-items: center;
-    margin-left: -44px;
-    border-radius: 10px;
+    border-radius: 5px;
     justify-content: center;
+    font-size: 14px;
+    margin-left: -33px;
   }
 
   /* search bar button when hovering over it */
   .search-button:hover {
     background-color: #d9d9d9;
-    height: 40px;
-    width: 40px;
     border: 1px solid #000;
-    border-radius: 10px;
   }
 
   /* navigation bar icons */
   .navigation-bar-icons {
     /* margin-left: 100px; */
     display: flex;
-    gap: 5px;
+    gap: 2px;
     align-items: right;
-    transform: translateX(120%);
+    transform: translateX(55%);
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   /* Navigation bar icons styling */
   .bi-person,
   .bi-heart,
   .bi-cart,
-  .bi-house-fill,
-  .bi-house,
   .bi-heart-fill,
   .bi-person-fill,
   .bi-cart-fill {
-    font-size: 40px;
+    font-size: 30px;
+  }
+
+  .bi-house-fill,
+  .bi-house {
+    opacity: 0;
   }
 
   /* styling for the 3 menu buttons in navigation bar */
