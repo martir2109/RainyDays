@@ -786,7 +786,7 @@
     overflow: hidden;
     scroll-behavior: smooth;
     margin-left: 5%;
-    gap: 6%;
+    gap: 10%;
   }
 
   .product-container::-webkit-scrollbar {
