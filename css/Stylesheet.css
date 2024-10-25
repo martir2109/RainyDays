@@ -711,6 +711,10 @@
   }
 }
 
-/* Styling for mobile phone 768px width */
+/* Styling for responsive design mobile */
 @media (max-width: 768px) {
+  main {
+    width: 100%;
+    height: auto;
+  }
 }

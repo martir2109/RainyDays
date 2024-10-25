@@ -161,6 +161,6 @@
   }
 }
 
-/* Styling for responsive design 16 inch macbook pro 3072 x 1920 */
-@media (max-width: 3072px) {
+/* Styling for responsive design mobile */
+@media (max-width: 768px) {
 }
