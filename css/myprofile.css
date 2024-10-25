@@ -176,6 +176,7 @@
   .bi-plus-square-fill {
     color: #0a3641;
     font-size: 60px;
+    cursor: pointer;
   }
 
   .delivery-address-box {
