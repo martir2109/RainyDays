@@ -884,11 +884,6 @@
     opacity: 1;
   }
 
-  .previous-button:hover img,
-  .next-button:hover img {
-    opacity: 0.5;
-  }
-
   .collection-container {
     width: 100%;
     display: grid;
