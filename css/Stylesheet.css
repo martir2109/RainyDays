@@ -1513,30 +1513,33 @@
     margin-top: 200px;
     width: 100%;
     margin-bottom: 100px;
-    margin-left: 50px;
+    transform: translateX(-40%);
   }
 
   .product-image-page {
-    padding: 10px;
-    width: 518px;
-    height: 450px;
+    width: 245px;
+    height: auto;
+    transform: translateX(-10%);
   }
+
   .jacket-product {
     width: auto;
     height: 430px;
   }
 
   .product-and-text-container {
-    width: 1060px;
+    width: 100vw;
     height: 450px;
     margin-left: 142px;
-    display: flex;
+    display: grid;
+    margin-bottom: 450px;
   }
 
   .jacket3000-price-color {
     width: 542px;
     margin-right: 100px;
     margin-top: 100px;
+    display: grid;
   }
 
   .select-size-container {
@@ -1545,7 +1548,7 @@
   }
 
   .select-size {
-    width: 526px;
+    width: 317px;
     height: 62px;
     border-radius: 10px;
     padding: 10px;
@@ -1561,7 +1564,7 @@
     background-color: #0a3641;
     color: #fff;
     height: 62px;
-    width: 454px;
+    width: 240px;
     font-size: 1.563rem;
     border: none;
     border-radius: 10px;
@@ -1576,21 +1579,23 @@
   }
 
   .add-to-favs {
-    font-size: 2.5rem;
+    font-size: 40px;
     width: 62px;
     height: 62px;
     border: 1px solid #000;
     border-radius: 10px;
-    padding: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
     cursor: pointer;
+    justify-content: center;
+    padding-left: 15px;
+    padding-bottom: 30px;
   }
 
   .product-description-details-container {
-    width: 1060px;
-    height: 200px;
+    width: 317px;
+    height: 257px;
     border: 1px solid #000;
-    margin-left: 130px;
+    margin-left: 145px;
     margin-top: 50px;
     padding: 40px;
   }
