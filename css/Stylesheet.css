@@ -1035,11 +1035,11 @@
 
   /* Styling for about us page */
   .about-us-section {
-    width: 100%;
+    width: 100vw;
   }
 
   .aboutus-banner {
-    width: 100%;
+    width: 100vw;
     height: 171px;
     position: relative;
     display: flex;
@@ -1093,7 +1093,8 @@
     width: auto;
     height: 190px;
     margin-top: 140px;
-    margin-right: 45px;
+    right: 0;
+    margin-right: 50px;
   }
 
   .aboutus-logo-container {
