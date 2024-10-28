@@ -238,7 +238,7 @@
   input[type="text"] {
     width: 100%;
     height: 34px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #d9d9d9;
     color: #414141;
     border: 1px solid #d9d9d9;
@@ -256,14 +256,14 @@
   /* search bar button */
   .search-button {
     background-color: #d9d9d9;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     border: none;
     display: flex;
     align-items: center;
     border-radius: 5px;
     justify-content: center;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-left: -33px;
   }
 
@@ -333,11 +333,13 @@
     display: block;
     order: 1;
     margin-left: 20px;
+    cursor: pointer;
   }
 
   #check:checked ~ .menu {
     right: 0;
     display: flex;
+    transform: translateX(0);
   }
 
   /* .men {
