@@ -55,7 +55,6 @@
     flex-grow: 1;
     justify-content: center;
     margin: 0 20px;
-    float: center;
   }
 
   /* Styling for search bar in the navigation bar */
@@ -131,7 +130,6 @@
     margin-top: 100px;
     align-items: left;
     transform: translateX(-300%);
-    float: left;
   }
 
   .men {

@@ -48,7 +48,7 @@
     bottom: 0;
     margin-bottom: 73px;
     margin-top: 256px;
-    font-size: 25px;
+    font-size: 1.563rem;
     width: 619px;
     font-style: bold;
   }
@@ -65,7 +65,7 @@
 
   .product-category {
     padding: 0 1vw;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 500;
     margin-bottom: 40px;
     text-transform: capitalize;
@@ -148,7 +148,7 @@
 
   .price {
     font-weight: 900;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .previous-button,
@@ -208,7 +208,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    font-size: 50px;
+    font-size: 3.125rem;
     text-transform: capitalize;
   }
 
@@ -241,7 +241,7 @@
   }
 
   .centre-header {
-    font-size: 40px;
+    font-size: 2.5rem;
     align-items: center;
     text-align: center;
     padding: 10px;
@@ -255,7 +255,7 @@
   }
 
   .header-in-form {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .contactus-description {
@@ -273,7 +273,7 @@
     border-radius: 10px;
     height: 62px;
     width: 389px;
-    font-size: 18px;
+    font-size: 1.125rem;
     padding: 10px;
   }
 
@@ -288,7 +288,7 @@
     border-radius: 10px;
     margin-top: 23px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .contact-us-submit {
@@ -299,7 +299,7 @@
     border-radius: 10px;
     color: #fff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
     justify-content: center;
     margin-left: 35%;
     margin-top: 10px;
@@ -346,7 +346,7 @@
   }
 
   .about-rainydays-title {
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
     color: white;
     position: absolute;
@@ -359,7 +359,7 @@
     margin-left: 198px;
     margin-right: 198px;
     color: #000;
-    font-size: 22px;
+    font-size: 1.375rem;
     margin-bottom: 79px;
   }
 
@@ -400,7 +400,7 @@
 
   .mens-header {
     margin-top: 200px;
-    font-size: 40px;
+    font-size: 2.5rem;
     align-items: center;
     text-align: center;
     padding: 10px;
@@ -443,7 +443,7 @@
   }
 
   .brand-name {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   /* Styling for favorites page */
@@ -455,7 +455,7 @@
 
   .favorites-title-container {
     margin-top: 200px;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 34px;
     margin-left: 60px;
   }
@@ -479,7 +479,7 @@
 
   .cart-title-container {
     margin-top: 200px;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 34px;
     margin-left: 60px;
   }
@@ -564,7 +564,7 @@
     color: #fff;
     height: 62px;
     width: 471px;
-    font-size: 25px;
+    font-size: 1.563rem;
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -586,7 +586,7 @@
     background-color: #fff;
     color: #414141;
     border: 1px solid #000;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   input#discount:focus {
@@ -608,7 +608,7 @@
     color: #fff;
     height: 62px;
     width: 107px;
-    font-size: 25px;
+    font-size: 1.563rem;
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -664,7 +664,7 @@
     height: 62px;
     border-radius: 10px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .addtocart-container {
@@ -677,7 +677,7 @@
     color: #fff;
     height: 62px;
     width: 454px;
-    font-size: 25px;
+    font-size: 1.563rem;
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -691,7 +691,7 @@
   }
 
   .add-to-favs {
-    font-size: 40px;
+    font-size: 2.5rem;
     width: 62px;
     height: 62px;
     border: 1px solid #000;
@@ -760,7 +760,7 @@
     bottom: 0;
     margin-bottom: 33px;
     margin-top: 256px;
-    font-size: 12px;
+    font-size: 0.75rem;
     width: 80%;
     font-weight: bold;
   }
@@ -774,7 +774,7 @@
 
   .product-category {
     padding: 0 1vw;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 40px;
     text-transform: capitalize;
@@ -859,7 +859,7 @@
 
   .price {
     font-weight: 900;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .previous-button,
@@ -920,7 +920,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    font-size: 50px;
+    font-size: 3.125rem;
     text-transform: capitalize;
   }
 
@@ -953,7 +953,7 @@
   }
 
   .centre-header {
-    font-size: 40px;
+    font-size: 2.5rem;
     align-items: center;
     text-align: center;
     padding: 10px;
@@ -967,7 +967,7 @@
   }
 
   .header-in-form {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .contactus-description {
@@ -985,7 +985,7 @@
     border-radius: 10px;
     height: 62px;
     width: 389px;
-    font-size: 18px;
+    font-size: 1.125rem;
     padding: 10px;
   }
 
@@ -1000,7 +1000,7 @@
     border-radius: 10px;
     margin-top: 23px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .contact-us-submit {
@@ -1011,7 +1011,7 @@
     border-radius: 10px;
     color: #fff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
     justify-content: center;
     margin-left: 35%;
     margin-top: 10px;
@@ -1058,7 +1058,7 @@
   }
 
   .about-rainydays-title {
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
     color: white;
     position: absolute;
@@ -1071,7 +1071,7 @@
     margin-left: 198px;
     margin-right: 198px;
     color: #000;
-    font-size: 22px;
+    font-size: 1.375rem;
     margin-bottom: 79px;
   }
 
@@ -1112,7 +1112,7 @@
 
   .mens-header {
     margin-top: 200px;
-    font-size: 40px;
+    font-size: 2.5rem;
     align-items: center;
     text-align: center;
     padding: 10px;
@@ -1155,7 +1155,7 @@
   }
 
   .brand-name {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   /* Styling for favorites page */
@@ -1167,7 +1167,7 @@
 
   .favorites-title-container {
     margin-top: 200px;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 34px;
     margin-left: 60px;
   }
@@ -1191,7 +1191,7 @@
 
   .cart-title-container {
     margin-top: 200px;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 34px;
     margin-left: 60px;
   }
@@ -1276,7 +1276,7 @@
     color: #fff;
     height: 62px;
     width: 471px;
-    font-size: 25px;
+    font-size: 1.563rem;
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -1298,7 +1298,7 @@
     background-color: #fff;
     color: #414141;
     border: 1px solid #000;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   input#discount:focus {
@@ -1320,7 +1320,7 @@
     color: #fff;
     height: 62px;
     width: 107px;
-    font-size: 25px;
+    font-size: 1.563rem;
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -1376,7 +1376,7 @@
     height: 62px;
     border-radius: 10px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .addtocart-container {
@@ -1389,7 +1389,7 @@
     color: #fff;
     height: 62px;
     width: 454px;
-    font-size: 25px;
+    font-size: 1.563rem;
     border: none;
     border-radius: 10px;
     padding: 10px;
@@ -1403,7 +1403,7 @@
   }
 
   .add-to-favs {
-    font-size: 40px;
+    font-size: 2.5rem;
     width: 62px;
     height: 62px;
     border: 1px solid #000;
