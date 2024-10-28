@@ -67,14 +67,13 @@
     color: #414141;
     border: 1px solid #d9d9d9;
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 1rem;
   }
 
   /* Syling for when the search bar is active/ clicked */
   input[type="text"]:focus {
     outline: navy;
     border: 1px solid navy;
-    font-size: 18px;
     background-color: #fff;
   }
 
@@ -120,7 +119,7 @@
   .bi-heart-fill,
   .bi-person-fill,
   .bi-cart-fill {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 
   /* styling for the 3 menu buttons in navigation bar */
