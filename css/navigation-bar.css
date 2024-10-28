@@ -223,14 +223,14 @@
   }
 
   .search-bar-container {
-    width: 200px;
+    width: 294px;
     align-items: center;
     display: flex;
     flex-direction: row;
     flex-grow: 1;
     justify-content: center;
     position: absolute;
-    transform: translateX(2%);
+    transform: translateX(0%);
     margin-top: 95px;
   }
 
@@ -301,8 +301,9 @@
 
   /* styling for the 3 menu buttons in navigation bar */
   .menu-responsive-list {
-    margin-top: 80px;
+    margin-top: 90px;
     margin-right: 15px;
+    position: relative;
   }
   .menu {
     position: absolute;
@@ -316,6 +317,14 @@
     transition: all 0.3s;
   }
 
+  .menu li {
+    margin: 20px 0;
+  }
+
+  .menu li a {
+    font-size: 1.25rem;
+  }
+
   .bi-list {
     color: #000;
     font-size: 2.6rem;
@@ -326,8 +335,9 @@
     margin-left: 20px;
   }
 
-  #check:checked ~ menu {
+  #check:checked ~ .menu {
     right: 0;
+    display: flex;
   }
 
   /* .men {
@@ -339,6 +349,7 @@
   .men:hover {
     font-weight: bold;
   }
+    
 
   .women {
     margin-right: 64px;
