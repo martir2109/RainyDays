@@ -924,14 +924,9 @@
   /* Styling for contact us page */
 
   .contact-us-form-container {
-    margin-top: 178px;
-    margin-left: 198px;
-    margin-bottom: 79px;
-    width: 878px;
-    height: 536px;
-    border: 1px #000 solid;
-    border-radius: 10px;
-    transform: translateX(10%);
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
   }
 
   .container-contact-us {
@@ -948,10 +943,15 @@
   }
 
   .contact-us-form {
-    margin-left: 23px;
-    margin-right: 23px;
+    margin-left: 10px;
+    margin-right: 10px;
     border: 1px #000;
     border-radius: 10;
+    width: 338px;
+    height: 601px;
+    border: 1px #000 solid;
+    border-radius: 10px;
+    padding: 10px;
   }
 
   .header-in-form {
@@ -964,7 +964,7 @@
   }
 
   .drop-down-container {
-    display: flex;
+    display: grid;
   }
 
   .topic-drop-down-topic,
@@ -972,7 +972,7 @@
     border: 1px solid;
     border-radius: 10px;
     height: 62px;
-    width: 389px;
+    width: 317px;
     font-size: 1.125rem;
     padding: 10px;
   }
@@ -982,7 +982,7 @@
   }
 
   .textfield {
-    width: 831px;
+    width: 317px;
     height: 191px;
     border: 1px solid #000;
     border-radius: 10px;

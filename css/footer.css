@@ -143,6 +143,7 @@
     height: 850px;
     background-color: #0a3641;
     margin-top: auto;
+    bottom: 0;
   }
   .footer-container {
     display: grid;
