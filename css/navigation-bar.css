@@ -125,11 +125,21 @@
   /* styling for the 3 menu buttons in navigation bar */
   .menu {
     display: flex;
-    list-style-type: none;
+    list-style: none;
     color: #000;
     margin-top: 100px;
     align-items: left;
     transform: translateX(-300%);
+  }
+
+  .menu li {
+    margin-right: 0px;
+  }
+
+  .menu li a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
   }
 
   .checkbtn {
@@ -314,7 +324,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: all 0.3s;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
   }
 
   .menu li {
@@ -337,7 +348,6 @@
   }
 
   #check:checked ~ .menu {
-    right: 0;
     display: flex;
     transform: translateX(0);
   }
