@@ -131,6 +131,7 @@
     margin-top: 100px;
     align-items: left;
     transform: translateX(-300%);
+    float: left;
   }
 
   .men {
