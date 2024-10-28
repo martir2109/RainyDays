@@ -922,24 +922,32 @@
   }
 
   /* Styling for contact us page */
-
-  .contact-us-form-container {
-    margin-top: 200px;
-    width: 100%;
-    height: auto;
+  .contactus-main {
+    overflow-x: hidden;
   }
 
-  .container-contact-us {
+  .contact-us-form-container {
+    margin-top: 180px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transform: translateX(-46%);
+  }
+
+  /* .container-contact-us {
     color: red;
     width: 100%;
     height: 712px;
-  }
+  } */
 
   .centre-header {
     font-size: 2.5rem;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 25px;
   }
 
   .contact-us-form {
@@ -967,8 +975,7 @@
     display: grid;
   }
 
-  .topic-drop-down-topic,
-  .topic-drop-down-subtopic {
+  .topic-drop-down-topic {
     border: 1px solid;
     border-radius: 10px;
     height: 62px;
@@ -978,7 +985,18 @@
   }
 
   .topic-drop-down-subtopic {
-    margin-left: 53px;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 62px;
+    width: 317px;
+    font-size: 1.125rem;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 40px;
+  }
+
+  .topic-drop-down-subtopic {
+    transform: translateX(-17%);
   }
 
   .textfield {
@@ -1001,8 +1019,8 @@
     font-weight: bold;
     font-size: 1.25rem;
     justify-content: center;
-    margin-left: 35%;
-    margin-top: 10px;
+    margin-left: 15%;
+    margin-top: 20px;
   }
 
   .contact-us-submit:hover {
@@ -1012,9 +1030,9 @@
 
   .contact-info-container {
     width: 100%;
-    height: 237px;
+    height: 477px;
     background-color: #f2f2f2;
-    display: flex;
+    display: grid;
     justify-content: center;
     text-align: center;
   }
