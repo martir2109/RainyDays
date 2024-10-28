@@ -1053,9 +1053,9 @@
     text-align: center;
     color: white;
     position: absolute;
-    width: 619px;
+    /* width: 619px; */
     font-style: bold;
-    margin-bottom: 5%;
+    margin-bottom: 20%;
   }
 
   .aboutus-text-container {
