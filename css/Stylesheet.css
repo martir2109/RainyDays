@@ -1104,20 +1104,16 @@
   /* Styling of mens, womens and brands pages */
 
   .mens-header {
-    margin-top: 180px;
+    margin-top: 170px;
+    margin-bottom: 10px;
     font-size: 1.25rem;
     align-items: center;
     text-align: center;
-    padding: 10px;
     justify-content: center;
   }
 
   .section-mensandwomens {
     width: 100%;
-  }
-
-  .product-container::-webkit-scrollbar {
-    display: none;
   }
 
   .product-card-mensandwomens {
