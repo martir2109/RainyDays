@@ -217,3 +217,223 @@
     padding-bottom: 10px;
   }
 }
+
+/* Styling for mobile */
+@media (max-width: 768px) {
+  /* Styling for login form */
+  .back-button {
+    background-color: #0a3641;
+    color: #fff;
+    height: 49px;
+    width: 89px;
+    font-size: 1.125rem;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+  }
+
+  .back-button:hover {
+    background-color: #fff;
+    color: #0a3641;
+    border: 1px solid #000;
+  }
+
+  .topline-login {
+    display: flex;
+    padding: 20px;
+    height: 125px;
+  }
+
+  .log-in-container {
+    font-size: 1.563rem;
+    justify-content: center;
+    font-weight: normal;
+    text-align: center;
+    display: grid;
+    place-items: center;
+  }
+
+  .dont-have-account-container,
+  .already-have-account-container {
+    margin-top: 20px;
+    display: flex;
+    font-size: 18px;
+  }
+
+  .register-login-button {
+    text-decoration: none;
+  }
+
+  .email-and-password-container {
+    margin-top: 20px;
+  }
+
+  .email-label,
+  .password-label {
+    font-size: 20px;
+    display: block;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .email-and-password-container .email-container,
+  .password-container {
+    text-align: left;
+    height: 91px;
+  }
+
+  .password-container {
+    margin-top: 43px;
+  }
+
+  .input-and-eye-icon-container {
+    position: relative;
+  }
+
+  /* Styling for the email and password input field */
+  input#email-login,
+  input#password {
+    padding: 10px;
+    border-radius: 10px;
+    width: 322px;
+    height: 58px;
+    background-color: #fff;
+    color: #414141;
+    border: 1px solid #000;
+    font-size: 20px;
+  }
+
+  /* Syling for when the email and password input field is active/ clicked */
+  input#email-login:focus,
+  input#password:focus {
+    outline: navy;
+    border: 1px solid navy;
+    font-size: 20px;
+    background-color: #fff;
+  }
+
+  .bi-eye {
+    position: absolute;
+    font-size: 30px;
+    right: 13px;
+    top: 13px;
+    cursor: pointer;
+  }
+
+  /* Remember me checkbox */
+  .checkbox-remember {
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+  }
+
+  input#checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 1px;
+  }
+
+  .remember-label {
+    margin-left: 10px;
+  }
+
+  /* Styling for log in button */
+  .login-register-button {
+    background-color: #0a3641;
+    color: #fff;
+    height: 62px;
+    width: 267px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 71px;
+    cursor: pointer;
+  }
+
+  .login-register-button:hover {
+    background-color: #fff;
+    color: #0a3641;
+    border: 1px solid #000;
+  }
+
+  /* Styling for register page */
+
+  .register-container {
+    font-size: 30px;
+    justify-content: center;
+    font-weight: normal;
+    display: grid;
+    place-items: center;
+    height: auto;
+    margin-bottom: 100px;
+  }
+
+  .already-have-account-container {
+    margin-top: 20px;
+    display: flex;
+    font-size: 18px;
+  }
+
+  .register-form-container {
+    margin-top: 20px;
+  }
+
+  .firstname-input-container,
+  .lastname-input-container,
+  .phonenumber-container,
+  .email-container-register,
+  .password-container-register {
+    text-align: left;
+    height: 91px;
+  }
+
+  .email-container-register {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .password-container-register {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  input#firstname,
+  input#lastname,
+  input#Phonenumber,
+  input#email-register,
+  input#password-register {
+    padding: 10px;
+    border-radius: 10px;
+    width: 322px;
+    height: 58px;
+    background-color: #fff;
+    color: #414141;
+    border: 1px solid #000;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  input#firstname:focus,
+  input#lastname:focus,
+  input#phonenumber:focus,
+  input#email-register:focus,
+  input#password-register:focus {
+    outline: navy;
+    border: 1px solid navy;
+    background-color: #fff;
+  }
+
+  .label-firstname,
+  .label-lastname,
+  .label-phonenumber,
+  .label-email-register,
+  .password-label-register {
+    font-size: 1.25rem;
+    display: block;
+    position: relative;
+    padding-bottom: 10px;
+  }
+}
