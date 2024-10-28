@@ -1036,6 +1036,7 @@
   /* Styling for about us page */
   .about-us-section {
     width: 100vw;
+    overflow-x: hidden;
   }
 
   .aboutus-banner {
