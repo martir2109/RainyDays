@@ -300,11 +300,13 @@
   }
 
   /* styling for the 3 menu buttons in navigation bar */
+  .menu-responsive-list {
+    margin-top: 80px;
+    margin-right: 15px;
+  }
   .menu {
-    position: fixed;
-    top: 80px;
-    right: -100%;
-    background-color: #000;
+    position: absolute;
+    background-color: #fff;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -316,9 +318,10 @@
 
   .bi-list {
     color: #000;
+    font-size: 2.6rem;
   }
   .checkbtn {
-    /* display: block; */
+    display: block;
     order: 1;
     margin-left: 20px;
   }
@@ -326,6 +329,7 @@
   #check:checked ~ menu {
     right: 0;
   }
+
   /* .men {
     margin-left: 10px;
     margin-right: 64px;
