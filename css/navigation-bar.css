@@ -231,7 +231,7 @@
     color: #414141;
     border: 1px solid #d9d9d9;
     padding-left: 10px;
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   /* Syling for when the search bar is active/ clicked */
@@ -279,7 +279,7 @@
   .bi-heart-fill,
   .bi-person-fill,
   .bi-cart-fill {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .bi-house-fill,
