@@ -1375,32 +1375,36 @@
 
   .cart-main-container {
     width: 100%;
-    height: 684px;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 40px;
+    display: grid;
   }
 
   .cart-title-container {
-    margin-top: 200px;
+    margin-top: 180px;
     font-size: 1.25rem;
     margin-bottom: 34px;
-    margin-left: 60px;
+    margin-left: 20px;
   }
 
   .product-and-description-container {
-    display: flex;
+    display: grid;
   }
 
   .item-in-cart {
-    width: 644px;
+    width: 100%;
     height: 230px;
-    margin-left: 60px;
-    margin-top: 32px;
-    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: grid;
   }
 
   .jacket-in-cart {
     width: auto;
     height: 230px;
-    padding: 10px;
+    transform: translateX(50%);
   }
 
   .cart-text-product-container {
@@ -1418,10 +1422,12 @@
   }
 
   .not-reserved {
-    margin-left: 60px;
-    width: 407px;
+    margin-left: 30px;
+    width: 341px;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    color: #000;
+    margin-top: 30px;
   }
 
   .not-reserved-text {
@@ -1429,13 +1435,12 @@
   }
 
   .total-container {
-    width: 505px;
-    height: 300px;
+    width: 341px;
+    height: auto;
     border: 1px solid #000;
     border-radius: 10px;
-    margin-right: 23px;
-    margin-left: 180px;
-    margin-top: 32px;
+    margin-left: 30px;
+    margin-top: 250px;
     padding: 15px;
   }
 
@@ -1447,24 +1452,24 @@
 
   .sum-for-products,
   .total-costs {
-    margin-left: 400px;
+    margin-left: 220px;
   }
 
   .delivery-costs-box {
-    margin-left: 390px;
+    margin-left: 220px;
   }
 
   .line {
     height: 1px;
     background-color: #000;
-    width: 470px;
+    width: 310px;
   }
 
   .checkout-button {
     background-color: #0a3641;
     color: #fff;
     height: 62px;
-    width: 471px;
+    width: 310px;
     font-size: 1.563rem;
     border: none;
     border-radius: 10px;
@@ -1482,7 +1487,7 @@
   input#discount {
     padding: 10px;
     border-radius: 10px;
-    width: 389px;
+    width: 233px;
     height: 62px;
     background-color: #fff;
     color: #414141;
@@ -1498,17 +1503,17 @@
 
   .dicount-code-container {
     margin-top: 26px;
-    margin-right: 50px;
+    margin-left: 30px;
     display: flex;
-    width: 505;
-    justify-content: right;
+    width: 100%;
+    justify-content: left;
   }
 
   .add-button {
     background-color: #0a3641;
     color: #fff;
     height: 62px;
-    width: 107px;
+    width: 99px;
     font-size: 1.563rem;
     border: none;
     border-radius: 10px;
