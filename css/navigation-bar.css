@@ -319,8 +319,8 @@
   .menu {
     position: absolute;
     background-color: red;
-    width: 100%;
-    height: 100vh;
+    width: 390px;
+    height: 215px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -330,7 +330,7 @@
   }
 
   .menu li {
-    margin: 20px 0;
+    margin: 10px 0;
   }
 
   .menu li a {
