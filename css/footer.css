@@ -142,7 +142,7 @@
     width: 100%;
     height: 850px;
     background-color: #0a3641;
-    margin-top: auto;
+    margin-top: 10px;
     bottom: 0;
   }
   .footer-container {
@@ -151,6 +151,7 @@
     height: auto;
     padding: 20px;
     overflow-y: hidden;
+    overflow-x: hidden;
   }
   .footer-logo {
     width: auto;
