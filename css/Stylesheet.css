@@ -1018,6 +1018,7 @@
   /* Styling for contact us page */
   .contactus-main {
     overflow-x: hidden;
+    height: auto;
   }
 
   .contact-us-form-container {
