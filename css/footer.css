@@ -148,6 +148,7 @@
   .footer-container {
     display: grid;
     width: 80%;
+    height: auto;
     padding: 20px;
   }
   .footer-logo {
@@ -250,7 +251,7 @@
     width: 100%;
     display: flex;
     color: #000;
-    font-size: 14px;
+    font-size: 0.875rem;
     gap: 32px;
     margin-top: 580px;
     position: relative;
@@ -259,12 +260,10 @@
   }
 
   .at-2024 {
-    padding-top: 10px;
     text-align: left;
   }
 
   .cookies-and-terms {
-    padding-top: 10px;
     transform: translateX(1%);
     text-align: right;
   }
