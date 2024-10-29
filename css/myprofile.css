@@ -339,4 +339,363 @@
     height: 400px;
     width: 100%;
   }
+
+  .select-topic-myprofile-container {
+    display: none;
+  }
+}
+
+/* Styling for responsive design mobile */
+@media (max-width: 768px) {
+  .my-account-section {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .account-title-container {
+    margin-top: 180px;
+    font-size: 1.25rem;
+    margin-bottom: 34px;
+    margin-left: 20px;
+  }
+
+  .myprofile-all-container {
+    display: grid;
+  }
+
+  .side-menu-bar {
+    display: none;
+  }
+
+  .myprofile-dropdown-container {
+    background-color: red;
+    margin-top: 40px;
+  }
+
+  .myprofile-menu {
+    width: 526px;
+    height: 62px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.25rem;
+  }
+  /* .side-menu-active {
+    text-decoration: underline;
+    color: #000;
+  }
+  .text-side-bar-myprofile {
+    text-decoration: none;
+    color: #000;
+  } */
+
+  .profile-information-container {
+    width: 995px;
+    height: auto;
+    margin-left: 180px;
+  }
+
+  .updates-header-topline {
+    display: flex;
+  }
+
+  .last-updates-header {
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .see-all-orders {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: #0a3641;
+    margin-left: 515px;
+  }
+
+  .line-seperator {
+    justify-content: center;
+    width: 971px;
+    height: 2px;
+    background-color: #000;
+    margin-left: 10px;
+    margin-top: 21px;
+  }
+  .updates-second-line-container {
+    display: flex;
+  }
+  .secound-header-myprofile {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .see-order {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 600px;
+  }
+
+  .ordernumber-image-container {
+    display: flex;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .ordernumber-text {
+    font-weight: bold;
+  }
+
+  .ordernumber {
+    font-weight: normal;
+    margin-left: 10px;
+  }
+
+  .order-jacket-3000 {
+    width: 162px;
+    height: auto;
+    margin-left: 615px;
+  }
+
+  .order-container {
+    width: 971px;
+    height: 46px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .ordernumber-container,
+  .totalamount-container,
+  .orderdate-container,
+  .paymentstatus-container {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .totalamount-container,
+  .orderdate-container,
+  .paymentstatus-container {
+    margin-left: 59px;
+  }
+
+  .ordernumber-orders,
+  .total-orders,
+  .orderdate-orders,
+  .paymentstatus-orders {
+    font-weight: normal;
+  }
+
+  .orders-image-box-container {
+    width: 349px;
+    height: 174px;
+    border: 1px solid #000;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+    font-size: 18px;
+  }
+
+  .myprofile-orders-image-jacket3000 {
+    width: 122px;
+    height: auto;
+  }
+
+  .myprofile-orders-product-info {
+    display: block;
+  }
+
+  .orders-product-info-title {
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .address-boxes-container {
+    display: flex;
+  }
+
+  .add-new-address-box {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 73px;
+    width: 244px;
+    height: 264px;
+    border: 1px solid #000;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .new-address-content {
+    margin-top: 70px;
+  }
+
+  .bi-plus-square-fill {
+    color: #0a3641;
+    font-size: 60px;
+    cursor: pointer;
+  }
+
+  .delivery-address-box {
+    width: 244px;
+    height: 264px;
+    border: 1px solid #000;
+    margin-left: 37px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .delivery-address-box-content {
+    text-align: left;
+  }
+
+  .trashbin-edit-container {
+    display: flex;
+    margin-top: 60px;
+    font-weight: bold;
+  }
+  .bi-trash-fill {
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .edit-text-button {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+
+  /* Myprofile - basis information */
+
+  .myprofile-basisinfo-container {
+    width: 995px;
+    height: auto;
+    margin-left: 200px;
+  }
+  .basis-informartion-container {
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .myprofile-inputfield-container {
+    width: 389px;
+    height: 91px;
+    margin-top: 20px;
+  }
+  .myprofile-labels {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .myprofile-firstname-input-container {
+    width: 389px;
+  }
+  .myprofile-input-box {
+    margin-top: 10px;
+  }
+
+  input.myprofile-inputfields {
+    height: 62px;
+    width: 389px;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #414141;
+  }
+
+  input.myprofile-inputfields:focus {
+    outline: navy;
+    border: 1px solid navy;
+    background-color: #fff;
+  }
+
+  .gender-select {
+    height: 62px;
+    width: 389px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #414141;
+  }
+
+  input.birthday-date {
+    height: 62px;
+    width: 389px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #414141;
+    border: 1px solid #000;
+  }
+
+  .save-button-myprofile {
+    background-color: #0a3641;
+    color: #fff;
+    height: 62px;
+    width: 387px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 39px;
+  }
+
+  .save-button-myprofile:hover {
+    background-color: #fff;
+    color: #0a3641;
+    border: 1px solid #000;
+  }
+
+  .signout-and-delete-button-container {
+    display: grid;
+  }
+
+  .signout-button-myprofile {
+    background-color: #fff;
+    color: #0a3641;
+    height: 62px;
+    width: 387px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 39px;
+    border: 1px solid #000;
+    margin-left: 10px;
+  }
+
+  .signout-button-myprofile:hover {
+    background-color: #0a3641;
+    color: #fff;
+  }
+
+  .delete-account-button {
+    background-color: #dc3545;
+    color: #fff;
+    height: 31px;
+    width: 200px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 75px;
+    margin-left: 10px;
+  }
+  .delete-account-button:hover {
+    background-color: #fff;
+    color: #dc3545;
+    border: 2px solid #dc3545;
+  }
+
+  .myprofile-space {
+    height: 400px;
+    width: 100%;
+  }
 }
