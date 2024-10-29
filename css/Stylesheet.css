@@ -1019,6 +1019,7 @@
   .contactus-main {
     overflow-x: hidden;
     height: auto;
+    overflow-y: hidden;
   }
 
   .contact-us-form-container {
@@ -1236,7 +1237,9 @@
 
   .section-mensandwomens {
     width: 100%;
+    height: auto;
     overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .product-card-mensandwomens {
