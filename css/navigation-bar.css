@@ -325,7 +325,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: transform 1s ease;
+    transition: all 0.3s;
     transform: translateX(-100%);
   }
 
@@ -359,7 +359,7 @@
     text-decoration: none;
   }
 
-  .men:hover {
+  .men:hover {url(transition:%20all%200.3s%3B)
     font-weight: bold;
   }
     
