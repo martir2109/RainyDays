@@ -336,7 +336,11 @@
   }
 
   .menu li {
-    margin: 10px 0;
+    margin: 2px 0;
+    width: 100%;
+    height: 53px;
+    padding: 15px;
+    text-align: center;
   }
 
   .menu li a {
@@ -345,7 +349,6 @@
 
   .menu a {
     font-size: 1.25rem;
-    padding: 2rem;
   }
 
   .bi-list {
@@ -368,31 +371,15 @@
     position: fixed;
   }
 
-  /* .men {
-    margin-left: 10px;
-    margin-right: 64px;
-    text-decoration: none;
+  .men {
+    margin-left: 20%;
   }
-
-  .men:hover {url(transition:%20all%200.3s%3B)
-    font-weight: bold;
-  }
-    
 
   .women {
-    margin-right: 64px;
-    text-decoration: none;
-  }
-  .women:hover {
-    font-weight: bold;
+    margin-left: 20%;
   }
 
   .brands {
-    margin-right: 10px;
-    text-decoration: none;
+    margin-left: 5%;
   }
-
-  .brands:hover {
-    font-weight: bold;
-  } */
 }
