@@ -123,6 +123,7 @@
   }
 
   /* styling for the 3 menu buttons in navigation bar */
+
   .menu {
     display: flex;
     list-style: none;
@@ -311,9 +312,9 @@
   }
 
   /* styling for the 3 menu buttons in navigation bar */
+
   .menu-responsive-list {
-    margin-top: 20px;
-    margin-right: 15px;
+    margin-bottom: 20px;
     position: relative;
   }
   .menu {
@@ -326,7 +327,7 @@
     justify-content: center;
     align-items: center;
     transition: all 0.3s;
-    transform: translateX(-200%);
+    transform: translateX(-100%);
   }
 
   .menu li {
@@ -337,19 +338,30 @@
     font-size: 1.25rem;
   }
 
+  .menu a {
+    font-size: 1.25rem;
+    padding: 2rem 3rem;
+  }
+
   .bi-list {
     color: #000;
     font-size: 2.6rem;
   }
   .checkbtn {
     display: block;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    cursor: pointer;
+    /* display: block;
     order: 1;
     margin-left: 20px;
-    cursor: pointer;
+    cursor: pointer;  */
   }
 
   #check:checked ~ .menu {
-    display: flex;
+    /* display: flex; */
     transform: translateX(0);
   }
 
