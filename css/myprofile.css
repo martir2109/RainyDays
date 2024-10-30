@@ -267,6 +267,7 @@
     font-size: 20px;
     border-radius: 10px;
     color: #414141;
+    border: 1px solid #000;
   }
 
   input.birthday-date {
@@ -366,7 +367,7 @@
   .my-account-section,
   .overview-container {
     width: 100%;
-    height: 1000px;
+    height: 1100px;
     transform: translateX(0);
   }
 
@@ -646,11 +647,12 @@
   .myprofile-basisinfo-container {
     width: 995px;
     height: auto;
-    margin-left: 200px;
+    margin-left: 180px;
   }
   .basis-informartion-container {
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 70px;
+    transform: translateX(-17%);
   }
 
   .myprofile-inputfield-container {
@@ -670,8 +672,8 @@
   }
 
   input.myprofile-inputfields {
-    height: 62px;
-    width: 389px;
+    height: 58px;
+    width: 350px;
     background-color: #fff;
     border: 1px solid #000;
     font-size: 20px;
@@ -687,17 +689,18 @@
   }
 
   .gender-select {
-    height: 62px;
-    width: 389px;
+    height: 58px;
+    width: 350px;
     padding: 10px;
     font-size: 20px;
     border-radius: 10px;
     color: #414141;
+    border: 1px solid #000;
   }
 
   input.birthday-date {
-    height: 62px;
-    width: 389px;
+    height: 58px;
+    width: 350px;
     padding: 10px;
     font-size: 20px;
     border-radius: 10px;
@@ -708,14 +711,15 @@
   .save-button-myprofile {
     background-color: #0a3641;
     color: #fff;
-    height: 62px;
-    width: 387px;
+    height: 58px;
+    width: 240px;
     font-size: 25px;
     border: none;
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
     margin-top: 39px;
+    margin-left: 50px;
   }
 
   .save-button-myprofile:hover {
@@ -731,8 +735,8 @@
   .signout-button-myprofile {
     background-color: #fff;
     color: #0a3641;
-    height: 62px;
-    width: 387px;
+    height: 58px;
+    width: 240px;
     font-size: 25px;
     border: none;
     border-radius: 10px;
@@ -740,7 +744,7 @@
     cursor: pointer;
     margin-top: 39px;
     border: 1px solid #000;
-    margin-left: 10px;
+    transform: translateX(-49%);
   }
 
   .signout-button-myprofile:hover {
@@ -752,13 +756,15 @@
     background-color: #dc3545;
     color: #fff;
     height: 31px;
-    width: 200px;
+    width: 148px;
     font-size: 18px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 75px;
     margin-left: 10px;
+    transform: translateX(-46%);
+    margin-bottom: 40px;
   }
   .delete-account-button:hover {
     background-color: #fff;
