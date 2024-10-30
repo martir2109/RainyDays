@@ -143,15 +143,13 @@
     height: 850px;
     background-color: #0a3641;
     margin-top: 10px;
-    bottom: 0;
+    overflow-y: hidden;
   }
   .footer-container {
     display: grid;
     width: 80%;
     height: auto;
     padding: 20px;
-    overflow-y: hidden;
-    overflow-x: hidden;
   }
   .footer-logo {
     width: auto;
@@ -251,14 +249,14 @@
 
   .text-under-footer {
     width: 100%;
+    height: 60px;
     display: flex;
     color: #000;
     font-size: 0.875rem;
-    gap: 32px;
-    margin-top: 580px;
-    position: relative;
+    gap: 10%;
     background-color: #fff;
-    margin-right: 20px;
+    padding: 10px;
+    margin-top: 10px;
   }
 
   .at-2024 {
@@ -266,7 +264,7 @@
   }
 
   .cookies-and-terms {
-    transform: translateX(1%);
+    transform: translateX(5%);
     text-align: right;
   }
 }
