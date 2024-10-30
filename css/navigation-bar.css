@@ -1,6 +1,186 @@
 /* Followed this tutorial to create my navigation bar https://www.w3schools.com/howto/howto_js_topnav.asp
  and https://www.w3schools.com/howto/howto_css_navbar_icon.asp*/
 
+/* Styling for desktop 16-inch/ 3072px width */
+@media (max-width: 3072px) {
+  .top-navigation-bar {
+    width: 100%;
+    top: 0%;
+    height: 152px;
+    display: flex;
+    position: fixed;
+    overflow: hidden;
+    background-color: #fff;
+    flex-direction: row;
+    align-items: center;
+    z-index: 10;
+    border-bottom: 1px solid #414141;
+  }
+
+  /* Styling for the links that are inside the navigation bar */
+  .top-navigation-bar a {
+    color: #000;
+    position: relative;
+    text-align: center;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    padding: 12px;
+  }
+
+  .top-line-nav-bar-container {
+    width: 100%;
+    height: auto;
+    margin-top: 21px;
+    margin-bottom: 66px;
+    display: flex;
+  }
+
+  /* This styles the rainydays logo in the navigation bar.
+  I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
+  .rainydays-logo {
+    margin-left: 20px;
+  }
+
+  .rainydays-logo img {
+    width: 100%;
+    height: 65px;
+  }
+
+  .search-bar-container {
+    width: 642px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    transform: translateX(35%);
+    flex-grow: 1;
+    justify-content: center;
+    margin: 0 20px;
+  }
+
+  /* Styling for search bar in the navigation bar */
+  input[type="text"] {
+    width: 100%;
+    max-width: 648px;
+    height: 46px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    color: #414141;
+    border: 1px solid #d9d9d9;
+    padding-left: 10px;
+    font-size: 1rem;
+  }
+
+  /* Syling for when the search bar is active/ clicked */
+  input[type="text"]:focus {
+    outline: navy;
+    border: 1px solid navy;
+    background-color: #fff;
+  }
+
+  /* search bar button */
+  .search-button {
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-left: -44px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+
+  /* search bar button when hovering over it */
+  .search-button:hover {
+    background-color: #d9d9d9;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #000;
+    border-radius: 10px;
+  }
+
+  /* navigation bar icons */
+  .navigation-bar-icons {
+    /* margin-left: 100px; */
+    display: flex;
+    gap: 5px;
+    align-items: right;
+    transform: translateX(120%);
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  /* Navigation bar icons styling */
+  .bi-person,
+  .bi-heart,
+  .bi-cart,
+  .bi-house-fill,
+  .bi-house,
+  .bi-heart-fill,
+  .bi-person-fill,
+  .bi-cart-fill {
+    font-size: 2.5rem;
+  }
+
+  /* styling for the 3 menu buttons in navigation bar */
+
+  .menu {
+    display: flex;
+    list-style: none;
+    color: #000;
+    margin-top: 100px;
+    align-items: left;
+    transform: translateX(-300%);
+  }
+
+  .menu li {
+    margin-right: 0px;
+  }
+
+  .menu li a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .checkbtn {
+    font-size: 1.875rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check {
+    display: none;
+  }
+
+  .men {
+    margin-left: 10px;
+    margin-right: 64px;
+    text-decoration: none;
+  }
+
+  .men:hover {
+    font-weight: bold;
+  }
+
+  .women {
+    margin-right: 64px;
+    text-decoration: none;
+  }
+  .women:hover {
+    font-weight: bold;
+  }
+
+  .brands {
+    margin-right: 10px;
+    text-decoration: none;
+  }
+
+  .brands:hover {
+    font-weight: bold;
+  }
+}
 /* Styling for desktop 13-inch/ 2560px width */
 @media (max-width: 2560px) {
   .top-navigation-bar {
