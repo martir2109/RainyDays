@@ -340,7 +340,7 @@
     width: 100%;
   }
 
-  .select-topic-myprofile-container {
+  .myprofile-dropdown-container {
     display: none;
   }
 }
@@ -350,8 +350,8 @@
   .my-account-section {
     width: 100%;
     height: auto;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
   }
 
   .account-title-container {
@@ -371,10 +371,11 @@
 
   .myprofile-dropdown-container {
     margin-left: 20px;
+    display: flex;
   }
 
   .myprofile-menu {
-    width: 346px;
+    width: 350px;
     height: 62px;
     border-radius: 10px;
     padding: 10px;
@@ -390,42 +391,63 @@
   } */
 
   .profile-information-container {
-    width: 995px;
+    width: 100%;
     height: auto;
     margin-left: 180px;
   }
 
+  .overview-container {
+    width: 100%;
+    height: 1000px;
+  }
+
   .updates-header-topline {
     display: flex;
+    position: absolute;
+    transform: translateX(-43%);
+    width: 100%;
+    margin-top: 20px;
   }
 
   .last-updates-header {
-    font-size: 25px;
-    padding: 10px;
+    font-size: 1.1rem;
   }
 
   .see-all-orders {
-    font-size: 20px;
+    font-size: 0.8rem;
     font-weight: bold;
-    padding: 10px;
     color: #0a3641;
-    margin-left: 515px;
+    margin-left: 30px;
   }
 
   .line-seperator {
     justify-content: center;
-    width: 971px;
+    width: 90%;
     height: 2px;
     background-color: #000;
-    margin-left: 10px;
-    margin-top: 21px;
+    margin-top: 80px;
+    position: absolute;
+    transform: translateX(-48%);
+  }
+
+  .line-seperator-secound {
+    justify-content: center;
+    width: 90%;
+    height: 2px;
+    background-color: #000;
+    margin-top: 500px;
+    position: absolute;
+    transform: translateX(-46%);
   }
   .updates-second-line-container {
     display: flex;
   }
   .secound-header-myprofile {
-    font-size: 20px;
-    padding: 10px;
+    font-size: 1.25rem;
+    position: absolute;
+    transform: translateX(-43%);
+    margin-top: 100px;
+    width: 100%;
   }
 
   .see-order {
@@ -437,9 +459,10 @@
 
   .ordernumber-image-container {
     display: flex;
-    font-size: 20px;
-    margin-left: 10px;
-    margin-top: 20px;
+    font-size: 1.25rem;
+    margin-top: 120px;
+    transform: translateX(-20%);
+    width: 100%;
   }
 
   .ordernumber-text {
@@ -451,10 +474,13 @@
     margin-left: 10px;
   }
 
+  .overview-image-container {
+    width: 100%;
+  }
+
   .order-jacket-3000 {
-    width: 162px;
+    width: 100px;
     height: auto;
-    margin-left: 615px;
   }
 
   .order-container {
