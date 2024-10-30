@@ -354,6 +354,7 @@
   .my-account-section {
     width: 100%;
     height: auto;
+    overflow-x: hidden;
   }
 
   .account-title-container {
@@ -402,7 +403,7 @@
 
   .overview-container {
     width: 100%;
-    height: 1000px;
+    height: 800px;
   }
 
   .updates-header-topline {
