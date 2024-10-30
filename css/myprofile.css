@@ -4,6 +4,10 @@
     height: auto;
   }
 
+  .myprofile-space {
+    display: none;
+  }
+
   .account-title-container {
     margin-top: 200px;
     font-size: 20px;
