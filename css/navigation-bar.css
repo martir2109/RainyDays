@@ -317,6 +317,7 @@
     margin-bottom: 50px;
     position: relative;
   }
+
   .menu {
     position: fixed;
     background-color: #fff;
@@ -355,6 +356,7 @@
     color: #000;
     font-size: 2.6rem;
   }
+
   .checkbtn {
     display: block;
     /* font-size: 1.25rem; */
@@ -367,8 +369,8 @@
   }
 
   #check:checked ~ .menu {
-    transform: translateX(0);
-    position: fixed;
+    /* transform: translateX(0); */
+    right: 0;
   }
 
   .men {
