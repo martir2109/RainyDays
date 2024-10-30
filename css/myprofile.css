@@ -10,7 +10,7 @@
 
   .account-title-container {
     margin-top: 200px;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 34px;
     margin-left: 60px;
   }
@@ -351,6 +351,12 @@
 
 /* Styling for responsive design mobile */
 @media (max-width: 768px) {
+  main {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+
   .my-account-section {
     width: 100%;
     height: auto;
@@ -359,15 +365,14 @@
 
   .account-title-container {
     margin-top: 180px;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     margin-bottom: 34px;
     margin-left: 20px;
   }
 
   .myprofile-all-container {
     display: grid;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    /* width: 100%; */
   }
 
   .side-menu-bar {
@@ -384,16 +389,8 @@
     height: 62px;
     border-radius: 10px;
     padding: 10px;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
-  /* .side-menu-active {
-    text-decoration: underline;
-    color: #000;
-  }
-  .text-side-bar-myprofile {
-    text-decoration: none;
-    color: #000;
-  } */
 
   .profile-information-container {
     width: 100%;
@@ -402,7 +399,7 @@
   }
 
   .overview-container {
-    width: 100%;
+    width: auto;
     height: 800px;
   }
 
@@ -412,6 +409,7 @@
     transform: translateX(-43%);
     width: 100%;
     margin-top: 20px;
+    overflow-x: hidden;
   }
 
   .last-updates-header {
@@ -427,7 +425,7 @@
 
   .line-seperator {
     justify-content: center;
-    width: 90%;
+    width: 350px;
     height: 2px;
     background-color: #000;
     margin-top: 80px;
@@ -437,7 +435,7 @@
 
   .line-seperator-secound {
     justify-content: center;
-    width: 90%;
+    width: 350px;
     height: 2px;
     background-color: #000;
     margin-top: 150px;
@@ -459,6 +457,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     padding: 10px;
+    padding-top: 20px;
     border-radius: 10px;
     color: #fff;
     background-color: #0a3641;
@@ -467,6 +466,7 @@
     position: absolute;
     width: 240px;
     height: 62px;
+    text-align: center;
   }
 
   .ordernumber-image-container {
@@ -474,7 +474,6 @@
     font-size: 1.25rem;
     margin-top: 150px;
     transform: translateX(-50%);
-    width: 100%;
   }
 
   .ordernumber-text {
