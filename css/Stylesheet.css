@@ -1624,7 +1624,7 @@
   }
 }
 
-/* Styling for desktop 16-inch/ 3072px width */
+/* Styling for desktop 16-inch/ px width */
 @media (max-width: 3072px) {
   /* Styling for all elements */
   * {
@@ -1851,7 +1851,7 @@
     height: 536px;
     border: 1px #000 solid;
     border-radius: 10px;
-    transform: translateX(40%);
+    transform: translateX(10%);
   }
 
   .container-contact-us {
