@@ -135,6 +135,22 @@
               ><p>My profile</p></a
             >
           </div>
+          <div class="myprofile-dropdown-container">
+            <select
+              name="topic"
+              title="Select topic myprofile"
+              class="myprofile-menu"
+              onchange="window.location = this.value;"
+            >
+              <option value="myprofile-overview.html">Overview</option>
+              <option value="myprofile-orders.html">Orders</option>
+              <option value="myprofile-returns.html">Returns</option>
+              <option value="myprofile-address.html">Address</option>
+              <option value="myprofile-myprofile.html" disabled selected>
+                My profile
+              </option>
+            </select>
+          </div>
           <div class="myprofile-basisinfo-container">
             <div class="updates-header-topline">
               <p class="last-updates-header">Basis information</p>

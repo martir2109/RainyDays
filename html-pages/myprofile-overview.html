@@ -141,25 +141,15 @@
               name="topic"
               title="Select topic myprofile"
               class="myprofile-menu"
+              onchange="window.location = this.value;"
             >
-              <a href="#"
-                ><option value="overview" disabled selected>Overview</option></a
-              >
-              <!-- <a href="../html-pages/myprofile-orders.html"
-                ><option value="orders">Orders</option></a
-              > -->
-              <option value="orders">
-                <a href="../html-pages/myprofile-orders.html">Orders</a>
+              <option value="myprofile-overview.html" disabled selected>
+                Overview
               </option>
-              <a href="../html-pages/myprofile-returns.html"
-                ><option value="returns">Returns</option></a
-              >
-              <a href="../html-pages/myprofile-address.html"
-                ><option value="address">Address</option></a
-              >
-              <a href="../html-pages/myprofile-myprofile.html"
-                ><option value="myprofile">My profile</option></a
-              >
+              <option value="myprofile-orders.html">Orders</option>
+              <option value="myprofile-returns.html">Returns</option>
+              <option value="myprofile-address.html">Address</option>
+              <option value="myprofile-myprofile.html">My profile</option>
             </select>
           </div>
 
