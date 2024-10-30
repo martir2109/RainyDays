@@ -368,6 +368,10 @@
     cursor: pointer;
   }
 
+  #check {
+    display: none;
+  }
+
   #check:checked ~ .menu {
     /* transform: translateX(0); */
     right: 0;
