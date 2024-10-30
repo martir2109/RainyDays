@@ -115,11 +115,12 @@
   /* Text under the footer */
   .text-under-footer {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-decoration: none;
     display: flex;
     color: #000;
-    padding-bottom: 10px;
+    padding: 10px;
     background-color: #fff;
   }
 
@@ -187,7 +188,7 @@
   .newsletter-container {
     position: absolute;
     width: 285px;
-    height: 100%;
+    height: 161px;
     color: #fff;
     margin-top: 430px;
   }
