@@ -5,7 +5,8 @@
   }
 
   .myprofile-space {
-    display: none;
+    height: 50px;
+    width: 100%;
   }
 
   .account-title-container {
@@ -414,6 +415,13 @@
 
   .last-updates-header {
     font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .orders-header {
+    font-size: 1.1rem;
+    margin-left: 10px;
+    font-weight: bold;
   }
 
   .see-all-orders {
@@ -427,7 +435,7 @@
     display: block;
     justify-content: center;
     width: 350px;
-    height: 2px;
+    height: 1px;
     background-color: #000;
     margin-top: 80px;
     position: absolute;
@@ -438,7 +446,7 @@
     display: block;
     justify-content: center;
     width: 350px;
-    height: 2px;
+    height: 1px;
     background-color: #000;
     margin-top: 150px;
     position: absolute;
@@ -452,6 +460,14 @@
     position: absolute;
     transform: translateX(-43%);
     margin-top: 100px;
+    width: 100%;
+  }
+
+  .no-returns-yet {
+    font-size: 1.25rem;
+    position: absolute;
+    transform: translateX(-40%);
+    margin-top: 80px;
     width: 100%;
   }
 
