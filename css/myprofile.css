@@ -357,10 +357,16 @@
     overflow-x: hidden;
   }
 
-  .my-account-section {
+  .myprofile-space {
+    height: 20px;
     width: 100%;
-    height: auto;
-    overflow-x: hidden;
+  }
+
+  .my-account-section,
+  .overview-container {
+    width: auto;
+    height: 750px;
+    transform: translateX(0);
   }
 
   .account-title-container {
@@ -398,18 +404,12 @@
     margin-left: 180px;
   }
 
-  .overview-container {
-    width: auto;
-    height: 800px;
-  }
-
   .updates-header-topline {
     display: flex;
     position: absolute;
     transform: translateX(-43%);
     width: 100%;
     margin-top: 20px;
-    overflow-x: hidden;
   }
 
   .last-updates-header {
@@ -424,6 +424,7 @@
   }
 
   .line-seperator {
+    display: block;
     justify-content: center;
     width: 350px;
     height: 2px;
@@ -434,6 +435,7 @@
   }
 
   .line-seperator-secound {
+    display: block;
     justify-content: center;
     width: 350px;
     height: 2px;
@@ -732,10 +734,5 @@
     background-color: #fff;
     color: #dc3545;
     border: 2px solid #dc3545;
-  }
-
-  .myprofile-space {
-    height: 20px;
-    width: 100%;
   }
 }
