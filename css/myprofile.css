@@ -583,15 +583,17 @@
   }
 
   .address-boxes-container {
-    display: flex;
+    display: grid;
+    margin-top: 50px;
+    transform: translateX(-30%);
   }
 
   .add-new-address-box {
     font-size: 20px;
     font-weight: normal;
     margin-top: 73px;
-    width: 244px;
-    height: 264px;
+    width: 337px;
+    height: 224px;
     border: 1px solid #000;
     margin-left: 10px;
     margin-top: 20px;
@@ -609,13 +611,13 @@
   }
 
   .delivery-address-box {
-    width: 244px;
-    height: 264px;
+    width: 337px;
+    height: 224px;
     border: 1px solid #000;
-    margin-left: 37px;
+    margin-left: 10px;
     text-align: center;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .delivery-address-box-content {
@@ -624,7 +626,7 @@
 
   .trashbin-edit-container {
     display: flex;
-    margin-top: 60px;
+    margin-top: 30px;
     font-weight: bold;
   }
   .bi-trash-fill {
@@ -635,7 +637,7 @@
   .edit-text-button {
     font-size: 20px;
     cursor: pointer;
-    margin-left: 120px;
+    margin-left: 220px;
     margin-top: 20px;
   }
 
