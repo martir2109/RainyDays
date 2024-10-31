@@ -443,10 +443,10 @@
 
   .footer-logo {
     width: auto;
-    height: 100px;
+    height: 70px;
     display: flex;
     margin-left: 20px;
-    margin-top: 65px;
+    margin-top: 80px;
   }
 
   .about-us-container {
@@ -545,13 +545,13 @@
 
   .at-2024 {
     padding-top: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
     text-align: left;
   }
 
   .cookies-and-terms {
     padding-top: 10px;
-    transform: translateX(320%);
+    transform: translateX(310%);
     text-align: right;
   }
 }
