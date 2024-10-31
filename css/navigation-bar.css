@@ -1,8 +1,8 @@
 /* Followed this tutorial to create my navigation bar https://www.w3schools.com/howto/howto_js_topnav.asp
  and https://www.w3schools.com/howto/howto_css_navbar_icon.asp*/
 
-/* Styling for desktop 13-inch/ 2560px width */
-@media only screen and (max-width: 2560px) {
+/* Styling for larger screens */
+@media (min-width: 1281px) {
   .top-navigation-bar {
     width: 100%;
     top: 0%;
@@ -39,7 +39,7 @@
   I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
   .navbar-logo-container {
     width: 20%;
-    margin-left: 20px;
+    margin-left: 40px;
   }
   .rainydays-logo {
     margin-left: 10px;
@@ -417,8 +417,8 @@
   }
 }
 
-/* Styling for larger screens */
-@media (min-width: 1281px) {
+/* Styling for tablets (portrait mode) */
+@media (min-width: 768px) and (max-width: 1024px) {
   .top-navigation-bar {
     width: 100%;
     top: 0%;
@@ -426,6 +426,7 @@
     display: flex;
     position: fixed;
     overflow: hidden;
+    background-color: #fff;
     flex-direction: row;
     align-items: center;
     z-index: 10;
@@ -453,9 +454,9 @@
   /* This styles the rainydays logo in the navigation bar.
   I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
   .navbar-logo-container {
-    transform: translateX(-25%);
+    width: 20%;
+    margin-left: 20px;
   }
-
   .rainydays-logo {
     margin-left: 10px;
   }
@@ -466,14 +467,16 @@
   }
 
   .search-bar-container {
-    width: 642px;
+    width: 100%;
+    /* width: 642px; */
     align-items: center;
     display: flex;
     flex-direction: row;
-    transform: translateX(20%);
+    transform: translateX(35%);
     flex-grow: 1;
     justify-content: center;
-    margin: 0 20px;
+    /* margin: 0 20px; */
+    margin-left: 10px;
   }
 
   /* Styling for search bar in the navigation bar */
@@ -524,9 +527,15 @@
     display: flex;
     gap: 5px;
     align-items: right;
-    transform: translateX(120%);
+    transform: translateX(160%);
     cursor: pointer;
     margin-top: 20px;
+    width: 20%;
+  }
+
+  .icons-container {
+    width: 100%;
+    display: flex;
   }
 
   /* Navigation bar icons styling */
@@ -549,7 +558,7 @@
     color: #000;
     margin-top: 100px;
     align-items: left;
-    transform: translateX(-430%);
+    transform: translateX(-180%);
   }
 
   .menu li {

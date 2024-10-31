@@ -1,5 +1,5 @@
-/* Styling for desktop 13-inch/ 2560px width */
-@media only screen and (max-width: 2560px) {
+/* Styling for larger screens */
+@media (min-width: 1281px) {
   /* Styling for the footer */
   footer {
     background-color: #0a3641;
@@ -137,7 +137,7 @@
   }
 }
 
-/* Styling for responsive design mobile */
+/* Styling for responsive design mobile max-width 768px */
 @media (min-width: 390px) and (max-width: 768px) {
   footer {
     width: 100%;
@@ -277,8 +277,8 @@
   }
 }
 
-/* Styling for larger screens */
-@media (min-width: 1281px) {
+/* Styling for tablets (portrait mode) */
+@media (min-width: 768px) and (max-width: 1024px) {
   /* Styling for the footer */
   footer {
     background-color: #0a3641;
@@ -411,7 +411,7 @@
 
   .cookies-and-terms {
     padding-top: 10px;
-    transform: translateX(750%);
+    transform: translateX(320%);
     text-align: right;
   }
 }
