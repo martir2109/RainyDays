@@ -136,9 +136,9 @@
   }
 
   /* styling for the 3 menu buttons in navigation bar */
+
   .menu-line-container {
     width: 100%;
-    /* background-color: rebeccapurple; */
     transform: translateX(-300%);
   }
 
@@ -148,6 +148,7 @@
     color: #000;
     margin-top: 100px;
     align-items: left;
+
     /* transform: translateX(-300%); */
   }
 
