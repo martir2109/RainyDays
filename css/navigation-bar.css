@@ -196,7 +196,7 @@
 }
 
 /* Styling for responsive design mobile max-width 768px */
-@media (min-width: 390px) and (max-width: 1024px) {
+@media (min-width: 390px) and (max-width: 768px) {
   .top-navigation-bar {
     width: 100%;
     top: 0%;
@@ -258,7 +258,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    /* flex-grow: 1; */
+    flex-grow: 1;
     justify-content: center;
     position: absolute;
     transform: translateX(-15%);
@@ -417,8 +417,8 @@
   }
 }
 
-/* Styling for desktop 13-inch/ 2560px width */
-@media (aspect-ratio: 16/9) {
+/* Styling for larger screens */
+@media (min-width: 1281px) {
   .top-navigation-bar {
     width: 100%;
     top: 0%;
@@ -426,7 +426,6 @@
     display: flex;
     position: fixed;
     overflow: hidden;
-    background-color: rebeccapurple;
     flex-direction: row;
     align-items: center;
     z-index: 10;
@@ -453,12 +452,16 @@
 
   /* This styles the rainydays logo in the navigation bar.
   I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
+  .navbar-logo-container {
+    transform: translateX(-25%);
+  }
+
   .rainydays-logo {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .rainydays-logo img {
-    width: 100%;
+    width: auto;
     height: 65px;
   }
 
@@ -467,7 +470,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    transform: translateX(35%);
+    transform: translateX(20%);
     flex-grow: 1;
     justify-content: center;
     margin: 0 20px;
@@ -546,7 +549,7 @@
     color: #000;
     margin-top: 100px;
     align-items: left;
-    transform: translateX(-300%);
+    transform: translateX(-430%);
   }
 
   .menu li {
