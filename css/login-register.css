@@ -1,5 +1,5 @@
 /* Styling for desktop 13-inch/ 2560px width */
-@media (max-width: 2560px) {
+@media only screen and (max-width: 2560px) {
   /* Styling for login form */
   .back-button {
     background-color: #0a3641;
@@ -219,7 +219,7 @@
 }
 
 /* Styling for mobile */
-@media (max-width: 768px) {
+@media (min-width: 390px) and (max-width: 768px) {
   /* Styling for login form */
   .back-button {
     background-color: #0a3641;
