@@ -137,19 +137,13 @@
 
   /* styling for the 3 menu buttons in navigation bar */
 
-  .menu-line-container {
-    width: 100%;
-    transform: translateX(-300%);
-  }
-
   .menu {
     display: flex;
     list-style: none;
     color: #000;
     margin-top: 100px;
     align-items: left;
-
-    /* transform: translateX(-300%); */
+    transform: translateX(-300%);
   }
 
   .menu li {

@@ -36,17 +36,19 @@
         <!-- Followed this tutorial to create my navigation bar https://www.w3schools.com/howto/howto_js_topnav.asp **\ -->
 
         <div class="top-navigation-bar">
-         <!-- RainyDays logo in navigation bar -->
-         <div class="top-line-nav-bar-container">
-          <a href="../index.html">
-          <div class="rainydays-logo">
-            <img
-            src="../Images/rainydays-logo.png"
-                class="rainydays-logo"
-                alt="RainyDays Logo"
-            />
-          </div>
-        </a>
+          <!-- RainyDays logo in navigation bar -->
+          <div class="top-line-nav-bar-container">
+            <div class="navbar-logo-container">
+              <a href="../index.html">
+                <div class="rainydays-logo">
+                  <img
+                    src="../Images/rainydays-logo.png"
+                    class="rainydays-logo"
+                    alt="RainyDays Logo"
+                  />
+                </div>
+              </a>
+            </div>
             <!-- Search bar in navigation -->
             <div class="search-bar-container">
               <input type="text" placeholder="Search through products..." />
@@ -57,37 +59,36 @@
               </span>
             </div>
 
-           <!-- Navigation bar icons -->
-           <div class="navigation-bar-icons">
-            <a href="../index.html"
-            ><i class="bi bi-house" title="house"></i
-          ></a>
-            <a href="../html-pages/shoppingcart.html" title="cart"
-              ><i class="bi bi-cart"></i
-            ></a>
-            <a href="../html-pages/favorites.html" title="favorites"
-              ><i class="bi bi-heart"></i
-            ></a>
-            <a href="../html-pages/login.html" title="person"
-              ><i class="bi bi-person"></i
-            ></a>
+            <!-- Navigation bar icons -->
+            <div class="navigation-bar-icons">
+              <div class="icons-container">
+                <a><i class="bi bi-house" title="house"></i></a>
+                <a href="../html-pages/shoppingcart.html" title="cart"
+                  ><i class="bi bi-cart"></i
+                ></a>
+                <a href="../html-pages/favorites.html" title="favorites"
+                  ><i class="bi bi-heart"></i
+                ></a>
+                <a href="../html-pages/login.html" title="person"
+                  ><i class="bi bi-person"></i
+                ></a>
+              </div>
+            </div>
           </div>
-          </div>
+          <div class="menu-responsive-list"> 
+              <input title="check" type="checkbox" id="check" checked="false" />
+              <label for="check" class="checkbtn" aria-haspopup="true">
+                <i class="bi bi-list" aria-hidden="true"></i>
+              </label>
 
-          <div class="menu-responsive-list">
-            <input title="check" type="checkbox" id="check" checked="false" />
-            <label for="check" class="checkbtn" aria-haspopup="true">
-              <i class="bi bi-list" aria-hidden="true"></i>
-            </label>
-
-            <ul class="menu">
-              <li><a href="../html-pages/men.html" class="men">Men</a></li>
-              <li><a href="../html-pages/women.html" class="women">Women</a></li>
-              <li>
-                <a href="../html-pages/brands.html" class="brands">Brands</a>
-              </li>
-            </ul>
-          </div>
+              <ul class="menu">
+                <li><a href="../html-pages/men.html" class="men">Men</a></li>
+                <li><a href="../html-pages/women.html" class="women">Women</a></li>
+                <li>
+                  <a href="../html-pages/brands.html" class="brands">Brands</a>
+                </li>
+              </ul>
+            </div>
         </div>
       </nav>
     </header>
