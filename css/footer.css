@@ -284,12 +284,13 @@
     background-color: #0a3641;
     margin-top: 10px;
     overflow-y: hidden;
+    color: #fff;
   }
   .footer-container {
     display: grid;
     width: 80%;
     height: auto;
-    padding: 20px;
+    padding: 40px;
   }
   .footer-logo {
     width: auto;

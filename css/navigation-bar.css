@@ -244,7 +244,7 @@
     width: 111px;
     height: auto;
     position: absolute;
-    transform: translateX(-35%);
+    transform: translateX(-30%);
   }
 
   .rainydays-logo img {
@@ -261,13 +261,13 @@
     flex-grow: 1;
     justify-content: center;
     position: absolute;
-    transform: translateX(-15%);
-    margin-top: 105px;
+    transform: translateX(-10%);
+    margin-top: 90px;
   }
 
   /* Styling for search bar in the navigation bar */
   input[type="text"] {
-    width: 80%;
+    width: 70%;
     height: 34px;
     border-radius: 10px;
     background-color: #d9d9d9;
@@ -390,7 +390,7 @@
     order: 1;
     margin-right: 20px;
     position: absolute;
-    top: 50px;
+    top: 40px;
     right: -10px;
     cursor: pointer;
   }
@@ -502,6 +502,7 @@
   /* search bar button */
   .search-button {
     background-color: #fff;
+    color: #000;
     height: 40px;
     width: 40px;
     border: none;
