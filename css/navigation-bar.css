@@ -225,7 +225,7 @@
   .top-line-nav-bar-container {
     width: 100%;
     height: auto;
-    margin-top: 21px;
+    margin-top: 10px;
     margin-bottom: 66px;
     display: flex;
   }
@@ -389,7 +389,7 @@
     order: 1;
     margin-right: 20px;
     position: absolute;
-    top: 45px;
+    top: 40px;
     right: -10px;
     cursor: pointer;
   }
