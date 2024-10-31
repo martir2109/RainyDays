@@ -779,6 +779,7 @@
   .my-account-section {
     width: 100%;
     height: auto;
+    overflow-x: hidden;
   }
 
   .myprofile-space {
@@ -833,12 +834,12 @@
     font-weight: bold;
     padding: 10px;
     color: #0a3641;
-    margin-left: 515px;
+    margin-left: 150px;
   }
 
   .line-seperator {
     justify-content: center;
-    width: 971px;
+    width: 600px;
     height: 2px;
     background-color: #000;
     margin-left: 10px;
@@ -856,7 +857,7 @@
     font-size: 18px;
     font-weight: bold;
     padding: 10px;
-    margin-left: 600px;
+    margin-left: 240px;
   }
 
   .ordernumber-image-container {
@@ -873,6 +874,11 @@
   .ordernumber {
     font-weight: normal;
     margin-left: 10px;
+  }
+
+  .overview-image-container {
+    transform: translateX(-20%);
+    position: absolute;
   }
 
   .order-jacket-3000 {
