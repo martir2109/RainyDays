@@ -195,8 +195,8 @@
   }
 }
 
-/* Styling for responsive design mobile */
-@media (max-width: 768px) {
+/* Styling for responsive design mobile max-width 768px */
+@media (min-width: 390px) and (max-width: 1024px) {
   .top-navigation-bar {
     width: 100%;
     top: 0%;
@@ -237,7 +237,7 @@
     height: auto;
     margin-left: 25px;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .rainydays-logo {
@@ -254,20 +254,20 @@
   }
 
   .search-bar-container {
-    width: 294px;
+    width: 100%;
     align-items: center;
     display: flex;
     flex-direction: row;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     justify-content: center;
     position: absolute;
-    transform: translateX(-5%);
-    margin-top: 95px;
+    transform: translateX(-15%);
+    margin-top: 105px;
   }
 
   /* Styling for search bar in the navigation bar */
   input[type="text"] {
-    width: 100%;
+    width: 80%;
     height: 34px;
     border-radius: 10px;
     background-color: #d9d9d9;
@@ -390,7 +390,7 @@
     order: 1;
     margin-right: 20px;
     position: absolute;
-    top: 40px;
+    top: 50px;
     right: -10px;
     cursor: pointer;
   }
