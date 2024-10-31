@@ -37,24 +37,31 @@
 
   /* This styles the rainydays logo in the navigation bar.
   I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
-  .rainydays-logo {
+  .navbar-logo-container {
+    width: 20%;
     margin-left: 20px;
+  }
+  .rainydays-logo {
+    margin-left: 10px;
   }
 
   .rainydays-logo img {
-    width: 100%;
+    width: auto;
     height: 65px;
   }
 
   .search-bar-container {
-    width: 642px;
+    width: 80%;
+    /* width: 642px; */
     align-items: center;
     display: flex;
     flex-direction: row;
     transform: translateX(35%);
     flex-grow: 1;
     justify-content: center;
-    margin: 0 20px;
+    /* margin: 0 20px; */
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   /* Styling for search bar in the navigation bar */
@@ -105,9 +112,15 @@
     display: flex;
     gap: 5px;
     align-items: right;
-    transform: translateX(120%);
+    transform: translateX(135%);
     cursor: pointer;
     margin-top: 20px;
+    width: 20%;
+  }
+
+  .icons-container {
+    width: 100%;
+    display: flex;
   }
 
   /* Navigation bar icons styling */
@@ -123,6 +136,11 @@
   }
 
   /* styling for the 3 menu buttons in navigation bar */
+  .menu-line-container {
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    transform: translateX(-300%);
+  }
 
   .menu {
     display: flex;
@@ -130,7 +148,7 @@
     color: #000;
     margin-top: 100px;
     align-items: left;
-    transform: translateX(-300%);
+    /* transform: translateX(-300%); */
   }
 
   .menu li {
@@ -183,7 +201,7 @@
 }
 
 /* Styling for responsive design mobile */
-@media only screen and (max-width: 768px) {
+@media (min-width: 390px) and (max-width: 768px) {
   .top-navigation-bar {
     width: 100%;
     top: 0%;
@@ -219,12 +237,17 @@
 
   /* This styles the rainydays logo in the navigation bar.
   I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
+  .navbar-logo-container {
+    width: 50%;
+    margin-left: 25px;
+    padding: 10px;
+  }
+
   .rainydays-logo {
-    margin-left: 20px;
     width: 111px;
     height: auto;
     position: absolute;
-    transform: translateX(-38%);
+    transform: translateX(-35%);
   }
 
   .rainydays-logo img {
@@ -240,7 +263,7 @@
     flex-grow: 1;
     justify-content: center;
     position: absolute;
-    transform: translateX(0%);
+    transform: translateX(-5%);
     margin-top: 95px;
   }
 
@@ -289,10 +312,17 @@
     /* margin-left: 100px; */
     display: flex;
     gap: 2px;
-    align-items: right;
-    transform: translateX(55%);
+    transform: translateX(16%);
     cursor: pointer;
     margin-top: 10px;
+    /* background-color: red; */
+    width: 60%;
+    margin-right: 45px;
+  }
+
+  .icons-container {
+    display: flex;
+    transform: translateX(0);
   }
 
   /* Navigation bar icons styling */
