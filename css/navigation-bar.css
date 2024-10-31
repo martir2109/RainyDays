@@ -233,7 +233,8 @@
   /* This styles the rainydays logo in the navigation bar.
   I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
   .navbar-logo-container {
-    width: 50%;
+    width: 100%;
+    height: auto;
     margin-left: 25px;
     padding: 10px;
     margin-bottom: 30px;
