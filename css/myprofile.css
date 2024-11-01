@@ -1,3 +1,9 @@
+* {
+  font-family: "Roboto";
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 /* Styling for larger screens */
 @media (min-width: 1281px) {
   .my-account-section {
@@ -410,7 +416,7 @@
   .updates-header-topline {
     display: flex;
     position: absolute;
-    transform: translateX(-43%);
+    transform: translateX(-40%);
     width: 100%;
     margin-top: 20px;
   }
@@ -431,6 +437,23 @@
     font-weight: bold;
     color: #0a3641;
     margin-left: 30px;
+  }
+  .overview-main-content-container {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: auto;
+    width: 65%;
+    transform: translateX(-47%);
+    margin-top: 60px;
+  }
+
+  .orders-main-content-container {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: auto;
+    width: 85%;
+    transform: translateX(-45%);
+    margin-top: 60px;
   }
 
   .line-seperator {
@@ -460,8 +483,8 @@
   .secound-header-myprofile {
     font-size: 1.25rem;
     position: absolute;
-    transform: translateX(-43%);
-    margin-top: 100px;
+    transform: translateX(0);
+    margin-top: 20px;
     width: 100%;
   }
 
@@ -492,8 +515,8 @@
   .ordernumber-image-container {
     display: flex;
     font-size: 1.25rem;
-    margin-top: 150px;
-    transform: translateX(-50%);
+    margin-top: 60px;
+    /* transform: translateX(-30%); */
   }
 
   .ordernumber-text {
@@ -508,8 +531,8 @@
   .overview-image-container {
     width: 100%;
     height: auto;
-    transform: translateX(-20%);
-    padding: 10px;
+    transform: translateX(5%);
+    margin-top: 100px;
   }
 
   .order-jacket-3000 {
@@ -519,13 +542,12 @@
   }
 
   .order-container {
-    width: 971px;
-    height: 46px;
+    width: 100%;
+    height: auto;
     display: grid;
-    margin-left: 10px;
-    margin-top: 160px;
+    margin-top: 80px;
     text-align: left;
-    transform: translateX(-20%);
+    transform: translateX(-10%);
     gap: 10px;
   }
 
@@ -556,12 +578,12 @@
   }
 
   .orders-image-box-container {
-    width: 349px;
-    height: 174px;
+    width: 90%;
+    height: auto;
     border: 1px solid #000;
-    margin-top: 200px;
+    margin-top: 40px;
     margin-left: 10px;
-    transform: translateX(-48%);
+    transform: translateX(0);
     padding: 10px;
     display: flex;
     font-size: 18px;
