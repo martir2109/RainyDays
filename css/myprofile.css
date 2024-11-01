@@ -457,25 +457,11 @@
   }
 
   .line-seperator {
-    display: block;
-    justify-content: center;
-    width: 350px;
-    height: 1px;
-    background-color: #000;
-    margin-top: 80px;
-    position: absolute;
-    transform: translateX(-48%);
+    display: none;
   }
 
   .line-seperator-secound {
-    display: block;
-    justify-content: center;
-    width: 350px;
-    height: 1px;
-    background-color: #000;
-    margin-top: 150px;
-    position: absolute;
-    transform: translateX(-46%);
+    display: none;
   }
   .updates-second-line-container {
     display: flex;
