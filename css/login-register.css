@@ -439,7 +439,7 @@
 }
 
 /* Styling for tablets (portrait mode) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1281px) {
   /* Styling for login form */
   .back-button {
     background-color: #0a3641;

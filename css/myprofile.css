@@ -783,7 +783,7 @@
 }
 
 /* Styling for tablets (portrait mode) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1281px) {
   .my-account-section {
     width: 100%;
     height: auto;

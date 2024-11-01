@@ -422,7 +422,7 @@
 }
 
 /* Styling for tablets (portrait mode) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1281px) {
   .top-navigation-bar {
     width: 100%;
     top: 0%;
