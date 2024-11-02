@@ -1190,6 +1190,7 @@
     margin-left: 20px;
     justify-content: center;
     margin-bottom: 500px;
+    overflow-x: hidden;
   }
 
   .rain-image {
