@@ -1164,7 +1164,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 79px;
+    margin-bottom: 50px;
   }
 
   .about-rainydays-title {
@@ -1174,7 +1174,7 @@
     position: absolute;
     /* width: 619px; */
     font-style: bold;
-    margin-bottom: 20%;
+    margin-bottom: 13%;
   }
 
   .aboutus-text-container {
@@ -1183,6 +1183,7 @@
     color: #000;
     font-size: 1.25rem;
     margin-bottom: 50px;
+    overflow-x: hidden;
   }
 
   .aboutus-image-container {
@@ -1225,11 +1226,12 @@
     margin-bottom: 108px;
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
   }
 
   .aboutus-logo {
-    width: 185px;
-    height: auto;
+    width: auto;
+    height: 100px;
   }
 
   /* Styling of mens, womens and brands pages */
