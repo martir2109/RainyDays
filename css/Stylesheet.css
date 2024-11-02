@@ -1030,7 +1030,9 @@
     justify-content: center;
     align-items: center;
     border: none;
-    transform: translateX(-46%);
+    transform: translateX(0);
+    margin-left: 15px;
+    margin-bottom: 10px;
   }
 
   /* .container-contact-us {
@@ -1093,7 +1095,7 @@
   }
 
   .topic-drop-down-subtopic {
-    transform: translateX(-17%);
+    transform: translateX(0);
   }
 
   .textfield {
