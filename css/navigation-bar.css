@@ -39,7 +39,7 @@
   I followed this tutorial https://github.com/creativetimofficial/material-kit/issues/107 */
   .navbar-logo-container {
     width: 20%;
-    margin-left: 40px;
+    margin-left: 3%;
   }
   .rainydays-logo {
     margin-left: 10px;
@@ -143,7 +143,10 @@
     color: #000;
     margin-top: 100px;
     align-items: left;
-    transform: translateX(-290%);
+    margin-left: -295%;
+    align-items: flex-start;
+    /* transform: translateX(-290%); */
+    padding-left: 0;
   }
 
   .menu li {
@@ -235,16 +238,17 @@
   .navbar-logo-container {
     width: 100%;
     height: auto;
-    margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    /* margin-right: 20px; */
     margin-bottom: 10px;
-    transform: translateX(-30%);
+    /* transform: translateX(-30%); */
   }
 
   .rainydays-logo {
     width: 111px;
     height: auto;
-    position: absolute;
+    /* position: absolute; */
   }
 
   .rainydays-logo img {
@@ -261,7 +265,7 @@
     justify-content: center;
     position: absolute;
     transform: translateX(-10%);
-    margin-top: 90px;
+    margin-top: 110px;
   }
 
   /* Styling for search bar in the navigation bar */
@@ -311,7 +315,7 @@
     gap: 2px;
     transform: translateX(20%);
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 30px;
     /* background-color: red; */
     width: 60%;
     margin-right: 45px;
