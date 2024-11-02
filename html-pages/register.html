@@ -32,14 +32,24 @@
     <div class="topline-login">
       <!-- Back button -->
       <a href="../index.html">
-        <button title="back-button" class="back-button">Back</button>
+        <button
+          title="back-button"
+          class="back-button"
+          alt="back button"
+          aria-label="back button"
+        >
+          Back
+        </button>
       </a>
     </div>
     <section class="register-container">
       <h2>Register</h2>
       <div class="already-have-account-container">
         <p>Already have an account?</p>
-        <a href="../html-pages/login.html"
+        <a
+          href="../html-pages/login.html"
+          alt="Link to log in"
+          aria-label="link to log in"
           ><p class="register-login-link">Log in</p></a
         >
       </div>
@@ -54,6 +64,7 @@
               id="firstname"
               placeholder="First name"
               class="firstname"
+              aria-label="Firstname input field"
               required
             />
           </div>
@@ -69,6 +80,7 @@
               id="lastname"
               placeholder="Last name"
               class="lastname"
+              aria-label="Lastname input field"
               required
             />
           </div>
@@ -84,6 +96,7 @@
               id="Phonenumber"
               placeholder="Phone number"
               class="phonenumber"
+              aria-label="Phonenumber input field"
               required
             />
           </div>
@@ -99,6 +112,7 @@
               id="email-register"
               placeholder="Email"
               class="email-register"
+              aria-label="Email input field"
               required
             />
           </div>
@@ -117,6 +131,7 @@
               placeholder="Password"
               required
               class="password-register"
+              aria-label="Password input field"
             />
             <span><i id="toggler" class="bi bi-eye"></i></span>
           </div>
@@ -129,6 +144,7 @@
             title="register"
             class="login-register-button"
             alt="Register-button"
+            aria-label="Register button"
           >
             Register
           </button></a

@@ -45,7 +45,10 @@
       <h2 class="login-title">Log in</h2>
       <div class="dont-have-account-container">
         <p>Don't have a account yet?</p>
-        <a href="../html-pages/register.html"
+        <a
+          href="../html-pages/register.html"
+          alt="Link to register"
+          aria-label="Link to register"
           ><p class="register-login-link">Register</p></a
         >
       </div>
@@ -62,6 +65,7 @@
               id="email-login"
               placeholder="Email"
               class="email-login"
+              aria-label="Email input field"
               required
             />
           </div>
@@ -75,6 +79,7 @@
               id="password"
               name="password"
               placeholder="Password"
+              aria-label="Password input field"
               required
             />
             <span><i id="toggler" class="bi bi-eye"></i></span>
@@ -82,7 +87,9 @@
         </div>
         <div class="checkbox-remember">
           <input id="checkbox" title="checkbox" type="checkbox" />
-          <label class="remember-label">Remember me</label>
+          <label class="remember-label" alt="remember me checkbox"
+            >Remember me</label
+          >
         </div>
       </form>
 
@@ -93,6 +100,7 @@
             title="log in"
             class="login-register-button"
             alt="Login-button"
+            aria-label="Log in button"
           >
             Log in
           </button></a
