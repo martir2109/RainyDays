@@ -1153,6 +1153,7 @@
   /* Styling for about us page */
   .about-us-section {
     width: 100vw;
+    height: auto;
     overflow-x: hidden;
   }
 
@@ -1223,6 +1224,7 @@
     margin-bottom: 108px;
     display: flex;
     justify-content: center;
+    margin-top: 500px;
   }
 
   .aboutus-logo {
