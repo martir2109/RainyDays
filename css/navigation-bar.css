@@ -309,7 +309,7 @@
     /* margin-left: 100px; */
     display: flex;
     gap: 2px;
-    transform: translateX(16%);
+    transform: translateX(20%);
     cursor: pointer;
     margin-top: 10px;
     /* background-color: red; */
