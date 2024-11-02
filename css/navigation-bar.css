@@ -138,15 +138,17 @@
   /* styling for the 3 menu buttons in navigation bar */
 
   .menu {
+    width: 100%;
     display: flex;
     list-style: none;
     color: #000;
     margin-top: 100px;
     align-items: left;
     margin-left: -295%;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     /* transform: translateX(-290%); */
-    padding-left: 0;
+    /* padding-left: 0; */
+    /* margin-right: auto; */
   }
 
   .menu li {
